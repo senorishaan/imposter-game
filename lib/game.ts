@@ -15,6 +15,8 @@ export type PlayerAssignment = {
 export type ActiveRound = {
   category: WordCategory;
   word: string;
+  /** Extra clue for imposters — a different word from the same category */
+  hintWord: string | null;
   players: PlayerAssignment[];
 };
 
@@ -83,5 +85,11 @@ export function startRound(settings: GameSettings): ActiveRound {
     isImposter: imposterIndices.has(index),
   }));
 
-  return { category, word, players };
+  let hintWord: string | null = null;
+  if (settings.giveImposterHint) {
+    const otherWords = category.words.filter((w) => w !== word);
+    hintWord = pickRandom(otherWords.length > 0 ? otherWords : category.words);
+  }
+
+  return { category, word, hintWord, players };
 }
