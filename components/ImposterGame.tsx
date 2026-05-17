@@ -287,11 +287,11 @@ function SetupPhase({
           />
           <span>
             <span className="block font-medium text-zinc-200">
-              Give imposters a hint word
+              Give imposters a hint
             </span>
             <span className="mt-1 block text-sm text-zinc-500">
-              Everyone always sees the category. When on, imposters also get a
-              decoy word from that category (not the real answer).
+              Everyone always sees the category. When on, imposters get a clue
+              about the secret word (not the word itself).
             </span>
           </span>
         </label>
@@ -364,7 +364,7 @@ function RevealPhase({
       <RoleCard
         player={player}
         word={round.word}
-        hintWord={round.hintWord}
+        hint={round.hint}
         onHide={onHide}
       />
     );
@@ -420,12 +420,12 @@ function RevealPhase({
 function RoleCard({
   player,
   word,
-  hintWord,
+  hint,
   onHide,
 }: {
   player: { name: string; isImposter: boolean };
   word: string;
-  hintWord: string | null;
+  hint: string | null;
   onHide: () => void;
 }) {
   return (
@@ -462,14 +462,16 @@ function RoleCard({
             </div>
           )}
 
-          {player.isImposter && hintWord && (
+          {player.isImposter && hint && (
             <div className="rounded-2xl border border-rose-500/30 bg-rose-950/30 px-6 py-5">
               <p className="text-xs uppercase tracking-wider text-rose-300/80">
                 Hint
               </p>
-              <p className="mt-1 text-2xl font-bold text-white">{hintWord}</p>
+              <p className="mt-1 text-xl font-semibold leading-snug text-white">
+                {hint}
+              </p>
               <p className="mt-2 text-xs text-zinc-500">
-                Decoy word — not the real answer
+                About the secret word — not the answer itself
               </p>
             </div>
           )}
@@ -567,11 +569,10 @@ function ResultsPhase({
             </li>
           ))}
         </ul>
-        {round.hintWord && (
+        {round.hint && (
           <p className="mt-3 text-xs text-zinc-500">
             Imposter hint this round:{" "}
-            <span className="text-zinc-300">{round.hintWord}</span> (decoy, not
-            the answer)
+            <span className="text-zinc-300">{round.hint}</span>
           </p>
         )}
       </Card>
