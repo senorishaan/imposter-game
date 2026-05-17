@@ -121,6 +121,10 @@ export default function ImposterGame() {
         </p>
       </header>
 
+      {round && phase !== "setup" && (
+        <CategoryBanner name={round.category.name} />
+      )}
+
       {phase === "setup" && (
         <SetupPhase
           settings={settings}
@@ -174,6 +178,17 @@ export default function ImposterGame() {
           onNewGame={resetGame}
         />
       )}
+    </div>
+  );
+}
+
+function CategoryBanner({ name }: { name: string }) {
+  return (
+    <div className="mb-6 rounded-xl border border-zinc-700/80 bg-zinc-900/90 px-4 py-3 text-center">
+      <p className="text-base text-zinc-300">
+        Category:{" "}
+        <span className="font-semibold text-white">{name}</span>
+      </p>
     </div>
   );
 }
@@ -348,7 +363,6 @@ function RevealPhase({
     return (
       <RoleCard
         player={player}
-        categoryName={round.category.name}
         word={round.word}
         hintWord={round.hintWord}
         onHide={onHide}
@@ -405,13 +419,11 @@ function RevealPhase({
 
 function RoleCard({
   player,
-  categoryName,
   word,
   hintWord,
   onHide,
 }: {
   player: { name: string; isImposter: boolean };
-  categoryName: string;
   word: string;
   hintWord: string | null;
   onHide: () => void;
@@ -441,23 +453,6 @@ function RoleCard({
         </p>
 
         <div className="mt-8 w-full space-y-3">
-          <div
-            className={`rounded-2xl border px-6 py-4 ${
-              player.isImposter
-                ? "border-rose-500/30 bg-rose-950/30"
-                : "border-emerald-500/30 bg-emerald-950/30"
-            }`}
-          >
-            <p
-              className={`text-xs uppercase tracking-wider ${player.isImposter ? "text-rose-300/80" : "text-emerald-300/80"}`}
-            >
-              Category
-            </p>
-            <p className="mt-1 text-xl font-semibold text-white">
-              {categoryName}
-            </p>
-          </div>
-
           {!player.isImposter && (
             <div className="rounded-2xl border border-emerald-500/30 bg-emerald-950/30 px-6 py-5">
               <p className="text-xs uppercase tracking-wider text-emerald-300/80">
