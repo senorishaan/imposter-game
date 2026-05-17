@@ -1,0 +1,5240 @@
+{
+  "Pizza": [
+    "slice",
+    "cheese",
+    "oven",
+    "Italian"
+  ],
+  "Burger": [
+    "patty",
+    "grill",
+    "bun",
+    "fast food"
+  ],
+  "Hot Dog": [
+    "mustard",
+    "bun",
+    "ballpark",
+    "grill"
+  ],
+  "Tacos": [
+    "shell",
+    "salsa",
+    "Mexico",
+    "tortilla"
+  ],
+  "Burrito": [
+    "wrap",
+    "beans",
+    "rice",
+    "Mexico"
+  ],
+  "Nachos": [
+    "chips",
+    "cheese",
+    "jalapeño",
+    "stadium"
+  ],
+  "French Fries": [
+    "potato",
+    "ketchup",
+    "salty",
+    "fast food"
+  ],
+  "Chicken Nuggets": [
+    "dip",
+    "fast food",
+    "bite-sized",
+    "crispy"
+  ],
+  "Fried Chicken": [
+    "crispy",
+    "bucket",
+    "southern",
+    "drumstick"
+  ],
+  "Grilled Cheese": [
+    "melted",
+    "butter",
+    "sandwich",
+    "comfort"
+  ],
+  "Mac and Cheese": [
+    "pasta",
+    "cheddar",
+    "creamy",
+    "kid food"
+  ],
+  "Spaghetti": [
+    "noodles",
+    "sauce",
+    "Italian",
+    "twirl"
+  ],
+  "Pasta": [
+    "noodles",
+    "Italian",
+    "boil",
+    "sauce"
+  ],
+  "Lasagna": [
+    "layers",
+    "cheese",
+    "bake",
+    "Italian"
+  ],
+  "Meatballs": [
+    "sauce",
+    "Italian",
+    "round",
+    "spaghetti"
+  ],
+  "Soup": [
+    "bowl",
+    "broth",
+    "ladle",
+    "warm"
+  ],
+  "Salad": [
+    "greens",
+    "dressing",
+    "healthy",
+    "bowl"
+  ],
+  "Sandwich": [
+    "bread",
+    "lunch",
+    "deli",
+    "stack"
+  ],
+  "PB&J": [
+    "jelly",
+    "lunchbox",
+    "spread",
+    "bread"
+  ],
+  "Bacon": [
+    "crispy",
+    "breakfast",
+    "sizzle",
+    "pork"
+  ],
+  "Eggs": [
+    "yolk",
+    "breakfast",
+    "scramble",
+    "shell"
+  ],
+  "Pancakes": [
+    "syrup",
+    "breakfast",
+    "stack",
+    "fluffy"
+  ],
+  "Waffles": [
+    "syrup",
+    "grid",
+    "breakfast",
+    "Belgian"
+  ],
+  "Cereal": [
+    "milk",
+    "breakfast",
+    "bowl",
+    "crunchy"
+  ],
+  "Toast": [
+    "butter",
+    "jam",
+    "breakfast",
+    "crunchy"
+  ],
+  "Bagel": [
+    "cream cheese",
+    "hole",
+    "deli",
+    "breakfast"
+  ],
+  "Muffin": [
+    "bakery",
+    "blueberry",
+    "breakfast",
+    "cupcake"
+  ],
+  "Donuts": [
+    "glaze",
+    "hole",
+    "bakery",
+    "fried"
+  ],
+  "Cookies": [
+    "chips",
+    "bake",
+    "jar",
+    "sweet"
+  ],
+  "Brownies": [
+    "chocolate",
+    "fudge",
+    "bake",
+    "square"
+  ],
+  "Cake": [
+    "frosting",
+    "birthday",
+    "candles",
+    "slice"
+  ],
+  "Cupcake": [
+    "frosting",
+    "small",
+    "birthday",
+    "wrapper"
+  ],
+  "Ice Cream": [
+    "cone",
+    "scoop",
+    "freezer",
+    "cold"
+  ],
+  "Popsicle": [
+    "stick",
+    "frozen",
+    "summer",
+    "fruity"
+  ],
+  "Candy": [
+    "sweet",
+    "wrapper",
+    "Halloween",
+    "sugar"
+  ],
+  "Chocolate": [
+    "cocoa",
+    "sweet",
+    "bar",
+    "melt"
+  ],
+  "Popcorn": [
+    "movies",
+    "butter",
+    "kernel",
+    "bucket"
+  ],
+  "Chips": [
+    "crunchy",
+    "bag",
+    "salty",
+    "snack"
+  ],
+  "Pretzels": [
+    "salty",
+    "twist",
+    "mustard",
+    "snack"
+  ],
+  "Apple": [
+    "orchard",
+    "crunch",
+    "pie",
+    "fruit"
+  ],
+  "Banana": [
+    "peel",
+    "yellow",
+    "monkey",
+    "smoothie"
+  ],
+  "Orange": [
+    "citrus",
+    "juice",
+    "peel",
+    "vitamin C"
+  ],
+  "Grapes": [
+    "vine",
+    "bunch",
+    "wine",
+    "purple"
+  ],
+  "Strawberries": [
+    "red",
+    "shortcake",
+    "berry",
+    "summer"
+  ],
+  "Watermelon": [
+    "summer",
+    "seeds",
+    "picnic",
+    "juicy"
+  ],
+  "Carrots": [
+    "orange",
+    "bunny",
+    "crunch",
+    "vegetable"
+  ],
+  "Broccoli": [
+    "green",
+    "tree-shaped",
+    "steamed",
+    "vegetable"
+  ],
+  "Corn": [
+    "cob",
+    "kernel",
+    "butter",
+    "farm"
+  ],
+  "Mashed Potatoes": [
+    "gravy",
+    "creamy",
+    "Thanksgiving",
+    "side"
+  ],
+  "Rice": [
+    "grain",
+    "bowl",
+    "sticky",
+    "side dish"
+  ],
+  "Beans": [
+    "protein",
+    "can",
+    "chili",
+    "legume"
+  ],
+  "Cheese": [
+    "melt",
+    "dairy",
+    "cheddar",
+    "cracker"
+  ],
+  "Butter": [
+    "spread",
+    "dairy",
+    "melt",
+    "toast"
+  ],
+  "Ketchup": [
+    "tomato",
+    "fries",
+    "squeeze",
+    "red"
+  ],
+  "Mustard": [
+    "yellow",
+    "hot dog",
+    "condiment",
+    "tangy"
+  ],
+  "Mayo": [
+    "sandwich",
+    "creamy",
+    "egg",
+    "spread"
+  ],
+  "Pickles": [
+    "brine",
+    "crunch",
+    "dill",
+    "jar"
+  ],
+  "Peanut Butter": [
+    "jelly",
+    "spread",
+    "nuts",
+    "sandwich"
+  ],
+  "Jelly": [
+    "toast",
+    "sweet",
+    "jar",
+    "fruit"
+  ],
+  "Honey": [
+    "bees",
+    "sweet",
+    "hive",
+    "bear"
+  ],
+  "Milk": [
+    "dairy",
+    "cereal",
+    "calcium",
+    "white"
+  ],
+  "Chocolate Milk": [
+    "straw",
+    "sweet",
+    "brown",
+    "lunch"
+  ],
+  "Juice": [
+    "fruit",
+    "glass",
+    "breakfast",
+    "sip"
+  ],
+  "Apple Juice": [
+    "orchard",
+    "box",
+    "lunch",
+    "sweet"
+  ],
+  "Orange Juice": [
+    "breakfast",
+    "citrus",
+    "pulp",
+    "morning"
+  ],
+  "Lemonade": [
+    "summer",
+    "sour",
+    "stand",
+    "citrus"
+  ],
+  "Water": [
+    "thirst",
+    "bottle",
+    "hydrate",
+    "clear"
+  ],
+  "Soda": [
+    "fizz",
+    "can",
+    "bubbles",
+    "sweet"
+  ],
+  "Iced Tea": [
+    "summer",
+    "lemon",
+    "cold",
+    "pitcher"
+  ],
+  "Hot Chocolate": [
+    "marshmallow",
+    "winter",
+    "mug",
+    "cocoa"
+  ],
+  "Coffee": [
+    "caffeine",
+    "morning",
+    "mug",
+    "brew"
+  ],
+  "Tea": [
+    "kettle",
+    "bag",
+    "cup",
+    "herbal"
+  ],
+  "Smoothie": [
+    "blender",
+    "fruit",
+    "straw",
+    "thick"
+  ],
+  "Milkshake": [
+    "straw",
+    "diner",
+    "thick",
+    "vanilla"
+  ],
+  "Sushi": [
+    "rice",
+    "raw fish",
+    "Japan",
+    "roll"
+  ],
+  "Ramen": [
+    "noodles",
+    "broth",
+    "Japan",
+    "instant"
+  ],
+  "Stir Fry": [
+    "wok",
+    "veggies",
+    "Asian",
+    "sizzle"
+  ],
+  "Fish Sticks": [
+    "ketchup",
+    "frozen",
+    "crispy",
+    "kid food"
+  ],
+  "Tater Tots": [
+    "ketchup",
+    "crispy",
+    "potato",
+    "cafeteria"
+  ],
+  "Quesadilla": [
+    "cheese",
+    "tortilla",
+    "Mexico",
+    "melt"
+  ],
+  "Guacamole": [
+    "avocado",
+    "chips",
+    "Mexico",
+    "dip"
+  ],
+  "Salsa": [
+    "chips",
+    "spicy",
+    "tomato",
+    "dip"
+  ],
+  "Omelet": [
+    "eggs",
+    "breakfast",
+    "cheese",
+    "fold"
+  ],
+  "Steak": [
+    "grill",
+    "rare",
+    "beef",
+    "knife"
+  ],
+  "Shrimp": [
+    "small",
+    "seafood",
+    "peel",
+    "ocean"
+  ],
+  "Crab Legs": [
+    "seafood",
+    "butter",
+    "shell",
+    "coastal"
+  ],
+  "Lobster": [
+    "claws",
+    "red",
+    "seafood",
+    "ocean"
+  ],
+  "Pizza Rolls": [
+    "frozen",
+    "snack",
+    "bite-sized",
+    "microwave"
+  ],
+  "Instant Noodles": [
+    "cup",
+    "broth",
+    "college",
+    "quick"
+  ],
+  "Granola Bar": [
+    "hiking",
+    "oats",
+    "snack",
+    "wrapper"
+  ],
+  "Yogurt": [
+    "spoon",
+    "dairy",
+    "fruit",
+    "cup"
+  ],
+  "String Cheese": [
+    "peel",
+    "lunchbox",
+    "mozzarella",
+    "snack"
+  ],
+  "Goldfish Crackers": [
+    "cheddar",
+    "snack",
+    "fish shape",
+    "crunchy"
+  ],
+  "Gummy Bears": [
+    "candy",
+    "chewy",
+    "fruit",
+    "bag"
+  ],
+  "Root Beer": [
+    "float",
+    "soda",
+    "mug",
+    "frosty"
+  ],
+  "Ginger Ale": [
+    "soda",
+    "fizz",
+    "nausea",
+    "can"
+  ],
+  "Dog": [
+    "bark",
+    "leash",
+    "puppy",
+    "fetch"
+  ],
+  "Cat": [
+    "meow",
+    "litter",
+    "purr",
+    "whiskers"
+  ],
+  "Puppy": [
+    "cute",
+    "train",
+    "chew",
+    "small"
+  ],
+  "Kitten": [
+    "yarn",
+    "cute",
+    "tiny",
+    "meow"
+  ],
+  "Fish": [
+    "tank",
+    "gills",
+    "swim",
+    "bubbles"
+  ],
+  "Goldfish": [
+    "bowl",
+    "orange",
+    "pet",
+    "swim"
+  ],
+  "Bird": [
+    "feathers",
+    "nest",
+    "fly",
+    "chirp"
+  ],
+  "Parrot": [
+    "talk",
+    "tropical",
+    "colorful",
+    "perch"
+  ],
+  "Hamster": [
+    "wheel",
+    "cage",
+    "cheeks",
+    "small"
+  ],
+  "Guinea Pig": [
+    "squeak",
+    "cage",
+    "furry",
+    "pet"
+  ],
+  "Rabbit": [
+    "hop",
+    "carrot",
+    "ears",
+    "burrow"
+  ],
+  "Turtle": [
+    "shell",
+    "slow",
+    "pond",
+    "reptile"
+  ],
+  "Snake": [
+    "hiss",
+    "slither",
+    "scales",
+    "reptile"
+  ],
+  "Lizard": [
+    "reptile",
+    "scales",
+    "sun",
+    "tail"
+  ],
+  "Frog": [
+    "ribbit",
+    "pond",
+    "leap",
+    "tadpole"
+  ],
+  "Horse": [
+    "gallop",
+    "stable",
+    "mane",
+    "ride"
+  ],
+  "Pony": [
+    "small",
+    "ride",
+    "mane",
+    "stable"
+  ],
+  "Cow": [
+    "moo",
+    "milk",
+    "farm",
+    "pasture"
+  ],
+  "Pig": [
+    "oink",
+    "mud",
+    "farm",
+    "pink"
+  ],
+  "Sheep": [
+    "wool",
+    "baa",
+    "farm",
+    "flock"
+  ],
+  "Goat": [
+    "bleat",
+    "farm",
+    "horns",
+    "climb"
+  ],
+  "Chicken": [
+    "cluck",
+    "eggs",
+    "farm",
+    "coop"
+  ],
+  "Rooster": [
+    "crow",
+    "dawn",
+    "farm",
+    "comb"
+  ],
+  "Duck": [
+    "quack",
+    "pond",
+    "waddle",
+    "feathers"
+  ],
+  "Goose": [
+    "honk",
+    "migrate",
+    "pond",
+    "flock"
+  ],
+  "Turkey": [
+    "gobble",
+    "Thanksgiving",
+    "farm",
+    "feathers"
+  ],
+  "Mouse": [
+    "squeak",
+    "cheese",
+    "small",
+    "trap"
+  ],
+  "Rat": [
+    "tail",
+    "sewer",
+    "rodent",
+    "cheese"
+  ],
+  "Squirrel": [
+    "acorn",
+    "tree",
+    "nuts",
+    "bushy tail"
+  ],
+  "Chipmunk": [
+    "cheeks",
+    "nuts",
+    "small",
+    "stripe"
+  ],
+  "Raccoon": [
+    "trash",
+    "mask",
+    "night",
+    "paws"
+  ],
+  "Skunk": [
+    "stink",
+    "stripe",
+    "spray",
+    "night"
+  ],
+  "Deer": [
+    "antlers",
+    "forest",
+    "graceful",
+    "buck"
+  ],
+  "Moose": [
+    "antlers",
+    "huge",
+    "forest",
+    "Canada"
+  ],
+  "Bear": [
+    "hibernate",
+    "honey",
+    "cave",
+    "growl"
+  ],
+  "Panda": [
+    "bamboo",
+    "China",
+    "black and white",
+    "cute"
+  ],
+  "Lion": [
+    "roar",
+    "mane",
+    "pride",
+    "savanna"
+  ],
+  "Tiger": [
+    "stripes",
+    "jungle",
+    "roar",
+    "orange"
+  ],
+  "Leopard": [
+    "spots",
+    "climb",
+    "stealth",
+    "big cat"
+  ],
+  "Cheetah": [
+    "fast",
+    "spots",
+    "sprint",
+    "Africa"
+  ],
+  "Elephant": [
+    "trunk",
+    "big",
+    "herd",
+    "tusks"
+  ],
+  "Giraffe": [
+    "tall",
+    "neck",
+    "spots",
+    "Africa"
+  ],
+  "Zebra": [
+    "stripes",
+    "herd",
+    "Africa",
+    "hooves"
+  ],
+  "Hippo": [
+    "river",
+    "huge",
+    "yawn",
+    "Africa"
+  ],
+  "Rhino": [
+    "horn",
+    "charge",
+    "thick skin",
+    "Africa"
+  ],
+  "Monkey": [
+    "banana",
+    "swing",
+    "jungle",
+    "tree"
+  ],
+  "Gorilla": [
+    "strong",
+    "jungle",
+    "chest",
+    "ape"
+  ],
+  "Kangaroo": [
+    "pouch",
+    "hop",
+    "Australia",
+    "joey"
+  ],
+  "Koala": [
+    "eucalyptus",
+    "Australia",
+    "cute",
+    "tree"
+  ],
+  "Fox": [
+    "sly",
+    "den",
+    "bushy tail",
+    "hunt"
+  ],
+  "Wolf": [
+    "howl",
+    "pack",
+    "forest",
+    "wild"
+  ],
+  "Coyote": [
+    "howl",
+    "desert",
+    "wild",
+    "pack"
+  ],
+  "Bat": [
+    "swing",
+    "baseball",
+    "wood",
+    "hit"
+  ],
+  "Owl": [
+    "hoot",
+    "night",
+    "wise",
+    "wings"
+  ],
+  "Eagle": [
+    "soar",
+    "nest",
+    "talons",
+    "America"
+  ],
+  "Hawk": [
+    "soar",
+    "talons",
+    "hunt",
+    "sky"
+  ],
+  "Pigeon": [
+    "city",
+    "coo",
+    "park",
+    "flock"
+  ],
+  "Seagull": [
+    "beach",
+    "fries",
+    "coast",
+    "screech"
+  ],
+  "Penguin": [
+    "Antarctica",
+    "waddle",
+    "ice",
+    "tuxedo"
+  ],
+  "Flamingo": [
+    "pink",
+    "one leg",
+    "tropical",
+    "flock"
+  ],
+  "Peacock": [
+    "feathers",
+    "display",
+    "colorful",
+    "tail"
+  ],
+  "Butterfly": [
+    "wings",
+    "caterpillar",
+    "flower",
+    "flutter"
+  ],
+  "Bee": [
+    "hive",
+    "honey",
+    "buzz",
+    "sting"
+  ],
+  "Ant": [
+    "colony",
+    "tiny",
+    "hill",
+    "march"
+  ],
+  "Spider": [
+    "web",
+    "eight legs",
+    "crawl",
+    "arachnid"
+  ],
+  "Ladybug": [
+    "spots",
+    "red",
+    "garden",
+    "lucky"
+  ],
+  "Worm": [
+    "dirt",
+    "bait",
+    "wiggle",
+    "rain"
+  ],
+  "Snail": [
+    "shell",
+    "slow",
+    "slime",
+    "garden"
+  ],
+  "Shark": [
+    "fin",
+    "ocean",
+    "teeth",
+    "Jaws"
+  ],
+  "Whale": [
+    "ocean",
+    "huge",
+    "spout",
+    "mammal"
+  ],
+  "Dolphin": [
+    "ocean",
+    "smart",
+    "pod",
+    "jump"
+  ],
+  "Seal": [
+    "flippers",
+    "ocean",
+    "bark",
+    "ice"
+  ],
+  "Octopus": [
+    "tentacles",
+    "ocean",
+    "ink",
+    "eight"
+  ],
+  "Jellyfish": [
+    "sting",
+    "ocean",
+    "transparent",
+    "float"
+  ],
+  "Starfish": [
+    "five arms",
+    "ocean",
+    "tide pool",
+    "reef"
+  ],
+  "Crab": [
+    "claws",
+    "beach",
+    "sideways",
+    "shell"
+  ],
+  "Clam": [
+    "shell",
+    "beach",
+    "pearl",
+    "ocean"
+  ],
+  "Crocodile": [
+    "swamp",
+    "teeth",
+    "reptile",
+    "snap"
+  ],
+  "Alligator": [
+    "swamp",
+    "teeth",
+    "Florida",
+    "reptile"
+  ],
+  "Camel": [
+    "hump",
+    "desert",
+    "sand",
+    "caravan"
+  ],
+  "Donkey": [
+    "hee-haw",
+    "farm",
+    "stubborn",
+    "pack"
+  ],
+  "Llama": [
+    "spit",
+    "Andes",
+    "wool",
+    "pack"
+  ],
+  "Buffalo": [
+    "herd",
+    "plains",
+    "horns",
+    "strong"
+  ],
+  "Bison": [
+    "plains",
+    "herd",
+    "shaggy",
+    "national park"
+  ],
+  "Reindeer": [
+    "Santa",
+    "antlers",
+    "snow",
+    "sleigh"
+  ],
+  "Polar Bear": [
+    "Arctic",
+    "ice",
+    "white",
+    "hunt"
+  ],
+  "Sloth": [
+    "slow",
+    "tree",
+    "hang",
+    "jungle"
+  ],
+  "Otter": [
+    "river",
+    "playful",
+    "float",
+    "shell"
+  ],
+  "Beaver": [
+    "dam",
+    "teeth",
+    "river",
+    "lodge"
+  ],
+  "Hedgehog": [
+    "spines",
+    "curl",
+    "small",
+    "garden"
+  ],
+  "Chihuahua": [
+    "tiny",
+    "bark",
+    "Mexico",
+    "purse"
+  ],
+  "Labrador": [
+    "fetch",
+    "friendly",
+    "retriever",
+    "dog"
+  ],
+  "Poodle": [
+    "curly",
+    "fancy",
+    "groom",
+    "France"
+  ],
+  "Bulldog": [
+    "wrinkles",
+    "sturdy",
+    "snort",
+    "face"
+  ],
+  "Husky": [
+    "sled",
+    "blue eyes",
+    "snow",
+    "howl"
+  ],
+  "Home": [
+    "family",
+    "door",
+    "cozy",
+    "where you live"
+  ],
+  "House": [
+    "roof",
+    "yard",
+    "rooms",
+    "family"
+  ],
+  "Apartment": [
+    "building",
+    "rent",
+    "neighbor",
+    "floor"
+  ],
+  "Bedroom": [
+    "bed",
+    "sleep",
+    "pillow",
+    "door"
+  ],
+  "Bathroom": [
+    "shower",
+    "toilet",
+    "mirror",
+    "sink"
+  ],
+  "Kitchen": [
+    "stove",
+    "fridge",
+    "cook",
+    "sink"
+  ],
+  "Living Room": [
+    "couch",
+    "TV",
+    "family",
+    "relax"
+  ],
+  "Backyard": [
+    "grass",
+    "fence",
+    "grill",
+    "play"
+  ],
+  "Garage": [
+    "car",
+    "tools",
+    "door",
+    "park"
+  ],
+  "Basement": [
+    "stairs",
+    "storage",
+    "dark",
+    "below"
+  ],
+  "School": [
+    "class",
+    "bell",
+    "homework",
+    "teachers"
+  ],
+  "Classroom": [
+    "desk",
+    "board",
+    "teacher",
+    "students"
+  ],
+  "Cafeteria": [
+    "lunch",
+    "tray",
+    "line",
+    "food"
+  ],
+  "Gym": [
+    "basketball",
+    "sweat",
+    "PE",
+    "bleachers"
+  ],
+  "Playground": [
+    "swings",
+    "slide",
+    "recess",
+    "kids"
+  ],
+  "Library": [
+    "books",
+    "quiet",
+    "shelf",
+    "read"
+  ],
+  "Office": [
+    "desk",
+    "computer",
+    "meeting",
+    "work"
+  ],
+  "Store": [
+    "shop",
+    "aisles",
+    "checkout",
+    "buy"
+  ],
+  "Grocery Store": [
+    "cart",
+    "aisles",
+    "checkout",
+    "food"
+  ],
+  "Mall": [
+    "shops",
+    "food court",
+    "walk",
+    "spend"
+  ],
+  "Restaurant": [
+    "menu",
+    "waiter",
+    "table",
+    "eat out"
+  ],
+  "Fast Food": [
+    "drive-thru",
+    "quick",
+    "fries",
+    "counter"
+  ],
+  "Cafe": [
+    "coffee",
+    "pastry",
+    "sit",
+    "espresso"
+  ],
+  "Bakery": [
+    "bread",
+    "pastry",
+    "oven",
+    "smell"
+  ],
+  "Movie Theater": [
+    "popcorn",
+    "screen",
+    "tickets",
+    "dark"
+  ],
+  "Park": [
+    "bench",
+    "trees",
+    "picnic",
+    "walk"
+  ],
+  "Beach": [
+    "sand",
+    "waves",
+    "shells",
+    "towel"
+  ],
+  "Pool": [
+    "cue",
+    "pocket",
+    "chalk",
+    "billiards"
+  ],
+  "Zoo": [
+    "animals",
+    "cages",
+    "exhibits",
+    "family"
+  ],
+  "Museum": [
+    "art",
+    "exhibits",
+    "quiet",
+    "history"
+  ],
+  "Hospital": [
+    "doctor",
+    "nurse",
+    "sick",
+    "emergency"
+  ],
+  "Doctor's Office": [
+    "checkup",
+    "waiting room",
+    "stethoscope",
+    "appointment"
+  ],
+  "Dentist": [
+    "teeth",
+    "drill",
+    "floss",
+    "chair"
+  ],
+  "Pharmacy": [
+    "medicine",
+    "prescription",
+    "pills",
+    "counter"
+  ],
+  "Bank": [
+    "money",
+    "teller",
+    "ATM",
+    "deposit"
+  ],
+  "Post Office": [
+    "mail",
+    "stamps",
+    "package",
+    "letters"
+  ],
+  "Police Station": [
+    "badge",
+    "cops",
+    "report",
+    "squad car"
+  ],
+  "Fire Station": [
+    "truck",
+    "hose",
+    "firefighters",
+    "alarm"
+  ],
+  "Church": [
+    "pew",
+    "sermon",
+    "steeple",
+    "Sunday"
+  ],
+  "Airport": [
+    "planes",
+    "terminal",
+    "security",
+    "gate"
+  ],
+  "Train Station": [
+    "tracks",
+    "platform",
+    "commute",
+    "ticket"
+  ],
+  "Bus Stop": [
+    "bench",
+    "route",
+    "commute",
+    "wait"
+  ],
+  "Gas Station": [
+    "pump",
+    "fuel",
+    "car",
+    "snacks"
+  ],
+  "Parking Lot": [
+    "cars",
+    "spaces",
+    "mall",
+    "ticket"
+  ],
+  "Hotel": [
+    "lobby",
+    "room key",
+    "vacation",
+    "check in"
+  ],
+  "Campground": [
+    "tent",
+    "fire",
+    "woods",
+    "sleep"
+  ],
+  "Farm": [
+    "barn",
+    "crops",
+    "tractor",
+    "animals"
+  ],
+  "Barn": [
+    "hay",
+    "animals",
+    "red",
+    "farm"
+  ],
+  "Forest": [
+    "trees",
+    "woods",
+    "trail",
+    "shade"
+  ],
+  "Mountains": [
+    "peak",
+    "hike",
+    "snow",
+    "view"
+  ],
+  "Lake": [
+    "dock",
+    "fish",
+    "calm",
+    "swim"
+  ],
+  "River": [
+    "flow",
+    "current",
+    "bridge",
+    "fish"
+  ],
+  "Ocean": [
+    "waves",
+    "salt",
+    "vast",
+    "deep"
+  ],
+  "Island": [
+    "tropical",
+    "surrounded",
+    "palm",
+    "boat"
+  ],
+  "Desert": [
+    "sand",
+    "hot",
+    "cactus",
+    "dry"
+  ],
+  "Cave": [
+    "dark",
+    "explore",
+    "bat",
+    "underground"
+  ],
+  "Waterfall": [
+    "mist",
+    "roar",
+    "cliff",
+    "spray"
+  ],
+  "Stadium": [
+    "crowd",
+    "cheer",
+    "field",
+    "game"
+  ],
+  "Soccer Field": [
+    "goal",
+    "grass",
+    "cleats",
+    "match"
+  ],
+  "Basketball Court": [
+    "hoop",
+    "lines",
+    "dribble",
+    "gym"
+  ],
+  "Skate Park": [
+    "ramp",
+    "grind",
+    "wheels",
+    "tricks"
+  ],
+  "Bowling Alley": [
+    "lanes",
+    "pins",
+    "shoes",
+    "strike"
+  ],
+  "Arcade": [
+    "tokens",
+    "games",
+    "prizes",
+    "loud"
+  ],
+  "Amusement Park": [
+    "rides",
+    "lines",
+    "fun",
+    "tickets"
+  ],
+  "Roller Coaster": [
+    "scream",
+    "drops",
+    "tracks",
+    "thrill"
+  ],
+  "Water Park": [
+    "slides",
+    "splash",
+    "summer",
+    "pool"
+  ],
+  "Disneyland": [
+    "Mickey",
+    "rides",
+    "magic",
+    "lines"
+  ],
+  "Grandma's House": [
+    "cookies",
+    "hugs",
+    "family",
+    "visit"
+  ],
+  "Friend's House": [
+    "playdate",
+    "hang out",
+    "sleepover",
+    "visit"
+  ],
+  "Daycare": [
+    "kids",
+    "toys",
+    "nap time",
+    "care"
+  ],
+  "College": [
+    "campus",
+    "dorm",
+    "lecture",
+    "degree"
+  ],
+  "Dorm": [
+    "roommate",
+    "campus",
+    "small",
+    "college"
+  ],
+  "Locker Room": [
+    "gym",
+    "locker",
+    "shoes",
+    "PE"
+  ],
+  "Nurse's Office": [
+    "band-aid",
+    "sick",
+    "school",
+    "ice pack"
+  ],
+  "Principal's Office": [
+    "trouble",
+    "school",
+    "serious",
+    "detention"
+  ],
+  "Barbershop": [
+    "haircut",
+    "clippers",
+    "mirror",
+    "chair"
+  ],
+  "Hair Salon": [
+    "cut",
+    "color",
+    "blow dry",
+    "appointment"
+  ],
+  "Laundromat": [
+    "washers",
+    "dryers",
+    "quarters",
+    "clothes"
+  ],
+  "Pet Store": [
+    "puppies",
+    "fish tank",
+    "food",
+    "animals"
+  ],
+  "Toy Store": [
+    "toys",
+    "kids",
+    "aisles",
+    "birthday"
+  ],
+  "Bookstore": [
+    "shelves",
+    "read",
+    "browse",
+    "coffee"
+  ],
+  "Hardware Store": [
+    "tools",
+    "nails",
+    "DIY",
+    "paint"
+  ],
+  "Costco": [
+    "bulk",
+    "samples",
+    "warehouse",
+    "cart"
+  ],
+  "Walmart": [
+    "aisles",
+    "everyday low",
+    "cart",
+    "big store"
+  ],
+  "Target": [
+    "red cart",
+    "aisles",
+    "bullseye",
+    "shop"
+  ],
+  "McDonald's": [
+    "fries",
+    "golden arches",
+    "drive-thru",
+    "happy meal"
+  ],
+  "Starbucks": [
+    "coffee",
+    "latte",
+    "green apron",
+    "cup"
+  ],
+  "Subway": [
+    "sandwich",
+    "footlong",
+    "train name",
+    "bread"
+  ],
+  "Downtown": [
+    "city",
+    "buildings",
+    "busy",
+    "shops"
+  ],
+  "Neighborhood": [
+    "block",
+    "houses",
+    "local",
+    "community"
+  ],
+  "Sidewalk": [
+    "walk",
+    "chalk",
+    "curb",
+    "street"
+  ],
+  "Street": [
+    "cars",
+    "crosswalk",
+    "lamps",
+    "drive"
+  ],
+  "Bridge": [
+    "river",
+    "cross",
+    "span",
+    "toll"
+  ],
+  "Tunnel": [
+    "dark",
+    "through",
+    "echo",
+    "under"
+  ],
+  "Highway": [
+    "fast",
+    "lanes",
+    "exit",
+    "road trip"
+  ],
+  "Movie": [
+    "theater",
+    "screen",
+    "popcorn",
+    "tickets"
+  ],
+  "TV Show": [
+    "episodes",
+    "binge",
+    "couch",
+    "remote"
+  ],
+  "Cartoon": [
+    "animated",
+    "kids",
+    "Saturday morning",
+    "drawn"
+  ],
+  "Anime": [
+    "Japan",
+    "subtitles",
+    "style",
+    "episodes"
+  ],
+  "Comedy": [
+    "laugh",
+    "funny",
+    "jokes",
+    "humor"
+  ],
+  "Funny Movie": [
+    "laugh",
+    "comedy",
+    "jokes",
+    "theater"
+  ],
+  "Scary Movie": [
+    "jump scare",
+    "dark",
+    "horror",
+    "scream"
+  ],
+  "Horror": [
+    "scary",
+    "monster",
+    "dark",
+    "scream"
+  ],
+  "Action Movie": [
+    "explosion",
+    "chase",
+    "hero",
+    "stunts"
+  ],
+  "Adventure": [
+    "quest",
+    "journey",
+    "hero",
+    "danger"
+  ],
+  "Romance": [
+    "love",
+    "kiss",
+    "date",
+    "heart"
+  ],
+  "Love Story": [
+    "romance",
+    "couple",
+    "tears",
+    "heart"
+  ],
+  "Superhero": [
+    "cape",
+    "powers",
+    "villain",
+    "save the day"
+  ],
+  "Disney": [
+    "princess",
+    "magic",
+    "family",
+    "songs"
+  ],
+  "Pixar": [
+    "animation",
+    "toys",
+    "emotions",
+    "family"
+  ],
+  "Netflix": [
+    "stream",
+    "binge",
+    "remote",
+    "show"
+  ],
+  "YouTube": [
+    "videos",
+    "subscribe",
+    "creator",
+    "watch"
+  ],
+  "TikTok": [
+    "short",
+    "dance",
+    "scroll",
+    "viral"
+  ],
+  "Reality TV": [
+    "drama",
+    "competition",
+    "real people",
+    "elimination"
+  ],
+  "Game Show": [
+    "prizes",
+    "buzzer",
+    "host",
+    "contestants"
+  ],
+  "Talk Show": [
+    "host",
+    "guest",
+    "interview",
+    "couch"
+  ],
+  "News": [
+    "anchor",
+    "headlines",
+    "report",
+    "breaking"
+  ],
+  "Sports on TV": [
+    "highlights",
+    "commentary",
+    "game",
+    "channel"
+  ],
+  "Cooking Show": [
+    "chef",
+    "recipe",
+    "taste",
+    "kitchen"
+  ],
+  "Talent Show": [
+    "judges",
+    "perform",
+    "vote",
+    "stage"
+  ],
+  "Sitcom": [
+    "laugh track",
+    "episodes",
+    "family",
+    "couch"
+  ],
+  "Drama": [
+    "serious",
+    "tension",
+    "emotions",
+    "plot"
+  ],
+  "Mystery": [
+    "clues",
+    "detective",
+    "whodunit",
+    "suspense"
+  ],
+  "Crime Show": [
+    "detective",
+    "case",
+    "police",
+    "solve"
+  ],
+  "Zombie": [
+    "undead",
+    "apocalypse",
+    "brains",
+    "horde"
+  ],
+  "Vampire": [
+    "fangs",
+    "blood",
+    "night",
+    "coffin"
+  ],
+  "Alien": [
+    "UFO",
+    "space",
+    "otherworldly",
+    "probe"
+  ],
+  "Robot": [
+    "metal",
+    "AI",
+    "beep",
+    "future"
+  ],
+  "Dragon": [
+    "fire",
+    "wings",
+    "hoard",
+    "fantasy"
+  ],
+  "Wizard": [
+    "wand",
+    "spell",
+    "magic",
+    "robe"
+  ],
+  "Princess": [
+    "crown",
+    "castle",
+    "dress",
+    "royal"
+  ],
+  "Prince": [
+    "charming",
+    "castle",
+    "royal",
+    "rescue"
+  ],
+  "King": [
+    "throne",
+    "crown",
+    "kingdom",
+    "royal"
+  ],
+  "Queen": [
+    "crown",
+    "throne",
+    "royal",
+    "regal"
+  ],
+  "Pirate": [
+    "ship",
+    "treasure",
+    "parrot",
+    "arr"
+  ],
+  "Ninja": [
+    "stealth",
+    "Japan",
+    "sword",
+    "shadow"
+  ],
+  "Spy": [
+    "secret",
+    "gadgets",
+    "mission",
+    "undercover"
+  ],
+  "Detective": [
+    "clues",
+    "case",
+    "magnifying glass",
+    "solve"
+  ],
+  "Police Show": [
+    "badge",
+    "case",
+    "squad",
+    "crime"
+  ],
+  "Hospital Show": [
+    "doctors",
+    "ER",
+    "drama",
+    "patients"
+  ],
+  "School Show": [
+    "classroom",
+    "teens",
+    "drama",
+    "lockers"
+  ],
+  "Family Movie": [
+    "together",
+    "kids",
+    "heartwarming",
+    "PG"
+  ],
+  "Kids Movie": [
+    "animated",
+    "family",
+    "songs",
+    "fun"
+  ],
+  "Christmas Movie": [
+    "Santa",
+    "snow",
+    "holiday",
+    "spirit"
+  ],
+  "Halloween Special": [
+    "costumes",
+    "spooky",
+    "candy",
+    "October"
+  ],
+  "Music Video": [
+    "song",
+    "dance",
+    "artist",
+    "MTV"
+  ],
+  "Concert": [
+    "stage",
+    "crowd",
+    "live",
+    "tour"
+  ],
+  "Stand-Up Comedy": [
+    "mic",
+    "jokes",
+    "club",
+    "laugh"
+  ],
+  "Documentary": [
+    "real",
+    "facts",
+    "narrator",
+    "learn"
+  ],
+  "Nature Show": [
+    "animals",
+    "planet",
+    "narrator",
+    "wild"
+  ],
+  "Animal Show": [
+    "wildlife",
+    "habitat",
+    "narrator",
+    "cute"
+  ],
+  "True Crime": [
+    "podcast",
+    "case",
+    "mystery",
+    "investigation"
+  ],
+  "Soap Opera": [
+    "drama",
+    "twists",
+    "daytime",
+    "affairs"
+  ],
+  "Western": [
+    "cowboy",
+    "desert",
+    "saloon",
+    "horse"
+  ],
+  "Space Movie": [
+    "astronaut",
+    "ship",
+    "alien",
+    "stars"
+  ],
+  "Time Travel": [
+    "past",
+    "future",
+    "paradox",
+    "machine"
+  ],
+  "Sequel": [
+    "part two",
+    "returns",
+    "franchise",
+    "again"
+  ],
+  "Remake": [
+    "new version",
+    "classic",
+    "reboot",
+    "again"
+  ],
+  "Trailer": [
+    "preview",
+    "teaser",
+    "hype",
+    "coming soon"
+  ],
+  "Credits": [
+    "names",
+    "end",
+    "scroll",
+    "cast"
+  ],
+  "Popcorn at Movies": [
+    "butter",
+    "bucket",
+    "theater",
+    "snack"
+  ],
+  "Drive-In": [
+    "car",
+    "screen",
+    "retro",
+    "outdoor"
+  ],
+  "3D Movie": [
+    "glasses",
+    "pop out",
+    "theater",
+    "effects"
+  ],
+  "Subtitles": [
+    "read",
+    "foreign",
+    "bottom",
+    "translate"
+  ],
+  "Binge Watching": [
+    "episodes",
+    "couch",
+    "all night",
+    "stream"
+  ],
+  "Season Finale": [
+    "cliffhanger",
+    "end",
+    "hype",
+    "episode"
+  ],
+  "Plot Twist": [
+    "surprise",
+    "didn't see",
+    "reveal",
+    "shock"
+  ],
+  "Happy Ending": [
+    "together",
+    "smile",
+    "resolved",
+    "cheer"
+  ],
+  "Sad Ending": [
+    "tears",
+    "tragic",
+    "cry",
+    "loss"
+  ],
+  "Jump Scare": [
+    "loud",
+    "surprise",
+    "horror",
+    "flinch"
+  ],
+  "Fight Scene": [
+    "punch",
+    "action",
+    "choreography",
+    "battle"
+  ],
+  "Chase Scene": [
+    "run",
+    "pursuit",
+    "fast",
+    "escape"
+  ],
+  "Love Triangle": [
+    "jealous",
+    "choose",
+    "romance",
+    "drama"
+  ],
+  "Best Friend": [
+    "sidekick",
+    "loyal",
+    "duo",
+    "always there"
+  ],
+  "Villain": [
+    "evil",
+    "plan",
+    "dark",
+    "defeat"
+  ],
+  "Hero": [
+    "save",
+    "brave",
+    "cape",
+    "victory"
+  ],
+  "Sidekick": [
+    "helper",
+    "funny",
+    "partner",
+    "backup"
+  ],
+  "Oscars": [
+    "gold statue",
+    "awards",
+    "red carpet",
+    "nominee"
+  ],
+  "Red Carpet": [
+    "glam",
+    "photos",
+    "premiere",
+    "stars"
+  ],
+  "Movie Star": [
+    "famous",
+    "Hollywood",
+    "fans",
+    "premiere"
+  ],
+  "Actor": [
+    "script",
+    "set",
+    "role",
+    "perform"
+  ],
+  "Actress": [
+    "script",
+    "set",
+    "role",
+    "perform"
+  ],
+  "Director": [
+    "action",
+    "cut",
+    "vision",
+    "set"
+  ],
+  "Camera": [
+    "photo",
+    "lens",
+    "flash",
+    "click"
+  ],
+  "Microphone": [
+    "sound",
+    "sing",
+    "podcast",
+    "record"
+  ],
+  "Theme Song": [
+    "intro",
+    "catchy",
+    "sing along",
+    "credits"
+  ],
+  "Catchphrase": [
+    "quote",
+    "repeat",
+    "famous line",
+    "meme"
+  ],
+  "Spoiler": [
+    "ruin",
+    "ending",
+    "don't tell",
+    "reveal"
+  ],
+  "Fan": [
+    "spin",
+    "cool",
+    "breeze",
+    "summer"
+  ],
+  "Marvel": [
+    "superhero",
+    "MCU",
+    "Avengers",
+    "comics"
+  ],
+  "Star Wars": [
+    "lightsaber",
+    "Force",
+    "space",
+    "Vader"
+  ],
+  "Harry Potter": [
+    "wizard",
+    "Hogwarts",
+    "wand",
+    "magic"
+  ],
+  "Soccer": [
+    "goal",
+    "kick",
+    "field",
+    "World Cup"
+  ],
+  "Football": [
+    "throw",
+    "tackle",
+    "pigskin",
+    "field"
+  ],
+  "Basketball": [
+    "dribble",
+    "hoop",
+    "orange",
+    "court"
+  ],
+  "Baseball": [
+    "bat",
+    "glove",
+    "pitch",
+    "diamond"
+  ],
+  "Softball": [
+    "pitch",
+    "underhand",
+    "diamond",
+    "glove"
+  ],
+  "Tennis": [
+    "racket",
+    "court",
+    "serve",
+    "Wimbledon"
+  ],
+  "Golf": [
+    "club",
+    "hole",
+    "tee",
+    "caddy"
+  ],
+  "Volleyball": [
+    "spike",
+    "net",
+    "beach",
+    "serve"
+  ],
+  "Hockey": [
+    "puck",
+    "ice",
+    "stick",
+    "rink"
+  ],
+  "Lacrosse": [
+    "stick",
+    "net",
+    "fast",
+    "goal"
+  ],
+  "Rugby": [
+    "tackle",
+    "oval ball",
+    "scrum",
+    "rough"
+  ],
+  "Cricket": [
+    "bat",
+    "wicket",
+    "England",
+    "pitch"
+  ],
+  "Bowling": [
+    "pins",
+    "lane",
+    "strike",
+    "shoes"
+  ],
+  "Swimming": [
+    "pool",
+    "laps",
+    "goggles",
+    "stroke"
+  ],
+  "Diving": [
+    "board",
+    "splash",
+    "pool",
+    "flip"
+  ],
+  "Track": [
+    "sprint",
+    "lane",
+    "relay",
+    "stadium"
+  ],
+  "Running": [
+    "sneakers",
+    "marathon",
+    "pace",
+    "road"
+  ],
+  "Marathon": [
+    "26 miles",
+    "endurance",
+    "water station",
+    "finish"
+  ],
+  "Sprinting": [
+    "fast",
+    "dash",
+    "explosive",
+    "track"
+  ],
+  "Hurdles": [
+    "jump",
+    "track",
+    "lane",
+    "obstacle"
+  ],
+  "Long Jump": [
+    "sand pit",
+    "track",
+    "leap",
+    "runway"
+  ],
+  "High Jump": [
+    "bar",
+    "leap",
+    "track",
+    "Fosbury"
+  ],
+  "Gymnastics": [
+    "flip",
+    "beam",
+    "mat",
+    "Olympics"
+  ],
+  "Wrestling": [
+    "mat",
+    "pin",
+    "grapple",
+    "takedown"
+  ],
+  "Boxing": [
+    "ring",
+    "gloves",
+    "punch",
+    "round"
+  ],
+  "Karate": [
+    "belt",
+    "dojo",
+    "kick",
+    "martial arts"
+  ],
+  "Fencing": [
+    "sword",
+    "mask",
+    "duel",
+    "touché"
+  ],
+  "Archery": [
+    "bow",
+    "arrow",
+    "target",
+    "bullseye"
+  ],
+  "Skateboarding": [
+    "ollie",
+    "ramp",
+    "deck",
+    "grind"
+  ],
+  "Snowboarding": [
+    "slope",
+    "powder",
+    "halfpipe",
+    "mountain"
+  ],
+  "Skiing": [
+    "slopes",
+    "poles",
+    "snow",
+    "lift"
+  ],
+  "Ice Skating": [
+    "rink",
+    "blades",
+    "spin",
+    "winter"
+  ],
+  "Surfing": [
+    "wave",
+    "board",
+    "beach",
+    "hang ten"
+  ],
+  "Fishing": [
+    "rod",
+    "bait",
+    "lake",
+    "reel"
+  ],
+  "Hunting": [
+    "rifle",
+    "woods",
+    "deer",
+    "camo"
+  ],
+  "Horseback Riding": [
+    "saddle",
+    "reins",
+    "stable",
+    "gallop"
+  ],
+  "Cycling": [
+    "bike",
+    "pedal",
+    "helmet",
+    "Tour de France"
+  ],
+  "Biking": [
+    "pedal",
+    "helmet",
+    "wheels",
+    "trail"
+  ],
+  "Roller Skating": [
+    "rink",
+    "wheels",
+    "disco",
+    "balance"
+  ],
+  "Rollerblading": [
+    "wheels",
+    "inline",
+    "pavement",
+    "speed"
+  ],
+  "Scooter": [
+    "kick",
+    "wheels",
+    "sidewalk",
+    "razor"
+  ],
+  "Skateboard": [
+    "deck",
+    "wheels",
+    "ollie",
+    "ramp"
+  ],
+  "Trampoline": [
+    "bounce",
+    "springs",
+    "flip",
+    "backyard"
+  ],
+  "Jump Rope": [
+    "rhythm",
+    "cardio",
+    "double dutch",
+    "skip"
+  ],
+  "Hopscotch": [
+    "chalk",
+    "sidewalk",
+    "squares",
+    "hop"
+  ],
+  "Tag": [
+    "chase",
+    "you're it",
+    "playground",
+    "run"
+  ],
+  "Hide and Seek": [
+    "count",
+    "found you",
+    "hide",
+    "seek"
+  ],
+  "Capture the Flag": [
+    "team",
+    "flag",
+    "steal",
+    "field"
+  ],
+  "Dodgeball": [
+    "throw",
+    "dodge",
+    "gym",
+    "rubber ball"
+  ],
+  "Kickball": [
+    "kick",
+    "bases",
+    "playground",
+    "rubber ball"
+  ],
+  "Frisbee": [
+    "throw",
+    "catch",
+    "disc",
+    "park"
+  ],
+  "Badminton": [
+    "shuttlecock",
+    "net",
+    "racket",
+    "backyard"
+  ],
+  "Ping Pong": [
+    "paddle",
+    "table",
+    "spin",
+    "basement"
+  ],
+  "Billiards": [
+    "cue",
+    "felt",
+    "pocket",
+    "bar"
+  ],
+  "Darts": [
+    "bullseye",
+    "board",
+    "pub",
+    "throw"
+  ],
+  "Chess": [
+    "checkmate",
+    "king",
+    "strategy",
+    "board"
+  ],
+  "Checkers": [
+    "jump",
+    "red",
+    "board",
+    "king me"
+  ],
+  "Video Games": [
+    "controller",
+    "screen",
+    "level",
+    "multiplayer"
+  ],
+  "Yoga": [
+    "stretch",
+    "mat",
+    "namaste",
+    "balance"
+  ],
+  "Dance": [
+    "music",
+    "moves",
+    "stage",
+    "rhythm"
+  ],
+  "Cheerleading": [
+    "pom-poms",
+    "stunt",
+    "sideline",
+    "spirit"
+  ],
+  "Marching Band": [
+    "halftime",
+    "drumline",
+    "parade",
+    "uniform"
+  ],
+  "Gym Class": [
+    "PE",
+    "sweat",
+    "coach",
+    "locker room"
+  ],
+  "PE": [
+    "gym",
+    "sweat",
+    "shorts",
+    "coach"
+  ],
+  "Team": [
+    "jersey",
+    "together",
+    "coach",
+    "huddle"
+  ],
+  "Coach": [
+    "whistle",
+    "team",
+    "practice",
+    "sideline"
+  ],
+  "Referee": [
+    "whistle",
+    "stripes",
+    "foul",
+    "call"
+  ],
+  "Umpire": [
+    "strike",
+    "behind plate",
+    "call",
+    "baseball"
+  ],
+  "Score": [
+    "points",
+    "board",
+    "win",
+    "tally"
+  ],
+  "Goal": [
+    "net",
+    "celebrate",
+    "soccer",
+    "score"
+  ],
+  "Touchdown": [
+    "end zone",
+    "six points",
+    "spike",
+    "football"
+  ],
+  "Home Run": [
+    "fence",
+    "bat",
+    "bases",
+    "crowd"
+  ],
+  "Slam Dunk": [
+    "rim",
+    "hang",
+    "basketball",
+    "alley-oop"
+  ],
+  "Hat Trick": [
+    "three goals",
+    "hockey",
+    "soccer",
+    "celebrate"
+  ],
+  "Penalty Kick": [
+    "soccer",
+    "goalie",
+    "spot",
+    "nerves"
+  ],
+  "Free Throw": [
+    "line",
+    "basketball",
+    "focus",
+    "rim"
+  ],
+  "Strike": [
+    "pins",
+    "bowling",
+    "lane",
+    "spare"
+  ],
+  "Spare": [
+    "pins",
+    "bowling",
+    "second roll",
+    "lane"
+  ],
+  "Medal": [
+    "podium",
+    "gold",
+    "Olympics",
+    "neck"
+  ],
+  "Trophy": [
+    "champion",
+    "cup",
+    "raise",
+    "win"
+  ],
+  "Winner": [
+    "champion",
+    "first place",
+    "trophy",
+    "celebrate"
+  ],
+  "Loser": [
+    "second place",
+    "defeat",
+    "shake hands",
+    "try again"
+  ],
+  "Tie Game": [
+    "even",
+    "overtime",
+    "draw",
+    "same score"
+  ],
+  "Overtime": [
+    "extra",
+    "sudden death",
+    "tied",
+    "tension"
+  ],
+  "Playoffs": [
+    "bracket",
+    "elimination",
+    "championship",
+    "seed"
+  ],
+  "Championship": [
+    "final",
+    "trophy",
+    "best",
+    "title"
+  ],
+  "Super Bowl": [
+    "NFL",
+    "halftime",
+    "rings",
+    "Sunday"
+  ],
+  "World Cup": [
+    "soccer",
+    "nations",
+    "every four years",
+    "goal"
+  ],
+  "Olympics": [
+    "rings",
+    "gold",
+    "nations",
+    "torch"
+  ],
+  "ESPN": [
+    "highlights",
+    "sports news",
+    "cable",
+    "anchors"
+  ],
+  "Sports Center": [
+    "highlights",
+    "anchors",
+    "top ten",
+    "ESPN"
+  ],
+  "Fantasy Football": [
+    "draft",
+    "lineup",
+    "points",
+    "league"
+  ],
+  "Pickup Game": [
+    "casual",
+    "park",
+    "strangers",
+    "hoop"
+  ],
+  "Tryouts": [
+    "make the team",
+    "coach",
+    "nerves",
+    "cuts"
+  ],
+  "Practice": [
+    "reps",
+    "drills",
+    "sweat",
+    "improve"
+  ],
+  "Warm-Up": [
+    "stretch",
+    "jog",
+    "before game",
+    "loose"
+  ],
+  "Cool Down": [
+    "stretch",
+    "after game",
+    "recover",
+    "hydrate"
+  ],
+  "Injury": [
+    "ice",
+    "bench",
+    "trainer",
+    "ouch"
+  ],
+  "Ice Pack": [
+    "swelling",
+    "injury",
+    "cold",
+    "bench"
+  ],
+  "Water Break": [
+    "hydrate",
+    "timeout",
+    "bottle",
+    "huddle"
+  ],
+  "Rock Climbing": [
+    "crag",
+    "belay",
+    "chalk",
+    "rope"
+  ],
+  "Teacher": [
+    "classroom",
+    "chalkboard",
+    "homework",
+    "grade"
+  ],
+  "Student": [
+    "desk",
+    "homework",
+    "backpack",
+    "class"
+  ],
+  "Principal": [
+    "office",
+    "school",
+    "announcement",
+    "serious"
+  ],
+  "Librarian": [
+    "books",
+    "quiet",
+    "shelf",
+    "shush"
+  ],
+  "Doctor": [
+    "stethoscope",
+    "hospital",
+    "patient",
+    "scrubs"
+  ],
+  "Nurse": [
+    "hospital",
+    "shot",
+    "care",
+    "scrubs"
+  ],
+  "Vet": [
+    "animals",
+    "clinic",
+    "paws",
+    "pet"
+  ],
+  "Firefighter": [
+    "hose",
+    "truck",
+    "rescue",
+    "helmet"
+  ],
+  "Police Officer": [
+    "badge",
+    "siren",
+    "patrol",
+    "handcuffs"
+  ],
+  "Soldier": [
+    "uniform",
+    "boot camp",
+    "serve",
+    "salute"
+  ],
+  "Pilot": [
+    "cockpit",
+    "plane",
+    "fly",
+    "wings"
+  ],
+  "Flight Attendant": [
+    "plane",
+    "safety demo",
+    "trolley",
+    "cabin"
+  ],
+  "Bus Driver": [
+    "route",
+    "wheels",
+    "stop",
+    "kids"
+  ],
+  "Taxi Driver": [
+    "meter",
+    "fare",
+    "city",
+    "cab"
+  ],
+  "Uber Driver": [
+    "app",
+    "ride",
+    "GPS",
+    "car"
+  ],
+  "Truck Driver": [
+    "highway",
+    "haul",
+    "big rig",
+    "delivery"
+  ],
+  "Mail Carrier": [
+    "mailbox",
+    "letters",
+    "route",
+    "uniform"
+  ],
+  "Delivery Driver": [
+    "package",
+    "doorstep",
+    "van",
+    "drop off"
+  ],
+  "Chef": [
+    "kitchen",
+    "cook",
+    "recipe",
+    "restaurant"
+  ],
+  "Cook": [
+    "stove",
+    "kitchen",
+    "meal",
+    "prep"
+  ],
+  "Waiter": [
+    "menu",
+    "tip",
+    "table",
+    "order"
+  ],
+  "Waitress": [
+    "menu",
+    "tip",
+    "table",
+    "order"
+  ],
+  "Barista": [
+    "coffee",
+    "latte",
+    "espresso",
+    "apron"
+  ],
+  "Bartender": [
+    "drinks",
+    "bar",
+    "mix",
+    "night"
+  ],
+  "Cashier": [
+    "register",
+    "scan",
+    "checkout",
+    "receipt"
+  ],
+  "Store Clerk": [
+    "aisles",
+    "stock",
+    "help",
+    "register"
+  ],
+  "Manager": [
+    "boss",
+    "schedule",
+    "team",
+    "office"
+  ],
+  "Boss": [
+    "office",
+    "in charge",
+    "meeting",
+    "decisions"
+  ],
+  "CEO": [
+    "company",
+    "executive",
+    "boardroom",
+    "leader"
+  ],
+  "Farmer": [
+    "crops",
+    "tractor",
+    "barn",
+    "harvest"
+  ],
+  "Gardener": [
+    "plants",
+    "lawn",
+    "shears",
+    "green"
+  ],
+  "Landscaper": [
+    "lawn",
+    "mow",
+    "yard",
+    "hedge"
+  ],
+  "Construction Worker": [
+    "hard hat",
+    "build",
+    "site",
+    "hammer"
+  ],
+  "Builder": [
+    "house",
+    "tools",
+    "frame",
+    "site"
+  ],
+  "Carpenter": [
+    "wood",
+    "hammer",
+    "saw",
+    "build"
+  ],
+  "Plumber": [
+    "pipes",
+    "wrench",
+    "leak",
+    "fix"
+  ],
+  "Electrician": [
+    "wires",
+    "outlet",
+    "spark",
+    "fix"
+  ],
+  "Mechanic": [
+    "car",
+    "garage",
+    "oil",
+    "fix"
+  ],
+  "Car Wash": [
+    "soap",
+    "spray",
+    "shine",
+    "tunnel"
+  ],
+  "Hair Stylist": [
+    "scissors",
+    "salon",
+    "cut",
+    "style"
+  ],
+  "Barber": [
+    "clippers",
+    "fade",
+    "chair",
+    "shop"
+  ],
+  "Makeup Artist": [
+    "brush",
+    "glam",
+    "face",
+    "beauty"
+  ],
+  "Nail Tech": [
+    "polish",
+    "salon",
+    "manicure",
+    "file"
+  ],
+  "Fashion Designer": [
+    "runway",
+    "sketch",
+    "fabric",
+    "style"
+  ],
+  "Tailor": [
+    "sew",
+    "fit",
+    "suit",
+    "alter"
+  ],
+  "Model": [
+    "runway",
+    "pose",
+    "photo shoot",
+    "tall"
+  ],
+  "Singer": [
+    "mic",
+    "stage",
+    "voice",
+    "tour"
+  ],
+  "Musician": [
+    "instrument",
+    "band",
+    "gig",
+    "practice"
+  ],
+  "DJ": [
+    "turntable",
+    "party",
+    "mix",
+    "beats"
+  ],
+  "Dancer": [
+    "stage",
+    "moves",
+    "ballet",
+    "rhythm"
+  ],
+  "Artist": [
+    "paint",
+    "canvas",
+    "creative",
+    "gallery"
+  ],
+  "Painter": [
+    "brush",
+    "canvas",
+    "color",
+    "wall"
+  ],
+  "Photographer": [
+    "camera",
+    "lens",
+    "shot",
+    "flash"
+  ],
+  "YouTuber": [
+    "camera",
+    "subscribe",
+    "upload",
+    "content"
+  ],
+  "Streamer": [
+    "live",
+    "chat",
+    "game",
+    "camera"
+  ],
+  "Influencer": [
+    "followers",
+    "sponsor",
+    "post",
+    "brand"
+  ],
+  "Writer": [
+    "pen",
+    "story",
+    "book",
+    "words"
+  ],
+  "Author": [
+    "book",
+    "novel",
+    "publish",
+    "chapter"
+  ],
+  "Journalist": [
+    "report",
+    "interview",
+    "news",
+    "article"
+  ],
+  "News Reporter": [
+    "mic",
+    "camera",
+    "live",
+    "story"
+  ],
+  "News Anchor": [
+    "desk",
+    "teleprompter",
+    "headlines",
+    "studio"
+  ],
+  "Weather Person": [
+    "forecast",
+    "map",
+    "storm",
+    "green screen"
+  ],
+  "Scientist": [
+    "lab",
+    "experiment",
+    "hypothesis",
+    "research"
+  ],
+  "Astronaut": [
+    "helmet",
+    "float",
+    "space",
+    "suit"
+  ],
+  "Engineer": [
+    "build",
+    "design",
+    "math",
+    "blueprint"
+  ],
+  "Computer Guy": [
+    "tech",
+    "fix",
+    "screen",
+    "keyboard"
+  ],
+  "Programmer": [
+    "code",
+    "bug",
+    "keyboard",
+    "software"
+  ],
+  "Gamer": [
+    "controller",
+    "level",
+    "screen",
+    "headset"
+  ],
+  "Lawyer": [
+    "court",
+    "case",
+    "objection",
+    "brief"
+  ],
+  "Judge": [
+    "gavel",
+    "court",
+    "robe",
+    "verdict"
+  ],
+  "Banker": [
+    "money",
+    "loan",
+    "vault",
+    "teller"
+  ],
+  "Accountant": [
+    "numbers",
+    "taxes",
+    "spreadsheet",
+    "books"
+  ],
+  "Real Estate Agent": [
+    "house",
+    "keys",
+    "listing",
+    "showing"
+  ],
+  "Salesperson": [
+    "pitch",
+    "commission",
+    "sell",
+    "deal"
+  ],
+  "Realtor": [
+    "house",
+    "keys",
+    "listing",
+    "sold"
+  ],
+  "Babysitter": [
+    "kids",
+    "bedtime",
+    "watch",
+    "parents out"
+  ],
+  "Nanny": [
+    "kids",
+    "full time",
+    "care",
+    "family"
+  ],
+  "Daycare Worker": [
+    "toddlers",
+    "toys",
+    "nap",
+    "care"
+  ],
+  "Lifeguard": [
+    "pool",
+    "whistle",
+    "beach",
+    "rescue"
+  ],
+  "Park Ranger": [
+    "forest",
+    "trail",
+    "nature",
+    "uniform"
+  ],
+  "Zookeeper": [
+    "animals",
+    "feed",
+    "enclosure",
+    "zoo"
+  ],
+  "Dog Walker": [
+    "leash",
+    "park",
+    "poop bag",
+    "pets"
+  ],
+  "Pet Sitter": [
+    "feed",
+    "walk",
+    "house visit",
+    "animals"
+  ],
+  "Veterinarian": [
+    "animals",
+    "clinic",
+    "paws",
+    "treat"
+  ],
+  "Therapist": [
+    "talk",
+    "couch",
+    "feelings",
+    "session"
+  ],
+  "Counselor": [
+    "advice",
+    "school",
+    "talk",
+    "help"
+  ],
+  "Social Worker": [
+    "help",
+    "community",
+    "case",
+    "support"
+  ],
+  "Paramedic": [
+    "ambulance",
+    "emergency",
+    "save",
+    "siren"
+  ],
+  "EMT": [
+    "ambulance",
+    "emergency",
+    "first aid",
+    "siren"
+  ],
+  "Surgeon": [
+    "operating room",
+    "scalpel",
+    "hospital",
+    "procedure"
+  ],
+  "Pharmacist": [
+    "pills",
+    "prescription",
+    "counter",
+    "medicine"
+  ],
+  "Lab Worker": [
+    "test tube",
+    "microscope",
+    "sample",
+    "research"
+  ],
+  "Archaeologist": [
+    "dig",
+    "artifact",
+    "brush",
+    "history"
+  ],
+  "Tour Guide": [
+    "group",
+    "facts",
+    "museum",
+    "walk"
+  ],
+  "Hotel Worker": [
+    "lobby",
+    "check in",
+    "luggage",
+    "guest"
+  ],
+  "Housekeeper": [
+    "clean",
+    "hotel",
+    "vacuum",
+    "sheets"
+  ],
+  "Janitor": [
+    "mop",
+    "clean",
+    "keys",
+    "night"
+  ],
+  "Security Guard": [
+    "uniform",
+    "patrol",
+    "watch",
+    "badge"
+  ],
+  "Bouncer": [
+    "club",
+    "ID",
+    "door",
+    "night"
+  ],
+  "Magician": [
+    "trick",
+    "wand",
+    "disappear",
+    "stage"
+  ],
+  "Clown": [
+    "balloons",
+    "circus",
+    "makeup",
+    "party"
+  ],
+  "Party Planner": [
+    "event",
+    "decor",
+    "organize",
+    "celebrate"
+  ],
+  "Wedding Planner": [
+    "bride",
+    "venue",
+    "flowers",
+    "big day"
+  ],
+  "Florist": [
+    "flowers",
+    "bouquet",
+    "arrange",
+    "shop"
+  ],
+  "Baker": [
+    "oven",
+    "bread",
+    "pastry",
+    "rise"
+  ],
+  "Butcher": [
+    "meat",
+    "cleaver",
+    "counter",
+    "cut"
+  ],
+  "Ice Cream Man": [
+    "truck",
+    "jingle",
+    "cone",
+    "summer"
+  ],
+  "Food Truck Owner": [
+    "street food",
+    "window",
+    "park",
+    "serve"
+  ],
+  "Entrepreneur": [
+    "startup",
+    "idea",
+    "risk",
+    "business"
+  ],
+  "Business Owner": [
+    "shop",
+    "hire",
+    "profit",
+    "boss"
+  ],
+  "Intern": [
+    "coffee run",
+    "learn",
+    "office",
+    "summer"
+  ],
+  "Volunteer": [
+    "help",
+    "free",
+    "community",
+    "give back"
+  ],
+  "School Bus Driver": [
+    "route",
+    "yellow bus",
+    "kids",
+    "stop"
+  ],
+  "Crossing Guard": [
+    "stop sign",
+    "kids",
+    "street",
+    "vest"
+  ],
+  "Custodian": [
+    "mop",
+    "school",
+    "clean",
+    "keys"
+  ],
+  "Phone": [
+    "call",
+    "text",
+    "screen",
+    "pocket"
+  ],
+  "iPhone": [
+    "Apple",
+    "apps",
+    "text",
+    "case"
+  ],
+  "Laptop": [
+    "keyboard",
+    "screen",
+    "work",
+    "charge"
+  ],
+  "Computer": [
+    "screen",
+    "mouse",
+    "internet",
+    "desk"
+  ],
+  "Tablet": [
+    "touch",
+    "screen",
+    "apps",
+    "portable"
+  ],
+  "TV": [
+    "remote",
+    "couch",
+    "channels",
+    "screen"
+  ],
+  "Remote": [
+    "batteries",
+    "couch",
+    "channels",
+    "click"
+  ],
+  "Headphones": [
+    "music",
+    "ears",
+    "wireless",
+    "podcast"
+  ],
+  "Earbuds": [
+    "small",
+    "wireless",
+    "pocket",
+    "music"
+  ],
+  "Speaker": [
+    "music",
+    "loud",
+    "bluetooth",
+    "bass"
+  ],
+  "Charger": [
+    "cable",
+    "plug",
+    "battery",
+    "USB"
+  ],
+  "Cable": [
+    "plug",
+    "charge",
+    "tangle",
+    "connect"
+  ],
+  "Selfie Stick": [
+    "photo",
+    "arm",
+    "angle",
+    "tourist"
+  ],
+  "Watch": [
+    "time",
+    "wrist",
+    "tick",
+    "band"
+  ],
+  "Clock": [
+    "time",
+    "tick",
+    "wall",
+    "alarm"
+  ],
+  "Alarm Clock": [
+    "wake up",
+    "snooze",
+    "morning",
+    "beep"
+  ],
+  "Calendar": [
+    "dates",
+    "month",
+    "plan",
+    "hang"
+  ],
+  "Backpack": [
+    "straps",
+    "school",
+    "zipper",
+    "carry"
+  ],
+  "Purse": [
+    "handbag",
+    "wallet",
+    "carry",
+    "strap"
+  ],
+  "Wallet": [
+    "money",
+    "cards",
+    "pocket",
+    "leather"
+  ],
+  "Keys": [
+    "door",
+    "jingle",
+    "lock",
+    "pocket"
+  ],
+  "Sunglasses": [
+    "shade",
+    "summer",
+    "cool",
+    "UV"
+  ],
+  "Glasses": [
+    "lenses",
+    "see",
+    "frames",
+    "read"
+  ],
+  "Hat": [
+    "cap",
+    "head",
+    "shade",
+    "wear"
+  ],
+  "Cap": [
+    "baseball",
+    "bill",
+    "head",
+    "logo"
+  ],
+  "Jacket": [
+    "zip",
+    "cold",
+    "pockets",
+    "wear"
+  ],
+  "Coat": [
+    "winter",
+    "warm",
+    "buttons",
+    "cold"
+  ],
+  "Shoes": [
+    "laces",
+    "feet",
+    "walk",
+    "pair"
+  ],
+  "Sneakers": [
+    "laces",
+    "run",
+    "comfort",
+    "gym"
+  ],
+  "Socks": [
+    "feet",
+    "pair",
+    "warm",
+    "drawer"
+  ],
+  "Belt": [
+    "waist",
+    "buckle",
+    "jeans",
+    "hold"
+  ],
+  "Umbrella": [
+    "rain",
+    "open",
+    "wet",
+    "handle"
+  ],
+  "Raincoat": [
+    "rain",
+    "hood",
+    "wet",
+    "yellow"
+  ],
+  "Towel": [
+    "dry",
+    "beach",
+    "bath",
+    "soft"
+  ],
+  "Soap": [
+    "wash",
+    "bubbles",
+    "bar",
+    "clean"
+  ],
+  "Shampoo": [
+    "hair",
+    "lather",
+    "rinse",
+    "bottle"
+  ],
+  "Toothbrush": [
+    "teeth",
+    "paste",
+    "brush",
+    "morning"
+  ],
+  "Toothpaste": [
+    "mint",
+    "brush",
+    "tube",
+    "foam"
+  ],
+  "Hairbrush": [
+    "hair",
+    "tangles",
+    "stroke",
+    "bristles"
+  ],
+  "Comb": [
+    "teeth",
+    "hair",
+    "pocket",
+    "part"
+  ],
+  "Mirror": [
+    "reflection",
+    "bathroom",
+    "glass",
+    "look"
+  ],
+  "Tissue": [
+    "sneeze",
+    "box",
+    "soft",
+    "nose"
+  ],
+  "Toilet Paper": [
+    "roll",
+    "bathroom",
+    "ply",
+    "holder"
+  ],
+  "Band-Aid": [
+    "cut",
+    "peel",
+    "stick",
+    "ouch"
+  ],
+  "Medicine": [
+    "pill",
+    "sick",
+    "bottle",
+    "dose"
+  ],
+  "Pill": [
+    "swallow",
+    "medicine",
+    "small",
+    "prescription"
+  ],
+  "Water Bottle": [
+    "hydrate",
+    "gym",
+    "reusable",
+    "sip"
+  ],
+  "Cup": [
+    "drink",
+    "handle",
+    "kitchen",
+    "sip"
+  ],
+  "Mug": [
+    "coffee",
+    "handle",
+    "hot",
+    "desk"
+  ],
+  "Plate": [
+    "dinner",
+    "food",
+    "round",
+    "dish"
+  ],
+  "Bowl": [
+    "cereal",
+    "soup",
+    "round",
+    "spoon"
+  ],
+  "Fork": [
+    "prongs",
+    "eat",
+    "salad",
+    "metal"
+  ],
+  "Spoon": [
+    "soup",
+    "cereal",
+    "stir",
+    "eat"
+  ],
+  "Knife": [
+    "cut",
+    "sharp",
+    "kitchen",
+    "blade"
+  ],
+  "Napkin": [
+    "wipe",
+    "lap",
+    "paper",
+    "meal"
+  ],
+  "Straw": [
+    "sip",
+    "plastic",
+    "drink",
+    "bend"
+  ],
+  "Lunch Box": [
+    "school",
+    "sandwich",
+    "thermos",
+    "kids"
+  ],
+  "Thermos": [
+    "hot",
+    "soup",
+    "insulated",
+    "lunch"
+  ],
+  "Cooler": [
+    "ice",
+    "picnic",
+    "drinks",
+    "beach"
+  ],
+  "Fridge": [
+    "cold",
+    "kitchen",
+    "food",
+    "magnet"
+  ],
+  "Microwave": [
+    "beep",
+    "heat",
+    "quick",
+    "kitchen"
+  ],
+  "Oven": [
+    "bake",
+    "hot",
+    "kitchen",
+    "preheat"
+  ],
+  "Stove": [
+    "burner",
+    "cook",
+    "pot",
+    "flame"
+  ],
+  "Toaster": [
+    "bread",
+    "pop",
+    "breakfast",
+    "slots"
+  ],
+  "Blender": [
+    "smoothie",
+    "mix",
+    "lid",
+    "pulse"
+  ],
+  "Pot": [
+    "boil",
+    "lid",
+    "stove",
+    "soup"
+  ],
+  "Pan": [
+    "fry",
+    "handle",
+    "sizzle",
+    "stove"
+  ],
+  "Spatula": [
+    "flip",
+    "pancake",
+    "grill",
+    "rubber"
+  ],
+  "Trash Can": [
+    "garbage",
+    "lid",
+    "bag",
+    "kitchen"
+  ],
+  "Broom": [
+    "sweep",
+    "dust",
+    "floor",
+    "bristles"
+  ],
+  "Mop": [
+    "floor",
+    "bucket",
+    "wet",
+    "clean"
+  ],
+  "Vacuum": [
+    "carpet",
+    "suck",
+    "cord",
+    "loud"
+  ],
+  "Laundry Basket": [
+    "clothes",
+    "hamper",
+    "dirty",
+    "carry"
+  ],
+  "Washing Machine": [
+    "spin",
+    "detergent",
+    "laundry",
+    "cycle"
+  ],
+  "Dryer": [
+    "lint",
+    "warm",
+    "tumble",
+    "laundry"
+  ],
+  "Iron": [
+    "wrinkles",
+    "hot",
+    "steam",
+    "shirt"
+  ],
+  "Hanger": [
+    "closet",
+    "shirt",
+    "wire",
+    "hook"
+  ],
+  "Bed": [
+    "sleep",
+    "mattress",
+    "pillow",
+    "blanket"
+  ],
+  "Pillow": [
+    "soft",
+    "sleep",
+    "fluff",
+    "head"
+  ],
+  "Blanket": [
+    "warm",
+    "cozy",
+    "bed",
+    "cover"
+  ],
+  "Sheets": [
+    "bed",
+    "cotton",
+    "sleep",
+    "fold"
+  ],
+  "Couch": [
+    "sit",
+    "TV",
+    "cushion",
+    "living room"
+  ],
+  "Chair": [
+    "sit",
+    "legs",
+    "desk",
+    "back"
+  ],
+  "Table": [
+    "eat",
+    "legs",
+    "surface",
+    "dinner"
+  ],
+  "Desk": [
+    "homework",
+    "drawer",
+    "study",
+    "chair"
+  ],
+  "Lamp": [
+    "light",
+    "shade",
+    "bedside",
+    "bulb"
+  ],
+  "Light": [
+    "bulb",
+    "switch",
+    "bright",
+    "on"
+  ],
+  "AC": [
+    "cool",
+    "summer",
+    "thermostat",
+    "vent"
+  ],
+  "Heater": [
+    "warm",
+    "winter",
+    "cozy",
+    "radiator"
+  ],
+  "Door": [
+    "knob",
+    "open",
+    "hinge",
+    "enter"
+  ],
+  "Window": [
+    "glass",
+    "view",
+    "curtain",
+    "open"
+  ],
+  "Curtain": [
+    "window",
+    "draw",
+    "fabric",
+    "privacy"
+  ],
+  "Rug": [
+    "floor",
+    "soft",
+    "living room",
+    "corner"
+  ],
+  "Carpet": [
+    "soft",
+    "floor",
+    "vacuum",
+    "room"
+  ],
+  "Picture Frame": [
+    "photo",
+    "wall",
+    "hang",
+    "memory"
+  ],
+  "Poster": [
+    "wall",
+    "band",
+    "tape",
+    "room"
+  ],
+  "Book": [
+    "pages",
+    "read",
+    "story",
+    "shelf"
+  ],
+  "Notebook": [
+    "notes",
+    "paper",
+    "school",
+    "spiral"
+  ],
+  "Pen": [
+    "ink",
+    "write",
+    "click",
+    "pocket"
+  ],
+  "Pencil": [
+    "erase",
+    "write",
+    "sharpen",
+    "wood"
+  ],
+  "Eraser": [
+    "mistake",
+    "rub",
+    "pink",
+    "pencil"
+  ],
+  "Marker": [
+    "color",
+    "thick",
+    "whiteboard",
+    "cap"
+  ],
+  "Crayons": [
+    "color",
+    "box",
+    "kids",
+    "wax"
+  ],
+  "Scissors": [
+    "cut",
+    "blades",
+    "paper",
+    "snip"
+  ],
+  "Tape": [
+    "stick",
+    "wrap",
+    "roll",
+    "tear"
+  ],
+  "Glue": [
+    "stick",
+    "paper",
+    "dry",
+    "craft"
+  ],
+  "Stapler": [
+    "paper",
+    "click",
+    "office",
+    "staples"
+  ],
+  "Paper": [
+    "write",
+    "sheet",
+    "printer",
+    "fold"
+  ],
+  "Homework": [
+    "due",
+    "school",
+    "pages",
+    "stress"
+  ],
+  "Pencil Case": [
+    "zip",
+    "school",
+    "supplies",
+    "pouch"
+  ],
+  "Calculator": [
+    "math",
+    "buttons",
+    "numbers",
+    "test"
+  ],
+  "Ruler": [
+    "measure",
+    "inch",
+    "straight",
+    "line"
+  ],
+  "Globe": [
+    "spin",
+    "countries",
+    "map",
+    "world"
+  ],
+  "Map": [
+    "directions",
+    "fold",
+    "road trip",
+    "GPS"
+  ],
+  "Flashlight": [
+    "dark",
+    "beam",
+    "batteries",
+    "camping"
+  ],
+  "Batteries": [
+    "AA",
+    "power",
+    "remote",
+    "die"
+  ],
+  "Candle": [
+    "flame",
+    "wick",
+    "scent",
+    "birthday"
+  ],
+  "Lighter": [
+    "flame",
+    "click",
+    "fire",
+    "pocket"
+  ],
+  "Matches": [
+    "strike",
+    "fire",
+    "box",
+    "flame"
+  ],
+  "Hammer": [
+    "nail",
+    "bang",
+    "toolbox",
+    "build"
+  ],
+  "Screwdriver": [
+    "screw",
+    "twist",
+    "flat",
+    "Phillips"
+  ],
+  "Toolbox": [
+    "tools",
+    "fix",
+    "metal",
+    "carry"
+  ],
+  "Duct Tape": [
+    "sticky",
+    "fix",
+    "silver",
+    "strong"
+  ],
+  "Ball": [
+    "throw",
+    "catch",
+    "bounce",
+    "round"
+  ],
+  "Glove": [
+    "catch",
+    "baseball",
+    "hand",
+    "leather"
+  ],
+  "Bike": [
+    "pedal",
+    "wheels",
+    "helmet",
+    "ride"
+  ],
+  "Helmet": [
+    "protect",
+    "bike",
+    "head",
+    "strap"
+  ],
+  "Tent": [
+    "camping",
+    "poles",
+    "sleep",
+    "zip"
+  ],
+  "Sleeping Bag": [
+    "camping",
+    "zip",
+    "warm",
+    "roll"
+  ],
+  "Board Game": [
+    "dice",
+    "family",
+    "rules",
+    "turn"
+  ],
+  "Cards": [
+    "shuffle",
+    "deal",
+    "ace",
+    "deck"
+  ],
+  "Dice": [
+    "roll",
+    "six",
+    "game",
+    "luck"
+  ],
+  "Puzzle": [
+    "pieces",
+    "fit",
+    "picture",
+    "table"
+  ],
+  "Teddy Bear": [
+    "stuffed",
+    "hug",
+    "soft",
+    "bed"
+  ],
+  "Toy": [
+    "play",
+    "kids",
+    "fun",
+    "box"
+  ],
+  "Legos": [
+    "blocks",
+    "build",
+    "step on",
+    "bricks"
+  ],
+  "Doll": [
+    "dress",
+    "play",
+    "hair",
+    "kids"
+  ],
+  "Action Figure": [
+    "hero",
+    "pose",
+    "collect",
+    "plastic"
+  ],
+  "Video Game": [
+    "controller",
+    "screen",
+    "level",
+    "play"
+  ],
+  "Controller": [
+    "buttons",
+    "joystick",
+    "console",
+    "grip"
+  ],
+  "Gift": [
+    "wrap",
+    "bow",
+    "surprise",
+    "birthday"
+  ],
+  "Present": [
+    "wrap",
+    "surprise",
+    "birthday",
+    "ribbon"
+  ],
+  "Wrapping Paper": [
+    "tape",
+    "fold",
+    "gift",
+    "tear"
+  ],
+  "Balloon": [
+    "helium",
+    "pop",
+    "party",
+    "string"
+  ],
+  "Birthday Cake": [
+    "candles",
+    "frosting",
+    "wish",
+    "slice"
+  ],
+  "Candles": [
+    "flame",
+    "wish",
+    "birthday",
+    "blow"
+  ],
+  "Party Hat": [
+    "cone",
+    "celebrate",
+    "birthday",
+    "paper"
+  ],
+  "Confetti": [
+    "throw",
+    "party",
+    "color",
+    "mess"
+  ],
+  "Money": [
+    "cash",
+    "spend",
+    "wallet",
+    "bills"
+  ],
+  "Coins": [
+    "change",
+    "pocket",
+    "jingle",
+    "quarter"
+  ],
+  "Dollar Bill": [
+    "cash",
+    "green",
+    "wallet",
+    "spend"
+  ],
+  "Credit Card": [
+    "swipe",
+    "chip",
+    "wallet",
+    "debt"
+  ],
+  "Receipt": [
+    "paper",
+    "purchase",
+    "total",
+    "wallet"
+  ],
+  "Shopping Bag": [
+    "store",
+    "carry",
+    "handles",
+    "buy"
+  ],
+  "Cart": [
+    "wheels",
+    "grocery",
+    "push",
+    "aisle"
+  ],
+  "Basket": [
+    "carry",
+    "picnic",
+    "weave",
+    "eggs"
+  ],
+  "Suitcase": [
+    "travel",
+    "wheels",
+    "pack",
+    "airport"
+  ],
+  "Passport": [
+    "travel",
+    "stamp",
+    "ID",
+    "airport"
+  ],
+  "Ticket": [
+    "stub",
+    "event",
+    "seat",
+    "show"
+  ],
+  "Boarding Pass": [
+    "flight",
+    "gate",
+    "seat",
+    "airport"
+  ],
+  "License": [
+    "drive",
+    "ID",
+    "photo",
+    "wallet"
+  ],
+  "ID Card": [
+    "photo",
+    "wallet",
+    "prove",
+    "school"
+  ],
+  "Sun": [
+    "bright",
+    "day",
+    "warm",
+    "sky"
+  ],
+  "Moon": [
+    "night",
+    "phases",
+    "glow",
+    "tide"
+  ],
+  "Stars": [
+    "night",
+    "twinkle",
+    "sky",
+    "constellation"
+  ],
+  "Sky": [
+    "clouds",
+    "blue",
+    "above",
+    "fly"
+  ],
+  "Cloud": [
+    "rain",
+    "fluffy",
+    "sky",
+    "gray"
+  ],
+  "Rain": [
+    "wet",
+    "umbrella",
+    "puddles",
+    "storm"
+  ],
+  "Snow": [
+    "cold",
+    "flake",
+    "winter",
+    "white"
+  ],
+  "Hail": [
+    "ice",
+    "storm",
+    "pellets",
+    "damage"
+  ],
+  "Wind": [
+    "blow",
+    "breeze",
+    "gust",
+    "kite"
+  ],
+  "Storm": [
+    "thunder",
+    "dark",
+    "rain",
+    "wind"
+  ],
+  "Thunder": [
+    "loud",
+    "boom",
+    "lightning",
+    "storm"
+  ],
+  "Lightning": [
+    "flash",
+    "bolt",
+    "storm",
+    "zigzag"
+  ],
+  "Rainbow": [
+    "colors",
+    "rain",
+    "arc",
+    "pot of gold"
+  ],
+  "Fog": [
+    "mist",
+    "thick",
+    "drive slow",
+    "gray"
+  ],
+  "Mist": [
+    "haze",
+    "morning",
+    "damp",
+    "soft"
+  ],
+  "Hot": [
+    "summer",
+    "sweat",
+    "sun",
+    "heat"
+  ],
+  "Cold": [
+    "winter",
+    "shiver",
+    "ice",
+    "coat"
+  ],
+  "Warm": [
+    "cozy",
+    "sun",
+    "spring",
+    "pleasant"
+  ],
+  "Sunny Day": [
+    "bright",
+    "park",
+    "shade",
+    "summer"
+  ],
+  "Rainy Day": [
+    "umbrella",
+    "puddles",
+    "inside",
+    "gray"
+  ],
+  "Snow Day": [
+    "no school",
+    "sled",
+    "white",
+    "cold"
+  ],
+  "Sunrise": [
+    "morning",
+    "horizon",
+    "early",
+    "gold"
+  ],
+  "Sunset": [
+    "evening",
+    "horizon",
+    "orange",
+    "pretty"
+  ],
+  "Night": [
+    "dark",
+    "stars",
+    "moon",
+    "sleep"
+  ],
+  "Day": [
+    "sun",
+    "bright",
+    "awake",
+    "sky"
+  ],
+  "Spring": [
+    "flowers",
+    "bloom",
+    "rain",
+    "warm"
+  ],
+  "Summer": [
+    "hot",
+    "beach",
+    "vacation",
+    "sun"
+  ],
+  "Fall": [
+    "leaves",
+    "pumpkin",
+    "cool",
+    "harvest"
+  ],
+  "Winter": [
+    "snow",
+    "cold",
+    "coat",
+    "holidays"
+  ],
+  "Tree": [
+    "leaves",
+    "trunk",
+    "shade",
+    "climb"
+  ],
+  "Bush": [
+    "shrubs",
+    "garden",
+    "green",
+    "trim"
+  ],
+  "Grass": [
+    "lawn",
+    "mow",
+    "green",
+    "yard"
+  ],
+  "Flower": [
+    "petals",
+    "bloom",
+    "garden",
+    "smell"
+  ],
+  "Rose": [
+    "thorns",
+    "red",
+    "romance",
+    "garden"
+  ],
+  "Tulip": [
+    "spring",
+    "bulb",
+    "colorful",
+    "garden"
+  ],
+  "Daisy": [
+    "white",
+    "petals",
+    "field",
+    "simple"
+  ],
+  "Sunflower": [
+    "tall",
+    "yellow",
+    "seeds",
+    "face"
+  ],
+  "Dandelion": [
+    "wish",
+    "blow",
+    "yellow",
+    "weed"
+  ],
+  "Leaf": [
+    "fall",
+    "green",
+    "tree",
+    "crunch"
+  ],
+  "Branch": [
+    "tree",
+    "bird",
+    "snap",
+    "wood"
+  ],
+  "Stick": [
+    "dog",
+    "fetch",
+    "wood",
+    "poke"
+  ],
+  "Rock": [
+    "hard",
+    "throw",
+    "skip",
+    "stone"
+  ],
+  "Stone": [
+    "hard",
+    "pebble",
+    "heavy",
+    "gray"
+  ],
+  "Pebble": [
+    "small",
+    "beach",
+    "skip",
+    "smooth"
+  ],
+  "Sand": [
+    "beach",
+    "castle",
+    "hot",
+    "grain"
+  ],
+  "Dirt": [
+    "mud",
+    "garden",
+    "brown",
+    "dig"
+  ],
+  "Mud": [
+    "puddle",
+    "messy",
+    "boots",
+    "brown"
+  ],
+  "Puddle": [
+    "rain",
+    "splash",
+    "jump",
+    "reflect"
+  ],
+  "Hill": [
+    "climb",
+    "roll down",
+    "slope",
+    "grass"
+  ],
+  "Mountain": [
+    "peak",
+    "hike",
+    "tall",
+    "snow"
+  ],
+  "Valley": [
+    "between",
+    "low",
+    "river",
+    "green"
+  ],
+  "Cliff": [
+    "edge",
+    "drop",
+    "steep",
+    "view"
+  ],
+  "Woods": [
+    "trees",
+    "trail",
+    "quiet",
+    "hike"
+  ],
+  "Jungle": [
+    "tropical",
+    "dense",
+    "humid",
+    "vines"
+  ],
+  "Field": [
+    "open",
+    "grass",
+    "farm",
+    "wide"
+  ],
+  "Meadow": [
+    "flowers",
+    "grass",
+    "peaceful",
+    "open"
+  ],
+  "Garden": [
+    "plants",
+    "grow",
+    "water",
+    "yard"
+  ],
+  "Pond": [
+    "frogs",
+    "ducks",
+    "small",
+    "lily pad"
+  ],
+  "Stream": [
+    "babble",
+    "brook",
+    "small",
+    "rocks"
+  ],
+  "Sea": [
+    "salt",
+    "waves",
+    "sail",
+    "deep"
+  ],
+  "Wave": [
+    "crash",
+    "surf",
+    "ocean",
+    "foam"
+  ],
+  "Cactus": [
+    "spines",
+    "desert",
+    "dry",
+    "succulent"
+  ],
+  "Palm Tree": [
+    "tropical",
+    "coconut",
+    "beach",
+    "fronds"
+  ],
+  "Pine Tree": [
+    "needles",
+    "cone",
+    "Christmas",
+    "evergreen"
+  ],
+  "Oak Tree": [
+    "acorn",
+    "strong",
+    "shade",
+    "leaves"
+  ],
+  "Apple Tree": [
+    "orchard",
+    "fruit",
+    "bloom",
+    "pie"
+  ],
+  "Cherry Blossom": [
+    "pink",
+    "spring",
+    "Japan",
+    "petals"
+  ],
+  "Mushroom": [
+    "fungi",
+    "forest",
+    "toadstool",
+    "spore"
+  ],
+  "Acorn": [
+    "oak",
+    "squirrel",
+    "nut",
+    "fall"
+  ],
+  "Pinecone": [
+    "pine",
+    "craft",
+    "fall",
+    "scales"
+  ],
+  "Nest": [
+    "eggs",
+    "birds",
+    "twigs",
+    "tree"
+  ],
+  "Bird's Nest": [
+    "eggs",
+    "twigs",
+    "tree",
+    "chirp"
+  ],
+  "Beehive": [
+    "buzz",
+    "honey",
+    "hexagon",
+    "sting"
+  ],
+  "Caterpillar": [
+    "cocoon",
+    "leaf",
+    "fuzzy",
+    "butterfly"
+  ],
+  "Ant Hill": [
+    "colony",
+    "tiny",
+    "dirt",
+    "march"
+  ],
+  "Spider Web": [
+    "silk",
+    "dew",
+    "corner",
+    "trap"
+  ],
+  "Shell": [
+    "beach",
+    "ocean",
+    "collect",
+    "spiral"
+  ],
+  "Seashell": [
+    "beach",
+    "ocean",
+    "listen",
+    "collect"
+  ],
+  "Coral": [
+    "reef",
+    "ocean",
+    "colorful",
+    "fish"
+  ],
+  "Seaweed": [
+    "ocean",
+    "sushi wrap",
+    "tide",
+    "green"
+  ],
+  "Tide Pool": [
+    "crab",
+    "starfish",
+    "rocks",
+    "shore"
+  ],
+  "Sandcastle": [
+    "beach",
+    "bucket",
+    "moat",
+    "wave"
+  ],
+  "Snowman": [
+    "carrot nose",
+    "winter",
+    "three balls",
+    "melt"
+  ],
+  "Icicle": [
+    "hang",
+    "winter",
+    "drip",
+    "sharp"
+  ],
+  "Frost": [
+    "morning",
+    "window",
+    "cold",
+    "crystals"
+  ],
+  "Ice": [
+    "cold",
+    "skate",
+    "cube",
+    "freeze"
+  ],
+  "Fire": [
+    "flame",
+    "hot",
+    "camp",
+    "burn"
+  ],
+  "Campfire": [
+    "marshmallow",
+    "smoke",
+    "stories",
+    "woods"
+  ],
+  "Smoke": [
+    "fire",
+    "gray",
+    "chimney",
+    "rise"
+  ],
+  "Volcano": [
+    "lava",
+    "erupt",
+    "ash",
+    "magma"
+  ],
+  "Earthquake": [
+    "shake",
+    "rumble",
+    "fault",
+    "tremor"
+  ],
+  "Flood": [
+    "water",
+    "rise",
+    "rain",
+    "damage"
+  ],
+  "Tornado": [
+    "funnel",
+    "spin",
+    "siren",
+    "debris"
+  ],
+  "Hurricane": [
+    "eye",
+    "wind",
+    "coast",
+    "storm"
+  ],
+  "Blizzard": [
+    "snow",
+    "whiteout",
+    "cold",
+    "wind"
+  ],
+  "Avalanche": [
+    "snow",
+    "mountain",
+    "bury",
+    "slide"
+  ],
+  "Wildfire": [
+    "smoke",
+    "forest",
+    "spread",
+    "evacuate"
+  ],
+  "Full Moon": [
+    "howl",
+    "bright",
+    "night",
+    "werewolf"
+  ],
+  "Shooting Star": [
+    "wish",
+    "streak",
+    "night",
+    "meteor"
+  ],
+  "Planet": [
+    "orbit",
+    "space",
+    "round",
+    "solar"
+  ],
+  "Earth": [
+    "home",
+    "blue",
+    "orbit",
+    "life"
+  ],
+  "Mars": [
+    "red",
+    "rover",
+    "planet",
+    "space"
+  ],
+  "Outer Space": [
+    "stars",
+    "void",
+    "astronaut",
+    "rocket"
+  ],
+  "Rocket": [
+    "launch",
+    "blast off",
+    "NASA",
+    "space"
+  ],
+  "UFO": [
+    "alien",
+    "flying saucer",
+    "mystery",
+    "lights"
+  ],
+  "Camping": [
+    "tent",
+    "fire",
+    "woods",
+    "s'mores"
+  ],
+  "Hiking": [
+    "trail",
+    "boots",
+    "backpack",
+    "mountain"
+  ],
+  "Picnic": [
+    "blanket",
+    "basket",
+    "park",
+    "ants"
+  ],
+  "National Park": [
+    "ranger",
+    "trail",
+    "nature",
+    "preserve"
+  ],
+  "Pet": [
+    "home",
+    "feed",
+    "love",
+    "companion"
+  ],
+  "Bug": [
+    "crawl",
+    "small",
+    "garden",
+    "insect"
+  ],
+  "Fresh Air": [
+    "breathe",
+    "outside",
+    "park",
+    "breeze"
+  ]
+}
