@@ -164,7 +164,6 @@ export default function ImposterGame() {
       {phase === "results" && round && (
         <ResultsPhase
           round={round}
-          giveImposterHint={settings.giveImposterHint}
           onPlayAgain={() => {
             const nextRound = startRound(settings);
             setRound(nextRound);
@@ -273,11 +272,11 @@ function SetupPhase({
           />
           <span>
             <span className="block font-medium text-zinc-200">
-              Show category to imposters
+              Give imposters a hint word
             </span>
             <span className="mt-1 block text-sm text-zinc-500">
-              On: imposters see the category only. Off: imposters see nothing —
-              they must bluff completely blind.
+              Everyone always sees the category. When on, imposters also get a
+              decoy word from that category (not the real answer).
             </span>
           </span>
         </label>
@@ -351,7 +350,7 @@ function RevealPhase({
         player={player}
         categoryName={round.category.name}
         word={round.word}
-        giveImposterHint={settings.giveImposterHint}
+        hintWord={round.hintWord}
         onHide={onHide}
       />
     );
@@ -408,13 +407,13 @@ function RoleCard({
   player,
   categoryName,
   word,
-  giveImposterHint,
+  hintWord,
   onHide,
 }: {
   player: { name: string; isImposter: boolean };
   categoryName: string;
   word: string;
-  giveImposterHint: boolean;
+  hintWord: string | null;
   onHide: () => void;
 }) {
   return (
@@ -430,55 +429,56 @@ function RoleCard({
           {player.name}
         </p>
 
-        {player.isImposter ? (
-          <>
-            <p className="mt-6 text-3xl font-bold text-rose-400">IMPOSTER</p>
-            <p className="mt-4 max-w-xs text-sm leading-relaxed text-zinc-400">
-              You don&apos;t know the secret word. Blend in during discussion
-              and avoid getting caught.
+        <p
+          className={`mt-6 text-3xl font-bold ${player.isImposter ? "text-rose-400" : "text-emerald-400"}`}
+        >
+          {player.isImposter ? "IMPOSTER" : "CREW"}
+        </p>
+        <p className="mt-4 max-w-xs text-sm leading-relaxed text-zinc-400">
+          {player.isImposter
+            ? "You don't know the secret word. Blend in and avoid getting caught."
+            : "You know the secret. Give clues without saying the word directly."}
+        </p>
+
+        <div className="mt-8 w-full space-y-3">
+          <div
+            className={`rounded-2xl border px-6 py-4 ${
+              player.isImposter
+                ? "border-rose-500/30 bg-rose-950/30"
+                : "border-emerald-500/30 bg-emerald-950/30"
+            }`}
+          >
+            <p
+              className={`text-xs uppercase tracking-wider ${player.isImposter ? "text-rose-300/80" : "text-emerald-300/80"}`}
+            >
+              Category
             </p>
-            {giveImposterHint ? (
-              <div className="mt-8 w-full rounded-2xl border border-rose-500/30 bg-rose-950/30 px-6 py-5">
-                <p className="text-xs uppercase tracking-wider text-rose-300/80">
-                  Your hint
-                </p>
-                <p className="mt-2 text-xl font-semibold text-white">
-                  {categoryName}
-                </p>
-                <p className="mt-2 text-xs text-zinc-500">
-                  Category only — not the word
-                </p>
-              </div>
-            ) : (
-              <div className="mt-8 w-full rounded-2xl border border-zinc-700 bg-zinc-900/80 px-6 py-5">
-                <p className="text-zinc-500">No hint — you&apos;re on your own</p>
-              </div>
-            )}
-          </>
-        ) : (
-          <>
-            <p className="mt-6 text-3xl font-bold text-emerald-400">CREW</p>
-            <p className="mt-4 max-w-xs text-sm leading-relaxed text-zinc-400">
-              You know the secret. Give clues without saying the word directly.
+            <p className="mt-1 text-xl font-semibold text-white">
+              {categoryName}
             </p>
-            <div className="mt-8 w-full space-y-3">
-              <div className="rounded-2xl border border-emerald-500/30 bg-emerald-950/30 px-6 py-4">
-                <p className="text-xs uppercase tracking-wider text-emerald-300/80">
-                  Category
-                </p>
-                <p className="mt-1 text-xl font-semibold text-white">
-                  {categoryName}
-                </p>
-              </div>
-              <div className="rounded-2xl border border-emerald-500/30 bg-emerald-950/30 px-6 py-5">
-                <p className="text-xs uppercase tracking-wider text-emerald-300/80">
-                  Secret word
-                </p>
-                <p className="mt-1 text-3xl font-bold text-white">{word}</p>
-              </div>
+          </div>
+
+          {!player.isImposter && (
+            <div className="rounded-2xl border border-emerald-500/30 bg-emerald-950/30 px-6 py-5">
+              <p className="text-xs uppercase tracking-wider text-emerald-300/80">
+                Secret word
+              </p>
+              <p className="mt-1 text-3xl font-bold text-white">{word}</p>
             </div>
-          </>
-        )}
+          )}
+
+          {player.isImposter && hintWord && (
+            <div className="rounded-2xl border border-rose-500/30 bg-rose-950/30 px-6 py-5">
+              <p className="text-xs uppercase tracking-wider text-rose-300/80">
+                Hint
+              </p>
+              <p className="mt-1 text-2xl font-bold text-white">{hintWord}</p>
+              <p className="mt-2 text-xs text-zinc-500">
+                Decoy word — not the real answer
+              </p>
+            </div>
+          )}
+        </div>
       </div>
 
       <button
@@ -539,12 +539,10 @@ function DiscussionPhase({
 
 function ResultsPhase({
   round,
-  giveImposterHint,
   onPlayAgain,
   onNewGame,
 }: {
   round: ActiveRound;
-  giveImposterHint: boolean;
   onPlayAgain: () => void;
   onNewGame: () => void;
 }) {
@@ -574,9 +572,11 @@ function ResultsPhase({
             </li>
           ))}
         </ul>
-        {!giveImposterHint && (
+        {round.hintWord && (
           <p className="mt-3 text-xs text-zinc-500">
-            Imposters had no category hint this round.
+            Imposter hint this round:{" "}
+            <span className="text-zinc-300">{round.hintWord}</span> (decoy, not
+            the answer)
           </p>
         )}
       </Card>
