@@ -1,4 +1,4 @@
-import { generateHintForWord } from "./hints";
+import { pickHintForAnswer } from "./wordHints";
 import { WORD_CATEGORIES, type WordCategory } from "./words";
 
 export type GameSettings = {
@@ -91,7 +91,7 @@ export function startRound(settings: GameSettings): ActiveRound {
     isImposter: imposterIndices.has(index),
   }));
 
-  const hint = settings.giveImposterHint ? generateHintForWord(word) : null;
+  const hint = settings.giveImposterHint ? pickHintForAnswer(word) : null;
 
   return { category, word, hint, players };
 }

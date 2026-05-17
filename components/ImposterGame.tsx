@@ -291,7 +291,7 @@ function SetupPhase({
             </span>
             <span className="mt-1 block text-sm text-zinc-500">
               Everyone always sees the category. When on, imposters get a clue
-              about the secret word (not the word itself).
+              a related clue that points toward the secret word.
             </span>
           </span>
         </label>
@@ -471,7 +471,7 @@ function RoleCard({
                 {hint}
               </p>
               <p className="mt-2 text-xs text-zinc-500">
-                About the secret word — not the answer itself
+                Points toward the answer — not the word itself
               </p>
             </div>
           )}

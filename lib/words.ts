@@ -519,6 +519,7 @@ export const WORD_CATEGORIES: WordCategory[] = [
       "Injury",
       "Ice Pack",
       "Water Break",
+      "Rock Climbing",
     ],
   },
   {
