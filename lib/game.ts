@@ -56,6 +56,11 @@ export function validateSettings(settings: GameSettings): string | null {
     return "Select at least one word category.";
   }
 
+  const categories = getCategoriesByIds(settings.categoryIds);
+  if (categories.length === 0) {
+    return "None of the selected categories are valid. Pick at least one category.";
+  }
+
   return null;
 }
 
