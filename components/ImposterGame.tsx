@@ -290,8 +290,8 @@ function SetupPhase({
               Give imposters a hint
             </span>
             <span className="mt-1 block text-sm text-zinc-500">
-              Everyone always sees the category. When on, imposters get a clue
-              a niche clue — indirect, not an obvious giveaway.
+              Everyone always sees the category. When on, imposters get one
+              vague word — fits the category, not the answer.
             </span>
           </span>
         </label>
@@ -471,7 +471,7 @@ function RoleCard({
                 {hint}
               </p>
               <p className="mt-2 text-xs text-zinc-500">
-                Insider-style clue — subtle, not obvious
+                One-word vibe — could be a few things in this category
               </p>
             </div>
           )}
@@ -583,7 +583,7 @@ function ResultsPhase({
         </ul>
         {round.hint && (
           <p className="mt-3 text-xs text-zinc-500">
-            Imposter hint this round:{" "}
+            Imposter hint:{" "}
             <span className="text-zinc-300">{round.hint}</span>
           </p>
         )}

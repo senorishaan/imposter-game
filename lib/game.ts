@@ -93,7 +93,9 @@ export function startRound(settings: GameSettings): ActiveRound {
     isImposter: imposterIndices.has(index),
   }));
 
-  const hint = settings.giveImposterHint ? pickHintForAnswer(word) : null;
+  const hint = settings.giveImposterHint
+    ? pickHintForAnswer(word, category.id)
+    : null;
   const startingPlayerIndex = Math.floor(Math.random() * players.length);
 
   return { category, word, hint, players, startingPlayerIndex };
