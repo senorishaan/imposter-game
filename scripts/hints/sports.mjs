@@ -1,105 +1,607 @@
 /** @type {Record<string, string[]>} */
 export default {
-  Soccer: ["goal", "kick", "field", "World Cup"],
-  Football: ["touchdown", "helmet", "tackle", "Super Bowl"],
-  Basketball: ["hoop", "dribble", "court", "dunk"],
-  Baseball: ["bat", "pitch", "diamond", "home run"],
-  Softball: ["pitch", "underhand", "diamond", "glove"],
-  Tennis: ["racket", "court", "serve", "Wimbledon"],
-  Golf: ["club", "hole", "tee", "caddy"],
-  Volleyball: ["spike", "net", "beach", "serve"],
-  Hockey: ["puck", "ice", "stick", "rink"],
-  Lacrosse: ["stick", "net", "fast", "goal"],
-  Rugby: ["tackle", "oval ball", "scrum", "rough"],
-  Cricket: ["bat", "wicket", "England", "pitch"],
-  Bowling: ["pins", "lane", "strike", "shoes"],
-  Swimming: ["pool", "laps", "goggles", "stroke"],
-  Diving: ["board", "splash", "pool", "flip"],
-  Track: ["sprint", "lane", "relay", "stadium"],
-  Running: ["sneakers", "marathon", "pace", "road"],
-  Marathon: ["26 miles", "endurance", "water station", "finish"],
-  Sprinting: ["fast", "dash", "explosive", "track"],
-  Hurdles: ["jump", "track", "lane", "obstacle"],
-  "Long Jump": ["sand pit", "track", "leap", "runway"],
-  "High Jump": ["bar", "leap", "track", "Fosbury"],
-  Gymnastics: ["flip", "beam", "mat", "Olympics"],
-  Wrestling: ["mat", "pin", "grapple", "takedown"],
-  Boxing: ["ring", "gloves", "punch", "round"],
-  Karate: ["belt", "dojo", "kick", "martial arts"],
-  Fencing: ["sword", "mask", "duel", "touché"],
-  Archery: ["bow", "arrow", "target", "bullseye"],
-  Skateboarding: ["ollie", "ramp", "deck", "grind"],
-  Snowboarding: ["slope", "powder", "halfpipe", "mountain"],
-  Skiing: ["slopes", "poles", "snow", "lift"],
-  "Ice Skating": ["rink", "blades", "spin", "winter"],
-  Surfing: ["wave", "board", "beach", "hang ten"],
-  Fishing: ["rod", "bait", "lake", "reel"],
-  Hunting: ["rifle", "woods", "deer", "camo"],
-  "Horseback Riding": ["saddle", "reins", "stable", "gallop"],
-  Cycling: ["bike", "pedal", "helmet", "Tour de France"],
-  Biking: ["pedal", "helmet", "wheels", "trail"],
-  "Roller Skating": ["rink", "wheels", "disco", "balance"],
-  Rollerblading: ["wheels", "inline", "pavement", "speed"],
-  Scooter: ["kick", "wheels", "sidewalk", "razor"],
-  Skateboard: ["deck", "tricks", "ramp", "wheels"],
-  Trampoline: ["bounce", "springs", "flip", "backyard"],
-  "Jump Rope": ["rhythm", "cardio", "double dutch", "skip"],
-  Hopscotch: ["chalk", "sidewalk", "squares", "hop"],
-  Tag: ["chase", "you're it", "playground", "run"],
-  "Hide and Seek": ["count", "found you", "hide", "seek"],
-  "Capture the Flag": ["team", "flag", "steal", "field"],
-  Dodgeball: ["throw", "dodge", "gym", "rubber ball"],
-  Kickball: ["kick", "bases", "playground", "rubber ball"],
-  Frisbee: ["throw", "catch", "disc", "park"],
-  Badminton: ["shuttlecock", "net", "racket", "backyard"],
-  "Ping Pong": ["paddle", "table", "spin", "basement"],
-  Pool: ["cue", "pocket", "chalk", "billiards"],
-  Billiards: ["cue", "felt", "pocket", "bar"],
-  Darts: ["bullseye", "board", "pub", "throw"],
-  Chess: ["checkmate", "king", "strategy", "board"],
-  Checkers: ["jump", "red", "board", "king me"],
-  "Video Games": ["controller", "screen", "level", "multiplayer"],
-  Yoga: ["stretch", "mat", "namaste", "balance"],
-  Dance: ["music", "moves", "stage", "rhythm"],
-  Cheerleading: ["pom-poms", "stunt", "sideline", "spirit"],
-  "Marching Band": ["halftime", "drumline", "parade", "uniform"],
-  "Gym Class": ["PE", "sweat", "coach", "locker room"],
-  PE: ["gym", "sweat", "shorts", "coach"],
-  Team: ["jersey", "together", "coach", "huddle"],
-  Coach: ["whistle", "sideline", "practice", "plays"],
-  Referee: ["whistle", "stripes", "foul", "call"],
-  Umpire: ["strike", "behind plate", "call", "baseball"],
-  Score: ["points", "board", "win", "tally"],
-  Goal: ["net", "celebrate", "soccer", "score"],
-  Touchdown: ["end zone", "six points", "spike", "football"],
-  "Home Run": ["fence", "bat", "bases", "crowd"],
-  "Slam Dunk": ["rim", "hang", "basketball", "alley-oop"],
-  "Hat Trick": ["three goals", "hockey", "soccer", "celebrate"],
-  "Penalty Kick": ["soccer", "goalie", "spot", "nerves"],
-  "Free Throw": ["line", "basketball", "focus", "rim"],
-  Strike: ["pins", "bowling", "lane", "spare"],
-  Spare: ["pins", "bowling", "second roll", "lane"],
-  Medal: ["podium", "gold", "Olympics", "neck"],
-  Trophy: ["champion", "cup", "raise", "win"],
-  Winner: ["champion", "first place", "trophy", "celebrate"],
-  Loser: ["second place", "defeat", "shake hands", "try again"],
-  "Tie Game": ["even", "overtime", "draw", "same score"],
-  Overtime: ["extra", "sudden death", "tied", "tension"],
-  Playoffs: ["bracket", "elimination", "championship", "seed"],
-  Championship: ["final", "trophy", "best", "title"],
-  "Super Bowl": ["NFL", "halftime", "rings", "Sunday"],
-  "World Cup": ["soccer", "nations", "every four years", "goal"],
-  Olympics: ["rings", "gold", "nations", "torch"],
-  ESPN: ["highlights", "sports news", "cable", "anchors"],
-  "Sports Center": ["highlights", "anchors", "top ten", "ESPN"],
-  "Fantasy Football": ["draft", "lineup", "points", "league"],
-  "Pickup Game": ["casual", "park", "strangers", "hoop"],
-  Tryouts: ["make the team", "coach", "nerves", "cuts"],
-  Practice: ["reps", "drills", "sweat", "improve"],
-  "Warm-Up": ["stretch", "jog", "before game", "loose"],
-  "Cool Down": ["stretch", "after game", "recover", "hydrate"],
-  Injury: ["ice", "bench", "trainer", "ouch"],
-  "Ice Pack": ["swelling", "injury", "cold", "bench"],
-  "Water Break": ["hydrate", "timeout", "bottle", "huddle"],
-  "Rock Climbing": ["crag", "belay", "chalk", "rope"],
+  "Soccer": [
+    "offside trap",
+    "stoppage time",
+    "pitch dimensions",
+    "nil-nil"
+  ],
+  "Football": [
+    "fourth down math",
+    "two-minute drill",
+    "hail mary",
+    "tailgate"
+  ],
+  "Basketball": [
+    "pick and roll",
+    "shot clock",
+    "and-one",
+    "garbage time"
+  ],
+  "Baseball": [
+    "bat",
+    "pitch",
+    "diamond",
+    "home run"
+  ],
+  "Softball": [
+    "pitch",
+    "underhand",
+    "diamond",
+    "glove"
+  ],
+  "Tennis": [
+    "racket",
+    "court",
+    "serve",
+    "Wimbledon"
+  ],
+  "Golf": [
+    "club",
+    "hole",
+    "tee",
+    "caddy"
+  ],
+  "Volleyball": [
+    "spike",
+    "net",
+    "beach",
+    "serve"
+  ],
+  "Hockey": [
+    "puck",
+    "ice",
+    "stick",
+    "rink"
+  ],
+  "Lacrosse": [
+    "stick",
+    "net",
+    "fast",
+    "goal"
+  ],
+  "Rugby": [
+    "tackle",
+    "oval ball",
+    "scrum",
+    "rough"
+  ],
+  "Cricket": [
+    "bat",
+    "wicket",
+    "England",
+    "pitch"
+  ],
+  "Bowling": [
+    "pins",
+    "lane",
+    "strike",
+    "shoes"
+  ],
+  "Swimming": [
+    "pool",
+    "laps",
+    "goggles",
+    "stroke"
+  ],
+  "Diving": [
+    "board",
+    "splash",
+    "pool",
+    "flip"
+  ],
+  "Track": [
+    "sprint",
+    "lane",
+    "relay",
+    "stadium"
+  ],
+  "Running": [
+    "sneakers",
+    "marathon",
+    "pace",
+    "road"
+  ],
+  "Marathon": [
+    "26 miles",
+    "endurance",
+    "water station",
+    "finish"
+  ],
+  "Sprinting": [
+    "fast",
+    "dash",
+    "explosive",
+    "track"
+  ],
+  "Hurdles": [
+    "jump",
+    "track",
+    "lane",
+    "obstacle"
+  ],
+  "Long Jump": [
+    "sand pit",
+    "track",
+    "leap",
+    "runway"
+  ],
+  "High Jump": [
+    "bar",
+    "leap",
+    "track",
+    "Fosbury"
+  ],
+  "Gymnastics": [
+    "flip",
+    "beam",
+    "mat",
+    "Olympics"
+  ],
+  "Wrestling": [
+    "mat",
+    "pin",
+    "grapple",
+    "takedown"
+  ],
+  "Boxing": [
+    "ring",
+    "gloves",
+    "punch",
+    "round"
+  ],
+  "Karate": [
+    "belt",
+    "dojo",
+    "kick",
+    "martial arts"
+  ],
+  "Fencing": [
+    "sword",
+    "mask",
+    "duel",
+    "touché"
+  ],
+  "Archery": [
+    "bow",
+    "arrow",
+    "target",
+    "bullseye"
+  ],
+  "Skateboarding": [
+    "ollie",
+    "ramp",
+    "deck",
+    "grind"
+  ],
+  "Snowboarding": [
+    "slope",
+    "powder",
+    "halfpipe",
+    "mountain"
+  ],
+  "Skiing": [
+    "slopes",
+    "poles",
+    "snow",
+    "lift"
+  ],
+  "Ice Skating": [
+    "rink",
+    "blades",
+    "spin",
+    "winter"
+  ],
+  "Surfing": [
+    "wave",
+    "board",
+    "beach",
+    "hang ten"
+  ],
+  "Fishing": [
+    "rod",
+    "bait",
+    "lake",
+    "reel"
+  ],
+  "Hunting": [
+    "rifle",
+    "woods",
+    "deer",
+    "camo"
+  ],
+  "Horseback Riding": [
+    "saddle",
+    "reins",
+    "stable",
+    "gallop"
+  ],
+  "Cycling": [
+    "bike",
+    "pedal",
+    "helmet",
+    "Tour de France"
+  ],
+  "Biking": [
+    "pedal",
+    "helmet",
+    "wheels",
+    "trail"
+  ],
+  "Roller Skating": [
+    "rink",
+    "wheels",
+    "disco",
+    "balance"
+  ],
+  "Rollerblading": [
+    "wheels",
+    "inline",
+    "pavement",
+    "speed"
+  ],
+  "Scooter": [
+    "kick",
+    "wheels",
+    "sidewalk",
+    "razor"
+  ],
+  "Skateboard": [
+    "deck",
+    "tricks",
+    "ramp",
+    "wheels"
+  ],
+  "Trampoline": [
+    "bounce",
+    "springs",
+    "flip",
+    "backyard"
+  ],
+  "Jump Rope": [
+    "rhythm",
+    "cardio",
+    "double dutch",
+    "skip"
+  ],
+  "Hopscotch": [
+    "chalk",
+    "sidewalk",
+    "squares"
+  ],
+  "Tag": [
+    "chase",
+    "you're it",
+    "playground",
+    "run"
+  ],
+  "Hide and Seek": [
+    "count",
+    "found you"
+  ],
+  "Capture the Flag": [
+    "team",
+    "steal",
+    "field"
+  ],
+  "Dodgeball": [
+    "throw",
+    "gym"
+  ],
+  "Kickball": [
+    "bases",
+    "playground"
+  ],
+  "Frisbee": [
+    "throw",
+    "catch",
+    "disc",
+    "park"
+  ],
+  "Badminton": [
+    "shuttlecock",
+    "net",
+    "racket",
+    "backyard"
+  ],
+  "Ping Pong": [
+    "paddle",
+    "table",
+    "spin",
+    "basement"
+  ],
+  "Pool": [
+    "cue",
+    "pocket",
+    "chalk",
+    "billiards"
+  ],
+  "Billiards": [
+    "cue",
+    "felt",
+    "pocket",
+    "bar"
+  ],
+  "Darts": [
+    "bullseye",
+    "board",
+    "pub",
+    "throw"
+  ],
+  "Chess": [
+    "checkmate",
+    "king",
+    "strategy",
+    "board"
+  ],
+  "Checkers": [
+    "jump",
+    "red",
+    "board",
+    "king me"
+  ],
+  "Video Games": [
+    "controller",
+    "screen",
+    "level",
+    "multiplayer"
+  ],
+  "Yoga": [
+    "stretch",
+    "mat",
+    "namaste",
+    "balance"
+  ],
+  "Dance": [
+    "music",
+    "moves",
+    "stage",
+    "rhythm"
+  ],
+  "Cheerleading": [
+    "pom-poms",
+    "stunt",
+    "sideline",
+    "spirit"
+  ],
+  "Marching Band": [
+    "halftime",
+    "drumline",
+    "parade",
+    "uniform"
+  ],
+  "Gym Class": [
+    "PE",
+    "sweat",
+    "coach",
+    "locker room"
+  ],
+  "PE": [
+    "gym",
+    "sweat",
+    "shorts",
+    "coach"
+  ],
+  "Team": [
+    "jersey",
+    "together",
+    "coach",
+    "huddle"
+  ],
+  "Coach": [
+    "whistle",
+    "sideline",
+    "practice",
+    "plays"
+  ],
+  "Referee": [
+    "whistle",
+    "stripes",
+    "foul",
+    "call"
+  ],
+  "Umpire": [
+    "strike",
+    "behind plate",
+    "call",
+    "baseball"
+  ],
+  "Score": [
+    "points",
+    "board",
+    "win",
+    "tally"
+  ],
+  "Goal": [
+    "net",
+    "celebrate",
+    "soccer",
+    "score"
+  ],
+  "Touchdown": [
+    "end zone",
+    "six points",
+    "spike",
+    "football"
+  ],
+  "Home Run": [
+    "fence",
+    "bat",
+    "bases",
+    "crowd"
+  ],
+  "Slam Dunk": [
+    "rim",
+    "hang",
+    "basketball",
+    "alley-oop"
+  ],
+  "Hat Trick": [
+    "three goals",
+    "hockey",
+    "soccer",
+    "celebrate"
+  ],
+  "Penalty Kick": [
+    "soccer",
+    "goalie",
+    "spot",
+    "nerves"
+  ],
+  "Free Throw": [
+    "line",
+    "basketball",
+    "focus",
+    "rim"
+  ],
+  "Strike": [
+    "pins",
+    "bowling",
+    "lane",
+    "spare"
+  ],
+  "Spare": [
+    "pins",
+    "bowling",
+    "second roll",
+    "lane"
+  ],
+  "Medal": [
+    "podium",
+    "gold",
+    "Olympics",
+    "neck"
+  ],
+  "Trophy": [
+    "champion",
+    "cup",
+    "raise",
+    "win"
+  ],
+  "Winner": [
+    "champion",
+    "first place",
+    "trophy",
+    "celebrate"
+  ],
+  "Loser": [
+    "second place",
+    "defeat",
+    "shake hands",
+    "try again"
+  ],
+  "Tie Game": [
+    "even",
+    "overtime",
+    "draw",
+    "same score"
+  ],
+  "Overtime": [
+    "extra",
+    "sudden death",
+    "tied",
+    "tension"
+  ],
+  "Playoffs": [
+    "bracket",
+    "elimination",
+    "championship",
+    "seed"
+  ],
+  "Championship": [
+    "final",
+    "trophy",
+    "best",
+    "title"
+  ],
+  "Super Bowl": [
+    "NFL",
+    "halftime",
+    "rings",
+    "Sunday"
+  ],
+  "World Cup": [
+    "soccer",
+    "nations",
+    "every four years",
+    "goal"
+  ],
+  "Olympics": [
+    "rings",
+    "gold",
+    "nations",
+    "torch"
+  ],
+  "ESPN": [
+    "highlights",
+    "sports news",
+    "cable",
+    "anchors"
+  ],
+  "Sports Center": [
+    "highlights",
+    "anchors",
+    "top ten",
+    "ESPN"
+  ],
+  "Fantasy Football": [
+    "draft",
+    "lineup",
+    "points",
+    "league"
+  ],
+  "Pickup Game": [
+    "casual",
+    "park",
+    "strangers",
+    "hoop"
+  ],
+  "Tryouts": [
+    "make the team",
+    "coach",
+    "nerves",
+    "cuts"
+  ],
+  "Practice": [
+    "reps",
+    "drills",
+    "sweat",
+    "improve"
+  ],
+  "Warm-Up": [
+    "stretch",
+    "jog",
+    "before game",
+    "loose"
+  ],
+  "Cool Down": [
+    "stretch",
+    "after game",
+    "recover",
+    "hydrate"
+  ],
+  "Injury": [
+    "ice",
+    "bench",
+    "trainer",
+    "ouch"
+  ],
+  "Ice Pack": [
+    "swelling",
+    "injury",
+    "cold",
+    "bench"
+  ],
+  "Water Break": [
+    "hydrate",
+    "timeout",
+    "bottle",
+    "huddle"
+  ],
+  "Rock Climbing": [
+    "crag",
+    "belay",
+    "chalk bag",
+    "beta"
+  ]
 };

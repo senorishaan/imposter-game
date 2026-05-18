@@ -159,7 +159,7 @@ export default function ImposterGame() {
 
       {phase === "discussion" && round && (
         <DiscussionPhase
-          playerCount={round.players.length}
+          round={round}
           imposterCount={settings.imposterCount}
           onRevealResults={() => setPhase("results")}
         />
@@ -291,7 +291,7 @@ function SetupPhase({
             </span>
             <span className="mt-1 block text-sm text-zinc-500">
               Everyone always sees the category. When on, imposters get a clue
-              a related clue that points toward the secret word.
+              a niche clue — indirect, not an obvious giveaway.
             </span>
           </span>
         </label>
@@ -471,7 +471,7 @@ function RoleCard({
                 {hint}
               </p>
               <p className="mt-2 text-xs text-zinc-500">
-                Points toward the answer — not the word itself
+                Insider-style clue — subtle, not obvious
               </p>
             </div>
           )}
@@ -490,16 +490,28 @@ function RoleCard({
 }
 
 function DiscussionPhase({
-  playerCount,
+  round,
   imposterCount,
   onRevealResults,
 }: {
-  playerCount: number;
+  round: ActiveRound;
   imposterCount: number;
   onRevealResults: () => void;
 }) {
+  const starter = round.players[round.startingPlayerIndex];
+
   return (
     <div className="flex flex-1 flex-col gap-6">
+      <div className="rounded-2xl border-2 border-amber-500/50 bg-gradient-to-b from-amber-950/60 to-zinc-900 px-6 py-6 text-center">
+        <p className="text-xs font-semibold uppercase tracking-widest text-amber-400/90">
+          Who starts
+        </p>
+        <p className="mt-2 text-3xl font-bold text-white">{starter.name}</p>
+        <p className="mt-2 text-sm text-zinc-400">
+          goes first — give the opening clue, then pass around the group.
+        </p>
+      </div>
+
       <Card title="Discussion time">
         <ol className="list-decimal space-y-3 pl-5 text-sm leading-relaxed text-zinc-300">
           <li>
@@ -516,7 +528,7 @@ function DiscussionPhase({
       </Card>
 
       <div className="rounded-2xl border border-zinc-800 bg-zinc-900/50 p-6 text-center">
-        <p className="text-4xl font-bold text-white">{playerCount}</p>
+        <p className="text-4xl font-bold text-white">{round.players.length}</p>
         <p className="mt-1 text-sm text-zinc-500">players debating</p>
         <p className="mt-4 text-rose-400">
           {imposterCount} imposter{imposterCount > 1 ? "s" : ""} among you

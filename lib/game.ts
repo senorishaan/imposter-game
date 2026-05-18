@@ -1,4 +1,4 @@
-import { pickHintForAnswer } from "./wordHints";
+import { pickHintForAnswer } from "./pickHint";
 import { WORD_CATEGORIES, type WordCategory } from "./words";
 
 export type GameSettings = {
@@ -19,6 +19,8 @@ export type ActiveRound = {
   /** Clue about the secret word, shown to imposters when hints are on */
   hint: string | null;
   players: PlayerAssignment[];
+  /** Who gives the first clue in discussion (player index) */
+  startingPlayerIndex: number;
 };
 
 function shuffle<T>(items: T[]): T[] {
@@ -92,6 +94,11 @@ export function startRound(settings: GameSettings): ActiveRound {
   }));
 
   const hint = settings.giveImposterHint ? pickHintForAnswer(word) : null;
+  const startingPlayerIndex = Math.floor(Math.random() * players.length);
 
-  return { category, word, hint, players };
+  return { category, word, hint, players, startingPlayerIndex };
+}
+
+export function pickStartingPlayerIndex(playerCount: number): number {
+  return Math.floor(Math.random() * playerCount);
 }

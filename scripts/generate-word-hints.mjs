@@ -37,11 +37,6 @@ for (const word of [...allWords].sort()) {
 }
 
 lines.push("};", "");
-lines.push("export function pickHintForAnswer(answer: string): string | null {");
-lines.push("  const hints = HINTS_BY_ANSWER[answer];");
-lines.push("  if (!hints?.length) return null;");
-lines.push("  return hints[Math.floor(Math.random() * hints.length)]!;");
-lines.push("}", "");
 
 fs.writeFileSync(path.join(root, "lib", "wordHints.ts"), lines.join("\n"));
 console.log(`Wrote ${allWords.length} word hints to lib/wordHints.ts`);

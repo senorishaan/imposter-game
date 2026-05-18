@@ -1,21 +1,21 @@
 {
   "Pizza": [
-    "slice",
-    "cheese",
-    "oven",
-    "Italian"
+    "margherita lore",
+    "wood-fired",
+    "Neapolitan",
+    "red sauce canon"
   ],
   "Burger": [
-    "patty",
-    "grill",
-    "bun",
-    "fast food"
+    "smash technique",
+    "drive-thru",
+    "pickle debate",
+    "griddle"
   ],
   "Hot Dog": [
-    "mustard",
-    "bun",
-    "ballpark",
-    "grill"
+    "Coney Island",
+    "Nathan's",
+    "street cart",
+    "snap when you bite"
   ],
   "Tacos": [
     "shell",
@@ -234,16 +234,16 @@
     "snack"
   ],
   "Apple": [
-    "orchard",
-    "crunch",
-    "pie",
-    "fruit"
+    "Honeycrisp wars",
+    "one a day myth",
+    "cider pivot",
+    "stem twist"
   ],
   "Banana": [
-    "peel",
-    "yellow",
-    "monkey",
-    "smoothie"
+    "Cavendish",
+    "handedness joke",
+    "split lengthwise",
+    "Chiquita era"
   ],
   "Orange": [
     "citrus",
@@ -378,7 +378,6 @@
     "sip"
   ],
   "Apple Juice": [
-    "orchard",
     "box",
     "lunch",
     "sweet"
@@ -444,10 +443,10 @@
     "vanilla"
   ],
   "Sushi": [
-    "rice",
-    "raw fish",
-    "Japan",
-    "roll"
+    "omakase",
+    "itamae",
+    "wasabi debate",
+    "counter seating"
   ],
   "Ramen": [
     "noodles",
@@ -554,7 +553,6 @@
   "Goldfish Crackers": [
     "cheddar",
     "snack",
-    "fish shape",
     "crunchy"
   ],
   "Gummy Bears": [
@@ -576,16 +574,16 @@
     "can"
   ],
   "Dog": [
-    "bark",
-    "leash",
-    "puppy",
-    "fetch"
+    "leash laws",
+    "breed discourse",
+    "vet visit",
+    "leash"
   ],
   "Cat": [
-    "meow",
-    "litter",
-    "purr",
-    "whiskers"
+    "hairball",
+    "3am zoomies",
+    "cardboard box",
+    "knock things off"
   ],
   "Puppy": [
     "cute",
@@ -788,7 +786,6 @@
   "Panda": [
     "bamboo",
     "China",
-    "black and white",
     "cute"
   ],
   "Lion": [
@@ -948,10 +945,10 @@
     "flutter"
   ],
   "Bee": [
-    "hive",
-    "honey",
-    "buzz",
-    "sting"
+    "waggle dance",
+    "colony collapse",
+    "pollination drama",
+    "smoker"
   ],
   "Ant": [
     "colony",
@@ -984,10 +981,10 @@
     "garden"
   ],
   "Shark": [
-    "fin",
-    "ocean",
-    "teeth",
-    "Jaws"
+    "Jaws era",
+    "cartilage",
+    "fin soup controversy",
+    "reef patrol"
   ],
   "Whale": [
     "ocean",
@@ -1164,7 +1161,6 @@
     "floor"
   ],
   "Bedroom": [
-    "bed",
     "sleep",
     "pillow",
     "door"
@@ -1302,10 +1298,10 @@
     "walk"
   ],
   "Beach": [
-    "sand",
-    "waves",
-    "shells",
-    "towel"
+    "rip current",
+    "boardwalk",
+    "sunscreen debate",
+    "low tide"
   ],
   "Pool": [
     "cue",
@@ -1326,10 +1322,10 @@
     "history"
   ],
   "Hospital": [
-    "doctor",
-    "nurse",
-    "sick",
-    "emergency"
+    "triage",
+    "rounds",
+    "discharge papers",
+    "beeping hallway"
   ],
   "Doctor's Office": [
     "checkup",
@@ -1370,7 +1366,6 @@
   "Fire Station": [
     "truck",
     "hose",
-    "firefighters",
     "alarm"
   ],
   "Church": [
@@ -1494,13 +1489,11 @@
     "game"
   ],
   "Soccer Field": [
-    "goal",
     "grass",
     "cleats",
     "match"
   ],
   "Basketball Court": [
-    "hoop",
     "lines",
     "dribble",
     "gym"
@@ -1562,8 +1555,7 @@
   "Daycare": [
     "kids",
     "toys",
-    "nap time",
-    "care"
+    "nap time"
   ],
   "College": [
     "campus",
@@ -1579,15 +1571,13 @@
   ],
   "Locker Room": [
     "gym",
-    "locker",
     "shoes",
     "PE"
   ],
   "Nurse's Office": [
     "band-aid",
     "sick",
-    "school",
-    "ice pack"
+    "school"
   ],
   "Principal's Office": [
     "trouble",
@@ -1620,7 +1610,6 @@
     "animals"
   ],
   "Toy Store": [
-    "toys",
     "kids",
     "aisles",
     "birthday"
@@ -1686,7 +1675,6 @@
     "community"
   ],
   "Sidewalk": [
-    "walk",
     "chalk",
     "curb",
     "street"
@@ -1788,10 +1776,10 @@
     "heart"
   ],
   "Superhero": [
-    "cape",
-    "powers",
-    "villain",
-    "save the day"
+    "origin story",
+    "secret identity",
+    "sidekick contract",
+    "cape physics"
   ],
   "Disney": [
     "princess",
@@ -1826,7 +1814,6 @@
   "Reality TV": [
     "drama",
     "competition",
-    "real people",
     "elimination"
   ],
   "Game Show": [
@@ -1890,16 +1877,16 @@
     "solve"
   ],
   "Zombie": [
-    "undead",
-    "apocalypse",
-    "brains",
-    "horde"
+    "Romero rules",
+    "slow shuffle",
+    "headshot lore",
+    "outbreak"
   ],
   "Vampire": [
-    "fangs",
-    "blood",
-    "night",
-    "coffin"
+    "Dracula canon",
+    "garlic myth",
+    "no reflection",
+    "stake lore"
   ],
   "Alien": [
     "UFO",
@@ -1940,7 +1927,6 @@
   "King": [
     "throne",
     "crown",
-    "kingdom",
     "royal"
   ],
   "Queen": [
@@ -2298,22 +2284,22 @@
     "magic"
   ],
   "Soccer": [
-    "goal",
-    "kick",
-    "field",
-    "World Cup"
+    "offside trap",
+    "stoppage time",
+    "pitch dimensions",
+    "nil-nil"
   ],
   "Football": [
-    "throw",
-    "tackle",
-    "pigskin",
-    "field"
+    "fourth down math",
+    "two-minute drill",
+    "hail mary",
+    "tailgate"
   ],
   "Basketball": [
-    "dribble",
-    "hoop",
-    "orange",
-    "court"
+    "pick and roll",
+    "shot clock",
+    "and-one",
+    "garbage time"
   ],
   "Baseball": [
     "bat",
@@ -2564,8 +2550,7 @@
   "Hopscotch": [
     "chalk",
     "sidewalk",
-    "squares",
-    "hop"
+    "squares"
   ],
   "Tag": [
     "chase",
@@ -2575,27 +2560,20 @@
   ],
   "Hide and Seek": [
     "count",
-    "found you",
-    "hide",
-    "seek"
+    "found you"
   ],
   "Capture the Flag": [
     "team",
-    "flag",
     "steal",
     "field"
   ],
   "Dodgeball": [
     "throw",
-    "dodge",
-    "gym",
-    "rubber ball"
+    "gym"
   ],
   "Kickball": [
-    "kick",
     "bases",
-    "playground",
-    "rubber ball"
+    "playground"
   ],
   "Frisbee": [
     "throw",
@@ -2900,8 +2878,8 @@
   "Rock Climbing": [
     "crag",
     "belay",
-    "chalk",
-    "rope"
+    "chalk bag",
+    "beta"
   ],
   "Teacher": [
     "classroom",
@@ -3000,7 +2978,6 @@
     "delivery"
   ],
   "Mail Carrier": [
-    "mailbox",
     "letters",
     "route",
     "uniform"
@@ -3043,7 +3020,6 @@
   ],
   "Bartender": [
     "drinks",
-    "bar",
     "mix",
     "night"
   ],
@@ -3368,8 +3344,7 @@
   "Daycare Worker": [
     "toddlers",
     "toys",
-    "nap",
-    "care"
+    "nap"
   ],
   "Lifeguard": [
     "pool",
@@ -3386,8 +3361,7 @@
   "Zookeeper": [
     "animals",
     "feed",
-    "enclosure",
-    "zoo"
+    "enclosure"
   ],
   "Dog Walker": [
     "leash",
@@ -3546,7 +3520,6 @@
     "summer"
   ],
   "Food Truck Owner": [
-    "street food",
     "window",
     "park",
     "serve"
@@ -3577,7 +3550,6 @@
   ],
   "School Bus Driver": [
     "route",
-    "yellow bus",
     "kids",
     "stop"
   ],
@@ -3786,7 +3758,6 @@
     "handle"
   ],
   "Raincoat": [
-    "rain",
     "hood",
     "wet",
     "yellow"
@@ -3812,7 +3783,6 @@
   "Toothbrush": [
     "teeth",
     "paste",
-    "brush",
     "morning"
   ],
   "Toothpaste": [
@@ -3822,7 +3792,6 @@
     "foam"
   ],
   "Hairbrush": [
-    "hair",
     "tangles",
     "stroke",
     "bristles"
@@ -4314,7 +4283,6 @@
     "build"
   ],
   "Screwdriver": [
-    "screw",
     "twist",
     "flat",
     "Phillips"
@@ -4639,7 +4607,6 @@
   ],
   "Rainbow": [
     "colors",
-    "rain",
     "arc",
     "pot of gold"
   ],
@@ -4956,10 +4923,8 @@
     "leaves"
   ],
   "Apple Tree": [
-    "orchard",
     "fruit",
-    "bloom",
-    "pie"
+    "bloom"
   ],
   "Cherry Blossom": [
     "pink",
@@ -4980,7 +4945,6 @@
     "fall"
   ],
   "Pinecone": [
-    "pine",
     "craft",
     "fall",
     "scales"
