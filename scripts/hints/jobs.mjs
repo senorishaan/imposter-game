@@ -1,717 +1,123 @@
 /** @type {Record<string, string[]>} */
 export default {
-  "Teacher": [
-    "classroom",
-    "chalkboard",
-    "homework",
-    "grade"
-  ],
-  "Student": [
-    "desk",
-    "homework",
-    "backpack",
-    "class"
-  ],
-  "Principal": [
-    "office",
-    "school",
-    "announcement",
-    "serious"
-  ],
-  "Librarian": [
-    "books",
-    "quiet",
-    "shelf",
-    "shush"
-  ],
-  "Coach": [
-    "whistle",
-    "team",
-    "practice",
-    "sideline"
-  ],
-  "Doctor": [
-    "stethoscope",
-    "hospital",
-    "patient",
-    "scrubs"
-  ],
-  "Nurse": [
-    "hospital",
-    "shot",
-    "care",
-    "scrubs"
-  ],
-  "Dentist": [
-    "teeth",
-    "drill",
-    "floss",
-    "chair"
-  ],
-  "Vet": [
-    "animals",
-    "clinic",
-    "paws",
-    "pet"
-  ],
-  "Firefighter": [
-    "hose",
-    "truck",
-    "rescue",
-    "helmet"
-  ],
-  "Police Officer": [
-    "badge",
-    "siren",
-    "patrol",
-    "handcuffs"
-  ],
-  "Detective": [
-    "clues",
-    "case",
-    "magnifying glass",
-    "solve"
-  ],
-  "Soldier": [
-    "uniform",
-    "boot camp",
-    "serve",
-    "salute"
-  ],
-  "Pilot": [
-    "cockpit",
-    "plane",
-    "fly",
-    "wings"
-  ],
-  "Flight Attendant": [
-    "plane",
-    "safety demo",
-    "trolley",
-    "cabin"
-  ],
-  "Bus Driver": [
-    "route",
-    "wheels",
-    "stop",
-    "kids"
-  ],
-  "Taxi Driver": [
-    "meter",
-    "fare",
-    "city",
-    "cab"
-  ],
-  "Uber Driver": [
-    "app",
-    "ride",
-    "GPS",
-    "car"
-  ],
-  "Truck Driver": [
-    "highway",
-    "haul",
-    "big rig",
-    "delivery"
-  ],
-  "Mail Carrier": [
-    "letters",
-    "route",
-    "uniform"
-  ],
-  "Delivery Driver": [
-    "package",
-    "doorstep",
-    "van",
-    "drop off"
-  ],
-  "Chef": [
-    "kitchen",
-    "cook",
-    "recipe",
-    "restaurant"
-  ],
-  "Cook": [
-    "stove",
-    "kitchen",
-    "meal",
-    "prep"
-  ],
-  "Waiter": [
-    "menu",
-    "tip",
-    "table",
-    "order"
-  ],
-  "Waitress": [
-    "menu",
-    "tip",
-    "table",
-    "order"
-  ],
-  "Barista": [
-    "coffee",
-    "latte",
-    "espresso",
-    "apron"
-  ],
-  "Bartender": [
-    "drinks",
-    "mix",
-    "night"
-  ],
-  "Cashier": [
-    "register",
-    "scan",
-    "checkout",
-    "receipt"
-  ],
-  "Store Clerk": [
-    "aisles",
-    "stock",
-    "help",
-    "register"
-  ],
-  "Manager": [
-    "boss",
-    "schedule",
-    "team",
-    "office"
-  ],
-  "Boss": [
-    "office",
-    "in charge",
-    "meeting",
-    "decisions"
-  ],
-  "CEO": [
-    "company",
-    "executive",
-    "boardroom",
-    "leader"
-  ],
-  "Farmer": [
-    "crops",
-    "tractor",
-    "barn",
-    "harvest"
-  ],
-  "Gardener": [
-    "plants",
-    "lawn",
-    "shears",
-    "green"
-  ],
-  "Landscaper": [
-    "lawn",
-    "mow",
-    "yard",
-    "hedge"
-  ],
-  "Construction Worker": [
-    "hard hat",
-    "build",
-    "site",
-    "hammer"
-  ],
-  "Builder": [
-    "house",
-    "tools",
-    "frame",
-    "site"
-  ],
-  "Carpenter": [
-    "wood",
-    "hammer",
-    "saw",
-    "build"
-  ],
-  "Plumber": [
-    "pipes",
-    "wrench",
-    "leak",
-    "fix"
-  ],
-  "Electrician": [
-    "wires",
-    "outlet",
-    "spark",
-    "fix"
-  ],
-  "Mechanic": [
-    "car",
-    "garage",
-    "oil",
-    "fix"
-  ],
-  "Car Wash": [
-    "soap",
-    "spray",
-    "shine",
-    "tunnel"
-  ],
-  "Hair Stylist": [
-    "scissors",
-    "salon",
-    "cut",
-    "style"
-  ],
-  "Barber": [
-    "clippers",
-    "fade",
-    "chair",
-    "shop"
-  ],
-  "Makeup Artist": [
-    "brush",
-    "glam",
-    "face",
-    "beauty"
-  ],
-  "Nail Tech": [
-    "polish",
-    "salon",
-    "manicure",
-    "file"
-  ],
-  "Fashion Designer": [
-    "runway",
-    "sketch",
-    "fabric",
-    "style"
-  ],
-  "Tailor": [
-    "sew",
-    "fit",
-    "suit",
-    "alter"
-  ],
-  "Model": [
-    "runway",
-    "pose",
-    "photo shoot",
-    "tall"
-  ],
-  "Actor": [
-    "script",
-    "set",
-    "role",
-    "perform"
-  ],
-  "Actress": [
-    "script",
-    "set",
-    "role",
-    "perform"
-  ],
-  "Singer": [
-    "mic",
-    "stage",
-    "voice",
-    "tour"
-  ],
-  "Musician": [
-    "instrument",
-    "band",
-    "gig",
-    "practice"
-  ],
-  "DJ": [
-    "turntable",
-    "party",
-    "mix",
-    "beats"
-  ],
-  "Dancer": [
-    "stage",
-    "moves",
-    "ballet",
-    "rhythm"
-  ],
-  "Artist": [
-    "paint",
-    "canvas",
-    "creative",
-    "gallery"
-  ],
-  "Painter": [
-    "brush",
-    "canvas",
-    "color",
-    "wall"
-  ],
-  "Photographer": [
-    "camera",
-    "lens",
-    "shot",
-    "flash"
-  ],
-  "YouTuber": [
-    "camera",
-    "subscribe",
-    "upload",
-    "content"
-  ],
-  "Streamer": [
-    "live",
-    "chat",
-    "game",
-    "camera"
-  ],
-  "Influencer": [
-    "followers",
-    "sponsor",
-    "post",
-    "brand"
-  ],
-  "Writer": [
-    "pen",
-    "story",
-    "book",
-    "words"
-  ],
-  "Author": [
-    "book",
-    "novel",
-    "publish",
-    "chapter"
-  ],
-  "Journalist": [
-    "report",
-    "interview",
-    "news",
-    "article"
-  ],
-  "News Reporter": [
-    "mic",
-    "camera",
-    "live",
-    "story"
-  ],
-  "News Anchor": [
-    "desk",
-    "teleprompter",
-    "headlines",
-    "studio"
-  ],
-  "Weather Person": [
-    "forecast",
-    "map",
-    "storm",
-    "green screen"
-  ],
-  "Scientist": [
-    "lab",
-    "experiment",
-    "hypothesis",
-    "research"
-  ],
-  "Astronaut": [
-    "space",
-    "rocket",
-    "NASA",
-    "float"
-  ],
-  "Engineer": [
-    "build",
-    "design",
-    "math",
-    "blueprint"
-  ],
-  "Computer Guy": [
-    "tech",
-    "fix",
-    "screen",
-    "keyboard"
-  ],
-  "Programmer": [
-    "code",
-    "bug",
-    "keyboard",
-    "software"
-  ],
-  "Gamer": [
-    "controller",
-    "level",
-    "screen",
-    "headset"
-  ],
-  "Lawyer": [
-    "court",
-    "case",
-    "objection",
-    "brief"
-  ],
-  "Judge": [
-    "gavel",
-    "court",
-    "robe",
-    "verdict"
-  ],
-  "Banker": [
-    "money",
-    "loan",
-    "vault",
-    "teller"
-  ],
-  "Accountant": [
-    "numbers",
-    "taxes",
-    "spreadsheet",
-    "books"
-  ],
-  "Real Estate Agent": [
-    "house",
-    "keys",
-    "listing",
-    "showing"
-  ],
-  "Salesperson": [
-    "pitch",
-    "commission",
-    "sell",
-    "deal"
-  ],
-  "Realtor": [
-    "house",
-    "keys",
-    "listing",
-    "sold"
-  ],
-  "Babysitter": [
-    "kids",
-    "bedtime",
-    "watch",
-    "parents out"
-  ],
-  "Nanny": [
-    "kids",
-    "full time",
-    "care",
-    "family"
-  ],
-  "Daycare Worker": [
-    "toddlers",
-    "toys",
-    "nap"
-  ],
-  "Lifeguard": [
-    "pool",
-    "whistle",
-    "beach",
-    "rescue"
-  ],
-  "Park Ranger": [
-    "forest",
-    "trail",
-    "nature",
-    "uniform"
-  ],
-  "Zookeeper": [
-    "animals",
-    "feed",
-    "enclosure"
-  ],
-  "Dog Walker": [
-    "leash",
-    "park",
-    "poop bag",
-    "pets"
-  ],
-  "Pet Sitter": [
-    "feed",
-    "walk",
-    "house visit",
-    "animals"
-  ],
-  "Veterinarian": [
-    "animals",
-    "clinic",
-    "paws",
-    "treat"
-  ],
-  "Therapist": [
-    "talk",
-    "couch",
-    "feelings",
-    "session"
-  ],
-  "Counselor": [
-    "advice",
-    "school",
-    "talk",
-    "help"
-  ],
-  "Social Worker": [
-    "help",
-    "community",
-    "case",
-    "support"
-  ],
-  "Paramedic": [
-    "ambulance",
-    "emergency",
-    "save",
-    "siren"
-  ],
-  "EMT": [
-    "ambulance",
-    "emergency",
-    "first aid",
-    "siren"
-  ],
-  "Surgeon": [
-    "operating room",
-    "scalpel",
-    "hospital",
-    "procedure"
-  ],
-  "Pharmacist": [
-    "pills",
-    "prescription",
-    "counter",
-    "medicine"
-  ],
-  "Lab Worker": [
-    "test tube",
-    "microscope",
-    "sample",
-    "research"
-  ],
-  "Archaeologist": [
-    "dig",
-    "artifact",
-    "brush",
-    "history"
-  ],
-  "Tour Guide": [
-    "group",
-    "facts",
-    "museum",
-    "walk"
-  ],
-  "Hotel Worker": [
-    "lobby",
-    "check in",
-    "luggage",
-    "guest"
-  ],
-  "Housekeeper": [
-    "clean",
-    "hotel",
-    "vacuum",
-    "sheets"
-  ],
-  "Janitor": [
-    "mop",
-    "clean",
-    "keys",
-    "night"
-  ],
-  "Security Guard": [
-    "uniform",
-    "patrol",
-    "watch",
-    "badge"
-  ],
-  "Bouncer": [
-    "club",
-    "ID",
-    "door",
-    "night"
-  ],
-  "Magician": [
-    "trick",
-    "wand",
-    "disappear",
-    "stage"
-  ],
-  "Clown": [
-    "balloons",
-    "circus",
-    "makeup",
-    "party"
-  ],
-  "Party Planner": [
-    "event",
-    "decor",
-    "organize",
-    "celebrate"
-  ],
-  "Wedding Planner": [
-    "bride",
-    "venue",
-    "flowers",
-    "big day"
-  ],
-  "Florist": [
-    "flowers",
-    "bouquet",
-    "arrange",
-    "shop"
-  ],
-  "Baker": [
-    "oven",
-    "bread",
-    "pastry",
-    "rise"
-  ],
-  "Butcher": [
-    "meat",
-    "cleaver",
-    "counter",
-    "cut"
-  ],
-  "Ice Cream Man": [
-    "truck",
-    "jingle",
-    "cone",
-    "summer"
-  ],
-  "Food Truck Owner": [
-    "window",
-    "park",
-    "serve"
-  ],
-  "Entrepreneur": [
-    "startup",
-    "idea",
-    "risk",
-    "business"
-  ],
-  "Business Owner": [
-    "shop",
-    "hire",
-    "profit",
-    "boss"
-  ],
-  "Intern": [
-    "coffee run",
-    "learn",
-    "office",
-    "summer"
-  ],
-  "Volunteer": [
-    "help",
-    "free",
-    "community",
-    "give back"
-  ],
-  "School Bus Driver": [
-    "route",
-    "kids",
-    "stop"
-  ],
-  "Crossing Guard": [
-    "stop sign",
-    "kids",
-    "street",
-    "vest"
-  ],
-  "Custodian": [
-    "mop",
-    "school",
-    "clean",
-    "keys"
-  ]
+  "Teacher": ["authoritative"],
+  "Student": ["mandatory"],
+  "Principal": ["authoritative"],
+  "Librarian": ["quiet"],
+  "Coach": ["motivating"],
+  "Doctor": ["credentialed"],
+  "Nurse": ["credentialed"],
+  "Dentist": ["clinical"],
+  "Vet": ["clinical"],
+  "Firefighter": ["hazardous"],
+  "Police Officer": ["uniformed"],
+  "Detective": ["investigative"],
+  "Soldier": ["uniformed"],
+  "Pilot": ["credentialed"],
+  "Flight Attendant": ["uniformed"],
+  "Bus Driver": ["routine"],
+  "Taxi Driver": ["freelance"],
+  "Uber Driver": ["freelance"],
+  "Truck Driver": ["solitary"],
+  "Mail Carrier": ["routine"],
+  "Delivery Driver": ["freelance"],
+  "Chef": ["creative"],
+  "Cook": ["repetitive"],
+  "Waiter": ["tipped"],
+  "Waitress": ["tipped"],
+  "Barista": ["repetitive"],
+  "Bartender": ["nocturnal"],
+  "Cashier": ["repetitive"],
+  "Store Clerk": ["repetitive"],
+  "Manager": ["supervisory"],
+  "Boss": ["authoritative"],
+  "CEO": ["executive"],
+  "Farmer": ["seasonal"],
+  "Gardener": ["manual"],
+  "Landscaper": ["manual"],
+  "Construction Worker": ["hazardous"],
+  "Builder": ["manual"],
+  "Carpenter": ["manual"],
+  "Plumber": ["manual"],
+  "Electrician": ["licensed"],
+  "Mechanic": ["manual"],
+  "Car Wash": ["repetitive"],
+  "Hair Stylist": ["creative"],
+  "Barber": ["social"],
+  "Makeup Artist": ["creative"],
+  "Nail Tech": ["meticulous"],
+  "Fashion Designer": ["creative"],
+  "Tailor": ["meticulous"],
+  "Model": ["glamorized"],
+  "Actor": ["glamorized"],
+  "Actress": ["glamorized"],
+  "Singer": ["performative"],
+  "Musician": ["creative"],
+  "DJ": ["nocturnal"],
+  "Dancer": ["performative"],
+  "Artist": ["creative"],
+  "Painter": ["creative"],
+  "Photographer": ["creative"],
+  "YouTuber": ["entrepreneurial"],
+  "Streamer": ["entrepreneurial"],
+  "Influencer": ["glamorized"],
+  "Writer": ["solitary"],
+  "Author": ["solitary"],
+  "Journalist": ["investigative"],
+  "News Reporter": ["investigative"],
+  "News Anchor": ["televised"],
+  "Weather Person": ["televised"],
+  "Scientist": ["credentialed"],
+  "Astronaut": ["credentialed"],
+  "Engineer": ["technical"],
+  "Computer Guy": ["technical"],
+  "Programmer": ["technical"],
+  "Gamer": ["sedentary"],
+  "Lawyer": ["adversarial"],
+  "Judge": ["authoritative"],
+  "Banker": ["corporate"],
+  "Accountant": ["meticulous"],
+  "Real Estate Agent": ["commissioned"],
+  "Salesperson": ["commissioned"],
+  "Realtor": ["commissioned"],
+  "Babysitter": ["freelance"],
+  "Nanny": ["domestic"],
+  "Daycare Worker": ["repetitive"],
+  "Lifeguard": ["seasonal"],
+  "Park Ranger": ["seasonal"],
+  "Zookeeper": ["specialized"],
+  "Dog Walker": ["freelance"],
+  "Pet Sitter": ["freelance"],
+  "Veterinarian": ["clinical"],
+  "Therapist": ["confidential"],
+  "Counselor": ["confidential"],
+  "Social Worker": ["underpaid"],
+  "Paramedic": ["hazardous"],
+  "EMT": ["hazardous"],
+  "Surgeon": ["credentialed"],
+  "Pharmacist": ["licensed"],
+  "Lab Worker": ["clinical"],
+  "Archaeologist": ["specialized"],
+  "Tour Guide": ["seasonal"],
+  "Hotel Worker": ["hospitality"],
+  "Housekeeper": ["invisible"],
+  "Janitor": ["invisible"],
+  "Security Guard": ["nocturnal"],
+  "Bouncer": ["intimidating"],
+  "Magician": ["performative"],
+  "Clown": ["performative"],
+  "Party Planner": ["creative"],
+  "Wedding Planner": ["stressful"],
+  "Florist": ["creative"],
+  "Baker": ["creative"],
+  "Butcher": ["manual"],
+  "Ice Cream Man": ["nostalgic"],
+  "Food Truck Owner": ["entrepreneurial"],
+  "Entrepreneur": ["risky"],
+  "Business Owner": ["entrepreneurial"],
+  "Intern": ["underpaid"],
+  "Volunteer": ["unpaid"],
+  "School Bus Driver": ["routine"],
+  "Crossing Guard": ["seasonal"],
+  "Custodian": ["invisible"],
 };

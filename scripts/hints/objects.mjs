@@ -1,1019 +1,174 @@
 /** @type {Record<string, string[]>} */
 export default {
-  "Phone": [
-    "call",
-    "text",
-    "screen",
-    "pocket"
-  ],
-  "iPhone": [
-    "Apple",
-    "apps",
-    "text",
-    "case"
-  ],
-  "Laptop": [
-    "keyboard",
-    "screen",
-    "work",
-    "charge"
-  ],
-  "Computer": [
-    "screen",
-    "mouse",
-    "internet",
-    "desk"
-  ],
-  "Tablet": [
-    "touch",
-    "screen",
-    "apps",
-    "portable"
-  ],
-  "TV": [
-    "remote",
-    "couch",
-    "channels",
-    "screen"
-  ],
-  "Remote": [
-    "batteries",
-    "couch",
-    "channels",
-    "click"
-  ],
-  "Headphones": [
-    "music",
-    "ears",
-    "wireless",
-    "podcast"
-  ],
-  "Earbuds": [
-    "small",
-    "wireless",
-    "pocket",
-    "music"
-  ],
-  "Speaker": [
-    "music",
-    "loud",
-    "bluetooth",
-    "bass"
-  ],
-  "Charger": [
-    "cable",
-    "plug",
-    "battery",
-    "USB"
-  ],
-  "Cable": [
-    "plug",
-    "charge",
-    "tangle",
-    "connect"
-  ],
-  "Camera": [
-    "photo",
-    "lens",
-    "flash",
-    "click"
-  ],
-  "Selfie Stick": [
-    "photo",
-    "arm",
-    "angle",
-    "tourist"
-  ],
-  "Watch": [
-    "time",
-    "wrist",
-    "tick",
-    "band"
-  ],
-  "Clock": [
-    "time",
-    "tick",
-    "wall",
-    "alarm"
-  ],
-  "Alarm Clock": [
-    "wake up",
-    "snooze",
-    "morning",
-    "beep"
-  ],
-  "Calendar": [
-    "dates",
-    "month",
-    "plan",
-    "hang"
-  ],
-  "Backpack": [
-    "straps",
-    "school",
-    "zipper",
-    "carry"
-  ],
-  "Purse": [
-    "handbag",
-    "wallet",
-    "carry",
-    "strap"
-  ],
-  "Wallet": [
-    "money",
-    "cards",
-    "pocket",
-    "leather"
-  ],
-  "Keys": [
-    "door",
-    "jingle",
-    "lock",
-    "pocket"
-  ],
-  "Sunglasses": [
-    "shade",
-    "summer",
-    "cool",
-    "UV"
-  ],
-  "Glasses": [
-    "lenses",
-    "see",
-    "frames",
-    "read"
-  ],
-  "Hat": [
-    "cap",
-    "head",
-    "shade",
-    "wear"
-  ],
-  "Cap": [
-    "baseball",
-    "bill",
-    "head",
-    "logo"
-  ],
-  "Jacket": [
-    "zip",
-    "cold",
-    "pockets",
-    "wear"
-  ],
-  "Coat": [
-    "winter",
-    "warm",
-    "buttons",
-    "cold"
-  ],
-  "Shoes": [
-    "laces",
-    "feet",
-    "walk",
-    "pair"
-  ],
-  "Sneakers": [
-    "laces",
-    "run",
-    "comfort",
-    "gym"
-  ],
-  "Socks": [
-    "feet",
-    "pair",
-    "warm",
-    "drawer"
-  ],
-  "Belt": [
-    "waist",
-    "buckle",
-    "jeans",
-    "hold"
-  ],
-  "Umbrella": [
-    "rain",
-    "open",
-    "wet",
-    "handle"
-  ],
-  "Raincoat": [
-    "hood",
-    "wet",
-    "yellow"
-  ],
-  "Towel": [
-    "dry",
-    "beach",
-    "bath",
-    "soft"
-  ],
-  "Soap": [
-    "wash",
-    "bubbles",
-    "bar",
-    "clean"
-  ],
-  "Shampoo": [
-    "hair",
-    "lather",
-    "rinse",
-    "bottle"
-  ],
-  "Toothbrush": [
-    "teeth",
-    "paste",
-    "morning"
-  ],
-  "Toothpaste": [
-    "mint",
-    "brush",
-    "tube",
-    "foam"
-  ],
-  "Hairbrush": [
-    "tangles",
-    "stroke",
-    "bristles"
-  ],
-  "Comb": [
-    "teeth",
-    "hair",
-    "pocket",
-    "part"
-  ],
-  "Mirror": [
-    "reflection",
-    "bathroom",
-    "glass",
-    "look"
-  ],
-  "Tissue": [
-    "sneeze",
-    "box",
-    "soft",
-    "nose"
-  ],
-  "Toilet Paper": [
-    "roll",
-    "bathroom",
-    "ply",
-    "holder"
-  ],
-  "Band-Aid": [
-    "cut",
-    "peel",
-    "stick",
-    "ouch"
-  ],
-  "Medicine": [
-    "pill",
-    "sick",
-    "bottle",
-    "dose"
-  ],
-  "Pill": [
-    "swallow",
-    "medicine",
-    "small",
-    "prescription"
-  ],
-  "Water Bottle": [
-    "hydrate",
-    "gym",
-    "reusable",
-    "sip"
-  ],
-  "Cup": [
-    "drink",
-    "handle",
-    "kitchen",
-    "sip"
-  ],
-  "Mug": [
-    "coffee",
-    "handle",
-    "hot",
-    "desk"
-  ],
-  "Plate": [
-    "dinner",
-    "food",
-    "round",
-    "dish"
-  ],
-  "Bowl": [
-    "cereal",
-    "soup",
-    "round",
-    "spoon"
-  ],
-  "Fork": [
-    "prongs",
-    "eat",
-    "salad",
-    "metal"
-  ],
-  "Spoon": [
-    "soup",
-    "cereal",
-    "stir",
-    "eat"
-  ],
-  "Knife": [
-    "cut",
-    "sharp",
-    "kitchen",
-    "blade"
-  ],
-  "Napkin": [
-    "wipe",
-    "lap",
-    "paper",
-    "meal"
-  ],
-  "Straw": [
-    "sip",
-    "plastic",
-    "drink",
-    "bend"
-  ],
-  "Lunch Box": [
-    "school",
-    "sandwich",
-    "thermos",
-    "kids"
-  ],
-  "Thermos": [
-    "hot",
-    "soup",
-    "insulated",
-    "lunch"
-  ],
-  "Cooler": [
-    "ice",
-    "picnic",
-    "drinks",
-    "beach"
-  ],
-  "Fridge": [
-    "cold",
-    "kitchen",
-    "food",
-    "magnet"
-  ],
-  "Microwave": [
-    "beep",
-    "heat",
-    "quick",
-    "kitchen"
-  ],
-  "Oven": [
-    "bake",
-    "hot",
-    "kitchen",
-    "preheat"
-  ],
-  "Stove": [
-    "burner",
-    "cook",
-    "pot",
-    "flame"
-  ],
-  "Toaster": [
-    "bread",
-    "pop",
-    "breakfast",
-    "slots"
-  ],
-  "Blender": [
-    "smoothie",
-    "mix",
-    "lid",
-    "pulse"
-  ],
-  "Pot": [
-    "boil",
-    "lid",
-    "stove",
-    "soup"
-  ],
-  "Pan": [
-    "fry",
-    "handle",
-    "sizzle",
-    "stove"
-  ],
-  "Spatula": [
-    "flip",
-    "pancake",
-    "grill",
-    "rubber"
-  ],
-  "Trash Can": [
-    "garbage",
-    "lid",
-    "bag",
-    "kitchen"
-  ],
-  "Broom": [
-    "sweep",
-    "dust",
-    "floor",
-    "bristles"
-  ],
-  "Mop": [
-    "floor",
-    "bucket",
-    "wet",
-    "clean"
-  ],
-  "Vacuum": [
-    "carpet",
-    "suck",
-    "cord",
-    "loud"
-  ],
-  "Laundry Basket": [
-    "clothes",
-    "hamper",
-    "dirty",
-    "carry"
-  ],
-  "Washing Machine": [
-    "spin",
-    "detergent",
-    "laundry",
-    "cycle"
-  ],
-  "Dryer": [
-    "lint",
-    "warm",
-    "tumble",
-    "laundry"
-  ],
-  "Iron": [
-    "wrinkles",
-    "hot",
-    "steam",
-    "shirt"
-  ],
-  "Hanger": [
-    "closet",
-    "shirt",
-    "wire",
-    "hook"
-  ],
-  "Bed": [
-    "sleep",
-    "mattress",
-    "pillow",
-    "blanket"
-  ],
-  "Pillow": [
-    "soft",
-    "sleep",
-    "fluff",
-    "head"
-  ],
-  "Blanket": [
-    "warm",
-    "cozy",
-    "bed",
-    "cover"
-  ],
-  "Sheets": [
-    "bed",
-    "cotton",
-    "sleep",
-    "fold"
-  ],
-  "Couch": [
-    "sit",
-    "TV",
-    "cushion",
-    "living room"
-  ],
-  "Chair": [
-    "sit",
-    "legs",
-    "desk",
-    "back"
-  ],
-  "Table": [
-    "eat",
-    "legs",
-    "surface",
-    "dinner"
-  ],
-  "Desk": [
-    "homework",
-    "drawer",
-    "study",
-    "chair"
-  ],
-  "Lamp": [
-    "light",
-    "shade",
-    "bedside",
-    "bulb"
-  ],
-  "Light": [
-    "bulb",
-    "switch",
-    "bright",
-    "on"
-  ],
-  "Fan": [
-    "spin",
-    "cool",
-    "breeze",
-    "summer"
-  ],
-  "AC": [
-    "cool",
-    "summer",
-    "thermostat",
-    "vent"
-  ],
-  "Heater": [
-    "warm",
-    "winter",
-    "cozy",
-    "radiator"
-  ],
-  "Door": [
-    "knob",
-    "open",
-    "hinge",
-    "enter"
-  ],
-  "Window": [
-    "glass",
-    "view",
-    "curtain",
-    "open"
-  ],
-  "Curtain": [
-    "window",
-    "draw",
-    "fabric",
-    "privacy"
-  ],
-  "Rug": [
-    "floor",
-    "soft",
-    "living room",
-    "corner"
-  ],
-  "Carpet": [
-    "soft",
-    "floor",
-    "vacuum",
-    "room"
-  ],
-  "Picture Frame": [
-    "photo",
-    "wall",
-    "hang",
-    "memory"
-  ],
-  "Poster": [
-    "wall",
-    "band",
-    "tape",
-    "room"
-  ],
-  "Book": [
-    "pages",
-    "read",
-    "story",
-    "shelf"
-  ],
-  "Notebook": [
-    "notes",
-    "paper",
-    "school",
-    "spiral"
-  ],
-  "Pen": [
-    "ink",
-    "write",
-    "click",
-    "pocket"
-  ],
-  "Pencil": [
-    "erase",
-    "write",
-    "sharpen",
-    "wood"
-  ],
-  "Eraser": [
-    "mistake",
-    "rub",
-    "pink",
-    "pencil"
-  ],
-  "Marker": [
-    "color",
-    "thick",
-    "whiteboard",
-    "cap"
-  ],
-  "Crayons": [
-    "color",
-    "box",
-    "kids",
-    "wax"
-  ],
-  "Scissors": [
-    "cut",
-    "blades",
-    "paper",
-    "snip"
-  ],
-  "Tape": [
-    "stick",
-    "wrap",
-    "roll",
-    "tear"
-  ],
-  "Glue": [
-    "stick",
-    "paper",
-    "dry",
-    "craft"
-  ],
-  "Stapler": [
-    "paper",
-    "click",
-    "office",
-    "staples"
-  ],
-  "Paper": [
-    "write",
-    "sheet",
-    "printer",
-    "fold"
-  ],
-  "Homework": [
-    "due",
-    "school",
-    "pages",
-    "stress"
-  ],
-  "Pencil Case": [
-    "zip",
-    "school",
-    "supplies",
-    "pouch"
-  ],
-  "Calculator": [
-    "math",
-    "buttons",
-    "numbers",
-    "test"
-  ],
-  "Ruler": [
-    "measure",
-    "inch",
-    "straight",
-    "line"
-  ],
-  "Globe": [
-    "spin",
-    "countries",
-    "map",
-    "world"
-  ],
-  "Map": [
-    "directions",
-    "fold",
-    "road trip",
-    "GPS"
-  ],
-  "Flashlight": [
-    "dark",
-    "beam",
-    "batteries",
-    "camping"
-  ],
-  "Batteries": [
-    "AA",
-    "power",
-    "remote",
-    "die"
-  ],
-  "Candle": [
-    "flame",
-    "wick",
-    "scent",
-    "birthday"
-  ],
-  "Lighter": [
-    "flame",
-    "click",
-    "fire",
-    "pocket"
-  ],
-  "Matches": [
-    "strike",
-    "fire",
-    "box",
-    "flame"
-  ],
-  "Hammer": [
-    "nail",
-    "bang",
-    "toolbox",
-    "build"
-  ],
-  "Screwdriver": [
-    "twist",
-    "flat",
-    "Phillips"
-  ],
-  "Toolbox": [
-    "tools",
-    "fix",
-    "metal",
-    "carry"
-  ],
-  "Duct Tape": [
-    "sticky",
-    "fix",
-    "silver",
-    "strong"
-  ],
-  "Ball": [
-    "throw",
-    "catch",
-    "bounce",
-    "round"
-  ],
-  "Football": [
-    "fourth down math",
-    "two-minute drill",
-    "hail mary",
-    "tailgate"
-  ],
-  "Basketball": [
-    "pick and roll",
-    "shot clock",
-    "and-one",
-    "garbage time"
-  ],
-  "Baseball": [
-    "bat",
-    "glove",
-    "pitch",
-    "diamond"
-  ],
-  "Bat": [
-    "swing",
-    "baseball",
-    "wood",
-    "hit"
-  ],
-  "Glove": [
-    "catch",
-    "baseball",
-    "hand",
-    "leather"
-  ],
-  "Bike": [
-    "pedal",
-    "wheels",
-    "helmet",
-    "ride"
-  ],
-  "Helmet": [
-    "protect",
-    "bike",
-    "head",
-    "strap"
-  ],
-  "Skateboard": [
-    "deck",
-    "wheels",
-    "ollie",
-    "ramp"
-  ],
-  "Scooter": [
-    "kick",
-    "wheels",
-    "sidewalk",
-    "razor"
-  ],
-  "Tent": [
-    "camping",
-    "poles",
-    "sleep",
-    "zip"
-  ],
-  "Sleeping Bag": [
-    "camping",
-    "zip",
-    "warm",
-    "roll"
-  ],
-  "Board Game": [
-    "dice",
-    "family",
-    "rules",
-    "turn"
-  ],
-  "Cards": [
-    "shuffle",
-    "deal",
-    "ace",
-    "deck"
-  ],
-  "Dice": [
-    "roll",
-    "six",
-    "game",
-    "luck"
-  ],
-  "Puzzle": [
-    "pieces",
-    "fit",
-    "picture",
-    "table"
-  ],
-  "Teddy Bear": [
-    "stuffed",
-    "hug",
-    "soft",
-    "bed"
-  ],
-  "Toy": [
-    "play",
-    "kids",
-    "fun",
-    "box"
-  ],
-  "Legos": [
-    "blocks",
-    "build",
-    "step on",
-    "bricks"
-  ],
-  "Doll": [
-    "dress",
-    "play",
-    "hair",
-    "kids"
-  ],
-  "Action Figure": [
-    "hero",
-    "pose",
-    "collect",
-    "plastic"
-  ],
-  "Video Game": [
-    "controller",
-    "screen",
-    "level",
-    "play"
-  ],
-  "Controller": [
-    "buttons",
-    "joystick",
-    "console",
-    "grip"
-  ],
-  "Gift": [
-    "wrap",
-    "bow",
-    "surprise",
-    "birthday"
-  ],
-  "Present": [
-    "wrap",
-    "surprise",
-    "birthday",
-    "ribbon"
-  ],
-  "Wrapping Paper": [
-    "tape",
-    "fold",
-    "gift",
-    "tear"
-  ],
-  "Balloon": [
-    "helium",
-    "pop",
-    "party",
-    "string"
-  ],
-  "Birthday Cake": [
-    "candles",
-    "frosting",
-    "wish",
-    "slice"
-  ],
-  "Candles": [
-    "flame",
-    "wish",
-    "birthday",
-    "blow"
-  ],
-  "Party Hat": [
-    "cone",
-    "celebrate",
-    "birthday",
-    "paper"
-  ],
-  "Confetti": [
-    "throw",
-    "party",
-    "color",
-    "mess"
-  ],
-  "Money": [
-    "cash",
-    "spend",
-    "wallet",
-    "bills"
-  ],
-  "Coins": [
-    "change",
-    "pocket",
-    "jingle",
-    "quarter"
-  ],
-  "Dollar Bill": [
-    "cash",
-    "green",
-    "wallet",
-    "spend"
-  ],
-  "Credit Card": [
-    "swipe",
-    "chip",
-    "wallet",
-    "debt"
-  ],
-  "Receipt": [
-    "paper",
-    "purchase",
-    "total",
-    "wallet"
-  ],
-  "Shopping Bag": [
-    "store",
-    "carry",
-    "handles",
-    "buy"
-  ],
-  "Cart": [
-    "wheels",
-    "grocery",
-    "push",
-    "aisle"
-  ],
-  "Basket": [
-    "carry",
-    "picnic",
-    "weave",
-    "eggs"
-  ],
-  "Suitcase": [
-    "travel",
-    "wheels",
-    "pack",
-    "airport"
-  ],
-  "Passport": [
-    "travel",
-    "stamp",
-    "ID",
-    "airport"
-  ],
-  "Ticket": [
-    "stub",
-    "event",
-    "seat",
-    "show"
-  ],
-  "Boarding Pass": [
-    "flight",
-    "gate",
-    "seat",
-    "airport"
-  ],
-  "License": [
-    "drive",
-    "ID",
-    "photo",
-    "wallet"
-  ],
-  "ID Card": [
-    "photo",
-    "wallet",
-    "prove",
-    "school"
-  ]
+  "Phone": ["ubiquitous"],
+  "iPhone": ["branded"],
+  "Laptop": ["portable"],
+  "Computer": ["deskbound"],
+  "Tablet": ["portable"],
+  "TV": ["household"],
+  "Remote": ["losable"],
+  "Headphones": ["wearable"],
+  "Earbuds": ["wearable"],
+  "Speaker": ["noisy"],
+  "Charger": ["essential"],
+  "Cable": ["tangled"],
+  "Camera": ["nostalgic"],
+  "Selfie Stick": ["conspicuous"],
+  "Watch": ["wearable"],
+  "Clock": ["ubiquitous"],
+  "Alarm Clock": ["annoying"],
+  "Calendar": ["organized"],
+  "Backpack": ["portable"],
+  "Purse": ["personal"],
+  "Wallet": ["losable"],
+  "Keys": ["essential"],
+  "Sunglasses": ["seasonal"],
+  "Glasses": ["essential"],
+  "Hat": ["wearable"],
+  "Cap": ["casual"],
+  "Jacket": ["seasonal"],
+  "Coat": ["seasonal"],
+  "Shoes": ["essential"],
+  "Sneakers": ["casual"],
+  "Socks": ["disposable"],
+  "Belt": ["functional"],
+  "Umbrella": ["seasonal"],
+  "Raincoat": ["seasonal"],
+  "Towel": ["reusable"],
+  "Soap": ["disposable"],
+  "Shampoo": ["disposable"],
+  "Toothbrush": ["replaceable"],
+  "Toothpaste": ["disposable"],
+  "Hairbrush": ["personal"],
+  "Comb": ["personal"],
+  "Mirror": ["reflective"],
+  "Tissue": ["disposable"],
+  "Toilet Paper": ["essential"],
+  "Band-Aid": ["disposable"],
+  "Medicine": ["regulated"],
+  "Pill": ["regulated"],
+  "Water Bottle": ["reusable"],
+  "Cup": ["disposable"],
+  "Mug": ["personal"],
+  "Plate": ["disposable"],
+  "Bowl": ["disposable"],
+  "Fork": ["disposable"],
+  "Spoon": ["disposable"],
+  "Knife": ["sharp"],
+  "Napkin": ["disposable"],
+  "Straw": ["controversial"],
+  "Lunch Box": ["nostalgic"],
+  "Thermos": ["portable"],
+  "Cooler": ["seasonal"],
+  "Fridge": ["essential"],
+  "Microwave": ["convenient"],
+  "Oven": ["essential"],
+  "Stove": ["essential"],
+  "Toaster": ["convenient"],
+  "Blender": ["noisy"],
+  "Pot": ["essential"],
+  "Pan": ["essential"],
+  "Spatula": ["functional"],
+  "Trash Can": ["essential"],
+  "Broom": ["functional"],
+  "Mop": ["functional"],
+  "Vacuum": ["noisy"],
+  "Laundry Basket": ["functional"],
+  "Washing Machine": ["essential"],
+  "Dryer": ["essential"],
+  "Iron": ["functional"],
+  "Hanger": ["functional"],
+  "Bed": ["essential"],
+  "Pillow": ["comfortable"],
+  "Blanket": ["comfortable"],
+  "Sheets": ["replaceable"],
+  "Couch": ["comfortable"],
+  "Chair": ["ubiquitous"],
+  "Table": ["ubiquitous"],
+  "Desk": ["industrial"],
+  "Lamp": ["ambient"],
+  "Light": ["essential"],
+  "Fan": ["seasonal"],
+  "AC": ["essential"],
+  "Heater": ["seasonal"],
+  "Door": ["essential"],
+  "Window": ["essential"],
+  "Curtain": ["decorative"],
+  "Rug": ["decorative"],
+  "Carpet": ["decorative"],
+  "Picture Frame": ["sentimental"],
+  "Poster": ["decorative"],
+  "Book": ["nostalgic"],
+  "Notebook": ["disposable"],
+  "Pen": ["losable"],
+  "Pencil": ["disposable"],
+  "Eraser": ["disposable"],
+  "Marker": ["permanent"],
+  "Crayons": ["nostalgic"],
+  "Scissors": ["sharp"],
+  "Tape": ["adhesive"],
+  "Glue": ["adhesive"],
+  "Stapler": ["office"],
+  "Paper": ["disposable"],
+  "Homework": ["dreaded"],
+  "Backpack": ["portable"],
+  "Pencil Case": ["nostalgic"],
+  "Calculator": ["regulated"],
+  "Ruler": ["regulated"],
+  "Globe": ["educational"],
+  "Map": ["outdated"],
+  "Flashlight": ["emergency"],
+  "Batteries": ["disposable"],
+  "Candle": ["ambient"],
+  "Lighter": ["regulated"],
+  "Matches": ["disposable"],
+  "Hammer": ["manual"],
+  "Screwdriver": ["manual"],
+  "Toolbox": ["manual"],
+  "Duct Tape": ["improvised"],
+  "Ball": ["playful"],
+  "Football": ["outdoor"],
+  "Basketball": ["outdoor"],
+  "Baseball": ["nostalgic"],
+  "Bat": ["sporting"],
+  "Glove": ["sporting"],
+  "Bike": ["portable"],
+  "Helmet": ["protective"],
+  "Skateboard": ["rebellious"],
+  "Scooter": ["childhood"],
+  "Tent": ["seasonal"],
+  "Sleeping Bag": ["seasonal"],
+  "Board Game": ["nostalgic"],
+  "Cards": ["nostalgic"],
+  "Dice": ["random"],
+  "Puzzle": ["patient"],
+  "Teddy Bear": ["sentimental"],
+  "Toy": ["nostalgic"],
+  "Legos": ["creative"],
+  "Doll": ["nostalgic"],
+  "Action Figure": ["collectible"],
+  "Video Game": ["sedentary"],
+  "Controller": ["ergonomic"],
+  "Gift": ["ceremonial"],
+  "Present": ["ceremonial"],
+  "Wrapping Paper": ["disposable"],
+  "Balloon": ["festive"],
+  "Birthday Cake": ["ceremonial"],
+  "Candles": ["ceremonial"],
+  "Party Hat": ["festive"],
+  "Confetti": ["messy"],
+  "Money": ["essential"],
+  "Coins": ["losable"],
+  "Dollar Bill": ["paper"],
+  "Credit Card": ["digital"],
+  "Receipt": ["disposable"],
+  "Shopping Bag": ["disposable"],
+  "Cart": ["wheeled"],
+  "Basket": ["woven"],
+  "Suitcase": ["travel"],
+  "Passport": ["regulated"],
+  "Ticket": ["disposable"],
+  "Boarding Pass": ["disposable"],
+  "License": ["regulated"],
+  "ID Card": ["regulated"],
 };
