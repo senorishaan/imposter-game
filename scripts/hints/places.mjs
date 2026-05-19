@@ -1,564 +1,98 @@
 /** @type {Record<string, string[]>} */
 export default {
-  "Home": [
-    "family",
-    "door",
-    "cozy",
-    "where you live"
-  ],
-  "House": [
-    "roof",
-    "yard",
-    "rooms",
-    "family"
-  ],
-  "Apartment": [
-    "building",
-    "rent",
-    "neighbor",
-    "floor"
-  ],
-  "Bedroom": [
-    "sleep",
-    "pillow",
-    "door"
-  ],
-  "Bathroom": [
-    "shower",
-    "toilet",
-    "mirror",
-    "sink"
-  ],
-  "Kitchen": [
-    "stove",
-    "fridge",
-    "cook",
-    "sink"
-  ],
-  "Living Room": [
-    "couch",
-    "TV",
-    "family",
-    "relax"
-  ],
-  "Backyard": [
-    "grass",
-    "fence",
-    "grill",
-    "play"
-  ],
-  "Garage": [
-    "car",
-    "tools",
-    "door",
-    "park"
-  ],
-  "Basement": [
-    "stairs",
-    "storage",
-    "dark",
-    "below"
-  ],
-  "School": [
-    "class",
-    "bell",
-    "homework",
-    "teachers"
-  ],
-  "Classroom": [
-    "desk",
-    "board",
-    "teacher",
-    "students"
-  ],
-  "Cafeteria": [
-    "lunch",
-    "tray",
-    "line",
-    "food"
-  ],
-  "Gym": [
-    "basketball",
-    "sweat",
-    "PE",
-    "bleachers"
-  ],
-  "Playground": [
-    "swings",
-    "slide",
-    "recess",
-    "kids"
-  ],
-  "Library": [
-    "books",
-    "quiet",
-    "shelf",
-    "read"
-  ],
-  "Office": [
-    "desk",
-    "computer",
-    "meeting",
-    "work"
-  ],
-  "Store": [
-    "shop",
-    "aisles",
-    "checkout",
-    "buy"
-  ],
-  "Grocery Store": [
-    "cart",
-    "aisles",
-    "checkout",
-    "food"
-  ],
-  "Mall": [
-    "shops",
-    "food court",
-    "walk",
-    "spend"
-  ],
-  "Restaurant": [
-    "menu",
-    "waiter",
-    "table",
-    "eat out"
-  ],
-  "Fast Food": [
-    "drive-thru",
-    "quick",
-    "fries",
-    "counter"
-  ],
-  "Cafe": [
-    "coffee",
-    "pastry",
-    "sit",
-    "espresso"
-  ],
-  "Bakery": [
-    "bread",
-    "pastry",
-    "oven",
-    "smell"
-  ],
-  "Movie Theater": [
-    "popcorn",
-    "screen",
-    "tickets",
-    "dark"
-  ],
-  "Park": [
-    "bench",
-    "trees",
-    "picnic",
-    "walk"
-  ],
-  "Beach": [
-    "rip current",
-    "boardwalk",
-    "sunscreen debate",
-    "low tide"
-  ],
-  "Pool": [
-    "swim",
-    "chlorine",
-    "diving board",
-    "summer"
-  ],
-  "Zoo": [
-    "animals",
-    "cages",
-    "exhibits",
-    "family"
-  ],
-  "Museum": [
-    "art",
-    "exhibits",
-    "quiet",
-    "history"
-  ],
-  "Hospital": [
-    "triage",
-    "rounds",
-    "discharge papers",
-    "beeping hallway"
-  ],
-  "Doctor's Office": [
-    "checkup",
-    "waiting room",
-    "stethoscope",
-    "appointment"
-  ],
-  "Dentist": [
-    "teeth",
-    "drill",
-    "chair",
-    "floss"
-  ],
-  "Pharmacy": [
-    "medicine",
-    "prescription",
-    "pills",
-    "counter"
-  ],
-  "Bank": [
-    "money",
-    "teller",
-    "ATM",
-    "deposit"
-  ],
-  "Post Office": [
-    "mail",
-    "stamps",
-    "package",
-    "letters"
-  ],
-  "Police Station": [
-    "badge",
-    "cops",
-    "report",
-    "squad car"
-  ],
-  "Fire Station": [
-    "truck",
-    "hose",
-    "alarm"
-  ],
-  "Church": [
-    "pew",
-    "sermon",
-    "steeple",
-    "Sunday"
-  ],
-  "Airport": [
-    "planes",
-    "terminal",
-    "security",
-    "gate"
-  ],
-  "Train Station": [
-    "tracks",
-    "platform",
-    "commute",
-    "ticket"
-  ],
-  "Bus Stop": [
-    "bench",
-    "route",
-    "commute",
-    "wait"
-  ],
-  "Gas Station": [
-    "pump",
-    "fuel",
-    "car",
-    "snacks"
-  ],
-  "Parking Lot": [
-    "cars",
-    "spaces",
-    "mall",
-    "ticket"
-  ],
-  "Hotel": [
-    "lobby",
-    "room key",
-    "vacation",
-    "check in"
-  ],
-  "Campground": [
-    "tent",
-    "fire",
-    "woods",
-    "sleep"
-  ],
-  "Farm": [
-    "barn",
-    "animals",
-    "crops",
-    "tractor"
-  ],
-  "Barn": [
-    "hay",
-    "animals",
-    "red",
-    "farm"
-  ],
-  "Forest": [
-    "trees",
-    "trail",
-    "woods",
-    "hike"
-  ],
-  "Mountains": [
-    "peak",
-    "hike",
-    "snow",
-    "view"
-  ],
-  "Lake": [
-    "dock",
-    "fish",
-    "boat",
-    "swim"
-  ],
-  "River": [
-    "flow",
-    "bridge",
-    "fish",
-    "current"
-  ],
-  "Ocean": [
-    "waves",
-    "salt",
-    "beach",
-    "vast"
-  ],
-  "Island": [
-    "beach",
-    "palm",
-    "boat",
-    "tropical"
-  ],
-  "Desert": [
-    "sand",
-    "hot",
-    "cactus",
-    "dry"
-  ],
-  "Cave": [
-    "dark",
-    "explore",
-    "stalactite",
-    "underground"
-  ],
-  "Waterfall": [
-    "mist",
-    "cliff",
-    "roar",
-    "hike"
-  ],
-  "Stadium": [
-    "crowd",
-    "cheer",
-    "field",
-    "game"
-  ],
-  "Soccer Field": [
-    "grass",
-    "cleats",
-    "match"
-  ],
-  "Basketball Court": [
-    "lines",
-    "dribble",
-    "gym"
-  ],
-  "Skate Park": [
-    "ramp",
-    "grind",
-    "wheels",
-    "tricks"
-  ],
-  "Bowling Alley": [
-    "lanes",
-    "pins",
-    "shoes",
-    "strike"
-  ],
-  "Arcade": [
-    "tokens",
-    "games",
-    "prizes",
-    "loud"
-  ],
-  "Amusement Park": [
-    "rides",
-    "lines",
-    "fun",
-    "tickets"
-  ],
-  "Roller Coaster": [
-    "scream",
-    "drops",
-    "tracks",
-    "thrill"
-  ],
-  "Water Park": [
-    "slides",
-    "splash",
-    "summer",
-    "pool"
-  ],
-  "Disneyland": [
-    "Mickey",
-    "rides",
-    "magic",
-    "lines"
-  ],
-  "Grandma's House": [
-    "cookies",
-    "hugs",
-    "family",
-    "visit"
-  ],
-  "Friend's House": [
-    "playdate",
-    "hang out",
-    "sleepover",
-    "visit"
-  ],
-  "Daycare": [
-    "kids",
-    "toys",
-    "nap time"
-  ],
-  "College": [
-    "campus",
-    "dorm",
-    "lecture",
-    "degree"
-  ],
-  "Dorm": [
-    "roommate",
-    "campus",
-    "small",
-    "college"
-  ],
-  "Locker Room": [
-    "gym",
-    "shoes",
-    "PE"
-  ],
-  "Nurse's Office": [
-    "band-aid",
-    "sick",
-    "school"
-  ],
-  "Principal's Office": [
-    "trouble",
-    "school",
-    "serious",
-    "detention"
-  ],
-  "Barbershop": [
-    "haircut",
-    "clippers",
-    "mirror",
-    "chair"
-  ],
-  "Hair Salon": [
-    "cut",
-    "color",
-    "blow dry",
-    "appointment"
-  ],
-  "Laundromat": [
-    "washers",
-    "dryers",
-    "quarters",
-    "clothes"
-  ],
-  "Pet Store": [
-    "puppies",
-    "fish tank",
-    "food",
-    "animals"
-  ],
-  "Toy Store": [
-    "kids",
-    "aisles",
-    "birthday"
-  ],
-  "Bookstore": [
-    "shelves",
-    "read",
-    "browse",
-    "coffee"
-  ],
-  "Hardware Store": [
-    "tools",
-    "nails",
-    "DIY",
-    "paint"
-  ],
-  "Costco": [
-    "bulk",
-    "samples",
-    "warehouse",
-    "cart"
-  ],
-  "Walmart": [
-    "aisles",
-    "everyday low",
-    "cart",
-    "big store"
-  ],
-  "Target": [
-    "red cart",
-    "aisles",
-    "bullseye",
-    "shop"
-  ],
-  "McDonald's": [
-    "fries",
-    "golden arches",
-    "drive-thru",
-    "happy meal"
-  ],
-  "Starbucks": [
-    "coffee",
-    "latte",
-    "green apron",
-    "cup"
-  ],
-  "Subway": [
-    "sandwich",
-    "footlong",
-    "train name",
-    "bread"
-  ],
-  "Downtown": [
-    "city",
-    "buildings",
-    "busy",
-    "shops"
-  ],
-  "Neighborhood": [
-    "block",
-    "houses",
-    "local",
-    "community"
-  ],
-  "Sidewalk": [
-    "chalk",
-    "curb",
-    "street"
-  ],
-  "Street": [
-    "cars",
-    "crosswalk",
-    "lamps",
-    "drive"
-  ],
-  "Bridge": [
-    "river",
-    "cross",
-    "span",
-    "toll"
-  ],
-  "Tunnel": [
-    "dark",
-    "through",
-    "echo",
-    "under"
-  ],
-  "Highway": [
-    "fast",
-    "lanes",
-    "exit",
-    "road trip"
-  ]
+  "Home": ["domestic", "habitual"],
+  "House": ["residential", "mortgaged"],
+  "Apartment": ["rented", "stacked"],
+  "Bedroom": ["private", "nocturnal"],
+  "Bathroom": ["tiled", "steamy"],
+  "Kitchen": ["aromatic", "culinary"],
+  "Living Room": ["lounging", "communal"],
+  "Backyard": ["fenced", "suburban"],
+  "Garage": ["cluttered", "paved"],
+  "Basement": ["subterranean", "damp"],
+  "School": ["institutional", "scheduled"],
+  "Classroom": ["seated", "instructional"],
+  "Cafeteria": ["trayed", "institutional"],
+  "Gym": ["sweaty", "rebounding"],
+  "Playground": ["scraped", "outdoor"],
+  "Library": ["hushed", "borrowable"],
+  "Office": ["cubicular", "fluorescent"],
+  "Store": ["merchandised", "checkout"],
+  "Grocery Store": ["perishable", "carted"],
+  "Mall": ["fluorescent", "queued"],
+  "Restaurant": ["plated", "reservable"],
+  "Fast Food": ["expedited", "disposable"],
+  "Cafe": ["caffeinated", "lingering"],
+  "Bakery": ["yeasty", "morning"],
+  "Movie Theater": ["dimmed", "buttered"],
+  "Park": ["grassy", "leisurely"],
+  "Beach": ["sandy", "sunburnt"],
+  "Pool": ["chlorinated", "splashing"],
+  "Zoo": ["caged", "exotic"],
+  "Museum": ["curated", "reverent"],
+  "Hospital": ["sterile", "beeping"],
+  "Doctor's Office": ["clinical", "waitlisted"],
+  "Dentist": ["drilled", "numbing"],
+  "Pharmacy": ["prescribed", "counted"],
+  "Bank": ["vaulted", "secured"],
+  "Post Office": ["stamped", "queued"],
+  "Police Station": ["badged", "procedural"],
+  "Fire Station": ["sirened", "heroic"],
+  "Church": ["hymnal", "congregational"],
+  "Airport": ["delayed", "boarding"],
+  "Train Station": ["platformed", "commutable"],
+  "Bus Stop": ["sheltered", "scheduled"],
+  "Gas Station": ["pumped", "convenient"],
+  "Parking Lot": ["asphalt", "circling"],
+  "Hotel": ["transient", "checkinable"],
+  "Campground": ["tentable", "smoky"],
+  "Farm": ["pastoral", "harvestable"],
+  "Barn": ["rustic", "agrarian"],
+  "Forest": ["wooded", "shaded"],
+  "Mountains": ["elevated", "alpine"],
+  "Lake": ["reflective", "rippled"],
+  "River": ["flowing", "meandering"],
+  "Ocean": ["salty", "boundless"],
+  "Island": ["isolated", "shorelined"],
+  "Desert": ["arid", "sunscorched"],
+  "Cave": ["echoing", "subterranean"],
+  "Waterfall": ["misty", "cascading"],
+  "Stadium": ["roaring", "tiered"],
+  "Soccer Field": ["grassy", "netted"],
+  "Basketball Court": ["hardwood", "squeaky"],
+  "Skate Park": ["ramped", "scraped"],
+  "Bowling Alley": ["guttered", "spared"],
+  "Arcade": ["coinfed", "flashing"],
+  "Amusement Park": ["queued", "thrilling"],
+  "Roller Coaster": ["vertiginous", "strapped"],
+  "Water Park": ["splashed", "slippery"],
+  "Disneyland": ["branded", "enchanted"],
+  "Grandma's House": ["nostalgic", "indulgent"],
+  "Friend's House": ["borrowed", "overnight"],
+  "Daycare": ["supervised", "napping"],
+  "College": ["tuitioned", "sprawling"],
+  "Dorm": ["bunked", "communal"],
+  "Locker Room": ["sweaty", "communal"],
+  "Nurse's Office": ["bandaged", "feverish"],
+  "Principal's Office": ["disciplinary", "intimidating"],
+  "Barbershop": ["clipped", "conversational"],
+  "Hair Salon": ["coiffed", "mirrored"],
+  "Laundromat": ["spinning", "coinfed"],
+  "Pet Store": ["caged", "yipping"],
+  "Toy Store": ["colorful", "packaged"],
+  "Bookstore": ["browsable", "papery"],
+  "Hardware Store": ["bolted", "aisled"],
+  "Costco": ["bulked", "membership"],
+  "Walmart": ["fluorescent", "vast"],
+  "Target": ["suburban", "affordable"],
+  "McDonald's": ["expedited", "driveable"],
+  "Starbucks": ["overpriced", "customized"],
+  "Subway": ["underground", "turnstiled"],
+  "Downtown": ["urban", "gentrified"],
+  "Neighborhood": ["familiar", "walkable"],
+  "Sidewalk": ["paved", "pedestrian"],
+  "Street": ["trafficked", "asphalted"],
+  "Bridge": ["spanning", "elevated"],
+  "Tunnel": ["enclosed", "echoing"],
+  "Highway": ["congested", "commutable"],
 };

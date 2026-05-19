@@ -1,584 +1,100 @@
 /** @type {Record<string, string[]>} */
 export default {
-  "Dog": [
-    "leash laws",
-    "breed discourse",
-    "vet visit",
-    "leash"
-  ],
-  "Cat": [
-    "hairball",
-    "3am zoomies",
-    "cardboard box",
-    "knock things off"
-  ],
-  "Puppy": [
-    "cute",
-    "train",
-    "chew",
-    "small"
-  ],
-  "Kitten": [
-    "yarn",
-    "cute",
-    "tiny",
-    "meow"
-  ],
-  "Fish": [
-    "tank",
-    "gills",
-    "swim",
-    "bubbles"
-  ],
-  "Goldfish": [
-    "bowl",
-    "orange",
-    "pet",
-    "swim"
-  ],
-  "Bird": [
-    "feathers",
-    "nest",
-    "fly",
-    "chirp"
-  ],
-  "Parrot": [
-    "talk",
-    "tropical",
-    "colorful",
-    "perch"
-  ],
-  "Hamster": [
-    "wheel",
-    "cage",
-    "cheeks",
-    "small"
-  ],
-  "Guinea Pig": [
-    "squeak",
-    "cage",
-    "furry",
-    "pet"
-  ],
-  "Rabbit": [
-    "hop",
-    "carrot",
-    "ears",
-    "burrow"
-  ],
-  "Turtle": [
-    "shell",
-    "slow",
-    "pond",
-    "reptile"
-  ],
-  "Snake": [
-    "hiss",
-    "slither",
-    "scales",
-    "reptile"
-  ],
-  "Lizard": [
-    "reptile",
-    "scales",
-    "sun",
-    "tail"
-  ],
-  "Frog": [
-    "ribbit",
-    "pond",
-    "leap",
-    "tadpole"
-  ],
-  "Horse": [
-    "gallop",
-    "stable",
-    "mane",
-    "ride"
-  ],
-  "Pony": [
-    "small",
-    "ride",
-    "mane",
-    "stable"
-  ],
-  "Cow": [
-    "moo",
-    "milk",
-    "farm",
-    "pasture"
-  ],
-  "Pig": [
-    "oink",
-    "mud",
-    "farm",
-    "pink"
-  ],
-  "Sheep": [
-    "wool",
-    "baa",
-    "farm",
-    "flock"
-  ],
-  "Goat": [
-    "bleat",
-    "farm",
-    "horns",
-    "climb"
-  ],
-  "Chicken": [
-    "cluck",
-    "eggs",
-    "farm",
-    "coop"
-  ],
-  "Rooster": [
-    "crow",
-    "dawn",
-    "farm",
-    "comb"
-  ],
-  "Duck": [
-    "quack",
-    "pond",
-    "waddle",
-    "feathers"
-  ],
-  "Goose": [
-    "honk",
-    "migrate",
-    "pond",
-    "flock"
-  ],
-  "Turkey": [
-    "gobble",
-    "Thanksgiving",
-    "farm",
-    "feathers"
-  ],
-  "Mouse": [
-    "squeak",
-    "cheese",
-    "small",
-    "trap"
-  ],
-  "Rat": [
-    "tail",
-    "sewer",
-    "rodent",
-    "cheese"
-  ],
-  "Squirrel": [
-    "acorn",
-    "tree",
-    "nuts",
-    "bushy tail"
-  ],
-  "Chipmunk": [
-    "cheeks",
-    "nuts",
-    "small",
-    "stripe"
-  ],
-  "Raccoon": [
-    "trash",
-    "mask",
-    "night",
-    "paws"
-  ],
-  "Skunk": [
-    "stink",
-    "stripe",
-    "spray",
-    "night"
-  ],
-  "Deer": [
-    "antlers",
-    "forest",
-    "graceful",
-    "buck"
-  ],
-  "Moose": [
-    "antlers",
-    "huge",
-    "forest",
-    "Canada"
-  ],
-  "Bear": [
-    "hibernate",
-    "honey",
-    "cave",
-    "growl"
-  ],
-  "Panda": [
-    "bamboo",
-    "China",
-    "cute"
-  ],
-  "Lion": [
-    "roar",
-    "mane",
-    "pride",
-    "savanna"
-  ],
-  "Tiger": [
-    "stripes",
-    "jungle",
-    "roar",
-    "orange"
-  ],
-  "Leopard": [
-    "spots",
-    "climb",
-    "stealth",
-    "big cat"
-  ],
-  "Cheetah": [
-    "fast",
-    "spots",
-    "sprint",
-    "Africa"
-  ],
-  "Elephant": [
-    "trunk",
-    "big",
-    "herd",
-    "tusks"
-  ],
-  "Giraffe": [
-    "tall",
-    "neck",
-    "spots",
-    "Africa"
-  ],
-  "Zebra": [
-    "stripes",
-    "herd",
-    "Africa",
-    "hooves"
-  ],
-  "Hippo": [
-    "river",
-    "huge",
-    "yawn",
-    "Africa"
-  ],
-  "Rhino": [
-    "horn",
-    "charge",
-    "thick skin",
-    "Africa"
-  ],
-  "Monkey": [
-    "banana",
-    "swing",
-    "jungle",
-    "tree"
-  ],
-  "Gorilla": [
-    "strong",
-    "jungle",
-    "chest",
-    "ape"
-  ],
-  "Kangaroo": [
-    "pouch",
-    "hop",
-    "Australia",
-    "joey"
-  ],
-  "Koala": [
-    "eucalyptus",
-    "Australia",
-    "cute",
-    "tree"
-  ],
-  "Fox": [
-    "sly",
-    "den",
-    "bushy tail",
-    "hunt"
-  ],
-  "Wolf": [
-    "howl",
-    "pack",
-    "forest",
-    "wild"
-  ],
-  "Coyote": [
-    "howl",
-    "desert",
-    "wild",
-    "pack"
-  ],
-  "Bat": [
-    "cave",
-    "night",
-    "wings",
-    "echolocation"
-  ],
-  "Owl": [
-    "hoot",
-    "night",
-    "wise",
-    "wings"
-  ],
-  "Eagle": [
-    "soar",
-    "nest",
-    "talons",
-    "America"
-  ],
-  "Hawk": [
-    "soar",
-    "talons",
-    "hunt",
-    "sky"
-  ],
-  "Pigeon": [
-    "city",
-    "coo",
-    "park",
-    "flock"
-  ],
-  "Seagull": [
-    "beach",
-    "fries",
-    "coast",
-    "screech"
-  ],
-  "Penguin": [
-    "Antarctica",
-    "waddle",
-    "ice",
-    "tuxedo"
-  ],
-  "Flamingo": [
-    "pink",
-    "one leg",
-    "tropical",
-    "flock"
-  ],
-  "Peacock": [
-    "feathers",
-    "display",
-    "colorful",
-    "tail"
-  ],
-  "Butterfly": [
-    "wings",
-    "caterpillar",
-    "flower",
-    "metamorphosis"
-  ],
-  "Bee": [
-    "waggle dance",
-    "colony collapse",
-    "pollination drama",
-    "smoker"
-  ],
-  "Ant": [
-    "colony",
-    "tiny",
-    "hill",
-    "march"
-  ],
-  "Spider": [
-    "web",
-    "eight legs",
-    "crawl",
-    "arachnid"
-  ],
-  "Ladybug": [
-    "spots",
-    "red",
-    "garden",
-    "lucky"
-  ],
-  "Worm": [
-    "dirt",
-    "garden",
-    "bait",
-    "wiggle"
-  ],
-  "Snail": [
-    "shell",
-    "slow",
-    "slime",
-    "garden"
-  ],
-  "Shark": [
-    "Jaws era",
-    "cartilage",
-    "fin soup controversy",
-    "reef patrol"
-  ],
-  "Whale": [
-    "ocean",
-    "huge",
-    "spout",
-    "mammal"
-  ],
-  "Dolphin": [
-    "ocean",
-    "smart",
-    "pod",
-    "jump"
-  ],
-  "Seal": [
-    "flippers",
-    "ocean",
-    "bark",
-    "ice"
-  ],
-  "Octopus": [
-    "tentacles",
-    "ocean",
-    "ink",
-    "eight"
-  ],
-  "Jellyfish": [
-    "sting",
-    "ocean",
-    "transparent",
-    "float"
-  ],
-  "Starfish": [
-    "five arms",
-    "ocean",
-    "tide pool",
-    "reef"
-  ],
-  "Crab": [
-    "claws",
-    "beach",
-    "sideways",
-    "shell"
-  ],
-  "Lobster": [
-    "claws",
-    "red",
-    "seafood",
-    "ocean"
-  ],
-  "Shrimp": [
-    "small",
-    "seafood",
-    "peel",
-    "ocean"
-  ],
-  "Clam": [
-    "shell",
-    "beach",
-    "pearl",
-    "ocean"
-  ],
-  "Crocodile": [
-    "swamp",
-    "teeth",
-    "reptile",
-    "snap"
-  ],
-  "Alligator": [
-    "swamp",
-    "teeth",
-    "Florida",
-    "reptile"
-  ],
-  "Camel": [
-    "hump",
-    "desert",
-    "sand",
-    "caravan"
-  ],
-  "Donkey": [
-    "hee-haw",
-    "farm",
-    "stubborn",
-    "pack"
-  ],
-  "Llama": [
-    "spit",
-    "Andes",
-    "wool",
-    "pack"
-  ],
-  "Buffalo": [
-    "herd",
-    "plains",
-    "horns",
-    "strong"
-  ],
-  "Bison": [
-    "plains",
-    "herd",
-    "shaggy",
-    "national park"
-  ],
-  "Reindeer": [
-    "Santa",
-    "antlers",
-    "snow",
-    "sleigh"
-  ],
-  "Polar Bear": [
-    "Arctic",
-    "ice",
-    "white",
-    "hunt"
-  ],
-  "Sloth": [
-    "slow",
-    "tree",
-    "hang",
-    "jungle"
-  ],
-  "Otter": [
-    "river",
-    "playful",
-    "float",
-    "shell"
-  ],
-  "Beaver": [
-    "dam",
-    "teeth",
-    "river",
-    "lodge"
-  ],
-  "Hedgehog": [
-    "spines",
-    "curl",
-    "small",
-    "garden"
-  ],
-  "Chihuahua": [
-    "tiny",
-    "bark",
-    "Mexico",
-    "purse"
-  ],
-  "Labrador": [
-    "fetch",
-    "friendly",
-    "retriever",
-    "dog"
-  ],
-  "Poodle": [
-    "curly",
-    "fancy",
-    "groom",
-    "France"
-  ],
-  "Bulldog": [
-    "wrinkles",
-    "sturdy",
-    "snort",
-    "face"
-  ],
-  "Husky": [
-    "sled",
-    "blue eyes",
-    "snow",
-    "howl"
-  ]
+  "Dog": ["suburban", "mascoted"],
+  "Cat": ["nocturnal", "territorial"],
+  "Puppy": ["plush", "overfed"],
+  "Kitten": ["plush", "misunderstood"],
+  "Fish": ["aquatic", "caged"],
+  "Goldfish": ["overfed", "suburban"],
+  "Bird": ["vocal", "backyard"],
+  "Parrot": ["vocal", "exotic"],
+  "Hamster": ["caged", "suburban"],
+  "Guinea Pig": ["docile", "caged"],
+  "Rabbit": ["backyard", "mythic"],
+  "Turtle": ["prehistoric", "misunderstood"],
+  "Snake": ["alarming", "misunderstood"],
+  "Lizard": ["alarming", "exotic"],
+  "Frog": ["backyard", "alarming"],
+  "Horse": ["mascoted", "barnyard"],
+  "Pony": ["mascoted", "docile"],
+  "Cow": ["barnyard", "symbolic"],
+  "Pig": ["barnyard", "overfed"],
+  "Sheep": ["barnyard", "herded"],
+  "Goat": ["barnyard", "alarming"],
+  "Chicken": ["barnyard", "alarming"],
+  "Rooster": ["barnyard", "vocal"],
+  "Duck": ["backyard", "aquatic"],
+  "Goose": ["territorial", "alarming"],
+  "Turkey": ["barnyard", "overfed"],
+  "Mouse": ["invasive", "alarming"],
+  "Rat": ["invasive", "alarming"],
+  "Squirrel": ["suburban", "backyard"],
+  "Chipmunk": ["suburban", "backyard"],
+  "Raccoon": ["nocturnal", "invasive"],
+  "Skunk": ["alarming", "misunderstood"],
+  "Deer": ["backyard", "symbolic"],
+  "Moose": ["alarming", "symbolic"],
+  "Bear": ["mythic", "plush"],
+  "Panda": ["mascoted", "symbolic"],
+  "Lion": ["mythic", "mascoted"],
+  "Tiger": ["mascoted", "alarming"],
+  "Leopard": ["camouflaged", "predatory"],
+  "Cheetah": ["predatory", "photographed"],
+  "Elephant": ["mascoted", "symbolic"],
+  "Giraffe": ["mascoted", "photographed"],
+  "Zebra": ["mascoted", "symbolic"],
+  "Hippo": ["alarming", "aquatic"],
+  "Rhino": ["alarming", "endangered"],
+  "Monkey": ["mascoted", "arboreal"],
+  "Gorilla": ["misunderstood", "mascoted"],
+  "Kangaroo": ["mascoted", "symbolic"],
+  "Koala": ["mascoted", "plush"],
+  "Fox": ["mythic", "nocturnal"],
+  "Wolf": ["mythic", "predatory"],
+  "Coyote": ["suburban", "mythic"],
+  "Bat": ["nocturnal", "misunderstood"],
+  "Owl": ["nocturnal", "mythic"],
+  "Eagle": ["symbolic", "mascoted"],
+  "Hawk": ["predatory", "backyard"],
+  "Pigeon": ["suburban", "invasive"],
+  "Seagull": ["invasive", "alarming"],
+  "Penguin": ["mascoted", "aquatic"],
+  "Flamingo": ["mascoted", "exotic"],
+  "Peacock": ["mascoted", "exotic"],
+  "Butterfly": ["photographed", "symbolic"],
+  "Bee": ["alarming", "misunderstood"],
+  "Ant": ["invasive", "alarming"],
+  "Spider": ["alarming", "misunderstood"],
+  "Ladybug": ["backyard", "symbolic"],
+  "Worm": ["backyard", "alarming"],
+  "Snail": ["backyard", "alarming"],
+  "Shark": ["alarming", "predatory"],
+  "Whale": ["symbolic", "photographed"],
+  "Dolphin": ["mascoted", "photographed"],
+  "Seal": ["mascoted", "aquatic"],
+  "Octopus": ["misunderstood", "alarming"],
+  "Jellyfish": ["alarming", "aquatic"],
+  "Starfish": ["plush", "photographed"],
+  "Crab": ["alarming", "aquatic"],
+  "Lobster": ["exotic", "alarming"],
+  "Shrimp": ["aquatic", "alarming"],
+  "Clam": ["aquatic", "prehistoric"],
+  "Crocodile": ["alarming", "prehistoric"],
+  "Alligator": ["alarming", "prehistoric"],
+  "Camel": ["exotic", "symbolic"],
+  "Donkey": ["barnyard", "mythic"],
+  "Llama": ["exotic", "mascoted"],
+  "Buffalo": ["symbolic", "herded"],
+  "Bison": ["symbolic", "protected"],
+  "Reindeer": ["mythic", "symbolic"],
+  "Polar Bear": ["plush", "alarming"],
+  "Sloth": ["misunderstood", "plush"],
+  "Otter": ["plush", "photographed"],
+  "Beaver": ["alarming", "backyard"],
+  "Hedgehog": ["plush", "exotic"],
+  "Chihuahua": ["overfed", "mascoted"],
+  "Labrador": ["suburban", "mascoted"],
+  "Poodle": ["mascoted", "exotic"],
+  "Bulldog": ["mascoted", "overfed"],
+  "Husky": ["mascoted", "photographed"],
 };

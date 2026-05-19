@@ -1,583 +1,100 @@
 /** @type {Record<string, string[]>} */
 export default {
-  "Movie": [
-    "theater",
-    "screen",
-    "popcorn",
-    "tickets"
-  ],
-  "TV Show": [
-    "episodes",
-    "binge",
-    "couch",
-    "remote"
-  ],
-  "Cartoon": [
-    "animated",
-    "kids",
-    "Saturday morning",
-    "drawn"
-  ],
-  "Anime": [
-    "Japan",
-    "subtitles",
-    "style",
-    "episodes"
-  ],
-  "Comedy": [
-    "laugh",
-    "funny",
-    "jokes",
-    "humor"
-  ],
-  "Funny Movie": [
-    "laugh",
-    "comedy",
-    "jokes",
-    "theater"
-  ],
-  "Scary Movie": [
-    "jump scare",
-    "dark",
-    "horror",
-    "scream"
-  ],
-  "Horror": [
-    "scary",
-    "monster",
-    "dark",
-    "scream"
-  ],
-  "Action Movie": [
-    "explosion",
-    "chase",
-    "hero",
-    "stunts"
-  ],
-  "Adventure": [
-    "quest",
-    "journey",
-    "hero",
-    "danger"
-  ],
-  "Romance": [
-    "love",
-    "kiss",
-    "date",
-    "heart"
-  ],
-  "Love Story": [
-    "romance",
-    "couple",
-    "tears",
-    "heart"
-  ],
-  "Superhero": [
-    "origin story",
-    "secret identity",
-    "sidekick contract",
-    "cape physics"
-  ],
-  "Disney": [
-    "princess",
-    "magic",
-    "family",
-    "songs"
-  ],
-  "Pixar": [
-    "animation",
-    "toys",
-    "emotions",
-    "family"
-  ],
-  "Netflix": [
-    "stream",
-    "binge",
-    "remote",
-    "show"
-  ],
-  "YouTube": [
-    "videos",
-    "subscribe",
-    "creator",
-    "watch"
-  ],
-  "TikTok": [
-    "short",
-    "dance",
-    "scroll",
-    "viral"
-  ],
-  "Reality TV": [
-    "drama",
-    "competition",
-    "elimination"
-  ],
-  "Game Show": [
-    "prizes",
-    "buzzer",
-    "host",
-    "contestants"
-  ],
-  "Talk Show": [
-    "host",
-    "guest",
-    "interview",
-    "couch"
-  ],
-  "News": [
-    "anchor",
-    "headlines",
-    "report",
-    "breaking"
-  ],
-  "Sports on TV": [
-    "highlights",
-    "commentary",
-    "game",
-    "channel"
-  ],
-  "Cooking Show": [
-    "chef",
-    "recipe",
-    "taste",
-    "kitchen"
-  ],
-  "Talent Show": [
-    "judges",
-    "perform",
-    "vote",
-    "stage"
-  ],
-  "Sitcom": [
-    "laugh track",
-    "episodes",
-    "family",
-    "couch"
-  ],
-  "Drama": [
-    "serious",
-    "tension",
-    "emotions",
-    "plot"
-  ],
-  "Mystery": [
-    "clues",
-    "detective",
-    "whodunit",
-    "suspense"
-  ],
-  "Crime Show": [
-    "detective",
-    "case",
-    "police",
-    "solve"
-  ],
-  "Zombie": [
-    "Romero rules",
-    "slow shuffle",
-    "headshot lore",
-    "outbreak"
-  ],
-  "Vampire": [
-    "Dracula canon",
-    "garlic myth",
-    "no reflection",
-    "stake lore"
-  ],
-  "Alien": [
-    "UFO",
-    "space",
-    "otherworldly",
-    "probe"
-  ],
-  "Robot": [
-    "metal",
-    "AI",
-    "beep",
-    "future"
-  ],
-  "Dragon": [
-    "fire",
-    "wings",
-    "hoard",
-    "fantasy"
-  ],
-  "Wizard": [
-    "wand",
-    "spell",
-    "magic",
-    "robe"
-  ],
-  "Princess": [
-    "crown",
-    "castle",
-    "dress",
-    "royal"
-  ],
-  "Prince": [
-    "charming",
-    "castle",
-    "royal",
-    "rescue"
-  ],
-  "King": [
-    "throne",
-    "crown",
-    "royal"
-  ],
-  "Queen": [
-    "crown",
-    "throne",
-    "royal",
-    "regal"
-  ],
-  "Pirate": [
-    "ship",
-    "treasure",
-    "parrot",
-    "arr"
-  ],
-  "Ninja": [
-    "stealth",
-    "Japan",
-    "sword",
-    "shadow"
-  ],
-  "Spy": [
-    "secret",
-    "gadgets",
-    "mission",
-    "undercover"
-  ],
-  "Detective": [
-    "clues",
-    "magnifying glass",
-    "case",
-    "solve"
-  ],
-  "Police Show": [
-    "badge",
-    "case",
-    "squad",
-    "crime"
-  ],
-  "Hospital Show": [
-    "doctors",
-    "ER",
-    "drama",
-    "patients"
-  ],
-  "School Show": [
-    "classroom",
-    "teens",
-    "drama",
-    "lockers"
-  ],
-  "Family Movie": [
-    "together",
-    "kids",
-    "heartwarming",
-    "PG"
-  ],
-  "Kids Movie": [
-    "animated",
-    "family",
-    "songs",
-    "fun"
-  ],
-  "Christmas Movie": [
-    "Santa",
-    "snow",
-    "holiday",
-    "spirit"
-  ],
-  "Halloween Special": [
-    "costumes",
-    "spooky",
-    "candy",
-    "October"
-  ],
-  "Music Video": [
-    "song",
-    "dance",
-    "artist",
-    "MTV"
-  ],
-  "Concert": [
-    "stage",
-    "crowd",
-    "live",
-    "tour"
-  ],
-  "Stand-Up Comedy": [
-    "mic",
-    "jokes",
-    "club",
-    "laugh"
-  ],
-  "Documentary": [
-    "real",
-    "facts",
-    "narrator",
-    "learn"
-  ],
-  "Nature Show": [
-    "animals",
-    "planet",
-    "narrator",
-    "wild"
-  ],
-  "Animal Show": [
-    "wildlife",
-    "habitat",
-    "narrator",
-    "cute"
-  ],
-  "True Crime": [
-    "podcast",
-    "case",
-    "mystery",
-    "investigation"
-  ],
-  "Soap Opera": [
-    "drama",
-    "twists",
-    "daytime",
-    "affairs"
-  ],
-  "Western": [
-    "cowboy",
-    "desert",
-    "saloon",
-    "horse"
-  ],
-  "Space Movie": [
-    "astronaut",
-    "ship",
-    "alien",
-    "stars"
-  ],
-  "Time Travel": [
-    "past",
-    "future",
-    "paradox",
-    "machine"
-  ],
-  "Sequel": [
-    "part two",
-    "returns",
-    "franchise",
-    "again"
-  ],
-  "Remake": [
-    "new version",
-    "classic",
-    "reboot",
-    "again"
-  ],
-  "Trailer": [
-    "preview",
-    "teaser",
-    "hype",
-    "coming soon"
-  ],
-  "Credits": [
-    "names",
-    "end",
-    "scroll",
-    "cast"
-  ],
-  "Popcorn at Movies": [
-    "butter",
-    "bucket",
-    "theater",
-    "snack"
-  ],
-  "Drive-In": [
-    "car",
-    "screen",
-    "retro",
-    "outdoor"
-  ],
-  "3D Movie": [
-    "glasses",
-    "pop out",
-    "theater",
-    "effects"
-  ],
-  "Subtitles": [
-    "read",
-    "foreign",
-    "bottom",
-    "translate"
-  ],
-  "Binge Watching": [
-    "episodes",
-    "couch",
-    "all night",
-    "stream"
-  ],
-  "Season Finale": [
-    "cliffhanger",
-    "end",
-    "hype",
-    "episode"
-  ],
-  "Plot Twist": [
-    "surprise",
-    "didn't see",
-    "reveal",
-    "shock"
-  ],
-  "Happy Ending": [
-    "together",
-    "smile",
-    "resolved",
-    "cheer"
-  ],
-  "Sad Ending": [
-    "tears",
-    "tragic",
-    "cry",
-    "loss"
-  ],
-  "Jump Scare": [
-    "loud",
-    "surprise",
-    "horror",
-    "flinch"
-  ],
-  "Fight Scene": [
-    "punch",
-    "action",
-    "choreography",
-    "battle"
-  ],
-  "Chase Scene": [
-    "run",
-    "pursuit",
-    "fast",
-    "escape"
-  ],
-  "Love Triangle": [
-    "jealous",
-    "choose",
-    "romance",
-    "drama"
-  ],
-  "Best Friend": [
-    "sidekick",
-    "loyal",
-    "duo",
-    "always there"
-  ],
-  "Villain": [
-    "evil",
-    "plan",
-    "dark",
-    "defeat"
-  ],
-  "Hero": [
-    "save",
-    "brave",
-    "cape",
-    "victory"
-  ],
-  "Sidekick": [
-    "helper",
-    "funny",
-    "partner",
-    "backup"
-  ],
-  "Oscars": [
-    "gold statue",
-    "awards",
-    "red carpet",
-    "nominee"
-  ],
-  "Red Carpet": [
-    "glam",
-    "photos",
-    "premiere",
-    "stars"
-  ],
-  "Movie Star": [
-    "famous",
-    "Hollywood",
-    "fans",
-    "premiere"
-  ],
-  "Actor": [
-    "role",
-    "script",
-    "set",
-    "performance"
-  ],
-  "Actress": [
-    "role",
-    "script",
-    "set",
-    "performance"
-  ],
-  "Director": [
-    "action",
-    "cut",
-    "vision",
-    "set"
-  ],
-  "Camera": [
-    "film",
-    "lens",
-    "shot",
-    "record"
-  ],
-  "Microphone": [
-    "sound",
-    "sing",
-    "podcast",
-    "record"
-  ],
-  "Theme Song": [
-    "intro",
-    "catchy",
-    "sing along",
-    "credits"
-  ],
-  "Catchphrase": [
-    "quote",
-    "repeat",
-    "famous line",
-    "meme"
-  ],
-  "Spoiler": [
-    "ruin",
-    "ending",
-    "don't tell",
-    "reveal"
-  ],
-  "Fan": [
-    "obsessed",
-    "poster",
-    "convention",
-    "love"
-  ],
-  "Marvel": [
-    "superhero",
-    "MCU",
-    "Avengers",
-    "comics"
-  ],
-  "Star Wars": [
-    "lightsaber",
-    "Force",
-    "space",
-    "Vader"
-  ],
-  "Harry Potter": [
-    "wizard",
-    "Hogwarts",
-    "wand",
-    "magic"
-  ]
+  "Movie": ["cinematic", "theatrical"],
+  "TV Show": ["serial", "bingeable"],
+  "Cartoon": ["stylized", "whimsical"],
+  "Anime": ["kinetic", "expressive"],
+  "Comedy": ["irreverent", "farcical"],
+  "Funny Movie": ["lighthearted", "absurd"],
+  "Scary Movie": ["unsettling", "visceral"],
+  "Horror": ["macabre", "dreadful"],
+  "Action Movie": ["kinetic", "explosive"],
+  "Adventure": ["sprawling", "perilous"],
+  "Romance": ["wistful", "melodramatic"],
+  "Love Story": ["bittersweet", "yearning"],
+  "Superhero": ["mythic", "caped"],
+  "Disney": ["wholesome", "formulaic"],
+  "Pixar": ["heartfelt", "anthropomorphic"],
+  "Netflix": ["bingeable", "algorithmic"],
+  "YouTube": ["grassroots", "evergreen"],
+  "TikTok": ["snappy", "viral"],
+  "Reality TV": ["unscripted", "voyeuristic"],
+  "Game Show": ["competitive", "ceremonial"],
+  "Talk Show": ["conversational", "topical"],
+  "News": ["topical", "urgent"],
+  "Sports on TV": ["broadcast", "perennial"],
+  "Cooking Show": ["sensory", "instructional"],
+  "Talent Show": ["aspirational", "competitive"],
+  "Sitcom": ["formulaic", "domestic"],
+  "Drama": ["intense", "heightened"],
+  "Mystery": ["labyrinthine", "suspenseful"],
+  "Crime Show": ["procedural", "murky"],
+  "Zombie": ["apocalyptic", "relentless"],
+  "Vampire": ["nocturnal", "gothic"],
+  "Alien": ["otherworldly", "uncanny"],
+  "Robot": ["mechanized", "synthetic"],
+  "Dragon": ["mythical", "imposing"],
+  "Wizard": ["arcane", "mystical"],
+  "Princess": ["regal", "archetypal"],
+  "Prince": ["gallant", "regal"],
+  "King": ["sovereign", "imposing"],
+  "Queen": ["regal", "commanding"],
+  "Pirate": ["swashbuckling", "lawless"],
+  "Ninja": ["stealthy", "lethal"],
+  "Spy": ["clandestine", "surveilled"],
+  "Detective": ["deductive", "observant"],
+  "Police Show": ["procedural", "gritty"],
+  "Hospital Show": ["melodramatic", "institutional"],
+  "School Show": ["adolescent", "nostalgic"],
+  "Family Movie": ["wholesome", "multigenerational"],
+  "Kids Movie": ["whimsical", "accessible"],
+  "Christmas Movie": ["seasonal", "saccharine"],
+  "Halloween Special": ["spooky", "seasonal"],
+  "Music Video": ["synesthetic", "glossy"],
+  "Concert": ["electrifying", "communal"],
+  "Stand-Up Comedy": ["irreverent", "intimate"],
+  "Documentary": ["journalistic", "sobering"],
+  "Nature Show": ["panoramic", "verdant"],
+  "Animal Show": ["educational", "observational"],
+  "True Crime": ["sensational", "forensic"],
+  "Soap Opera": ["melodramatic", "convoluted"],
+  "Western": ["dusty", "laconic"],
+  "Space Movie": ["cosmic", "expansive"],
+  "Time Travel": ["paradoxical", "recursive"],
+  "Sequel": ["franchised", "repetitive"],
+  "Remake": ["rehashed", "polarizing"],
+  "Trailer": ["tantalizing", "abbreviated"],
+  "Credits": ["ceremonious", "exhaustive"],
+  "Popcorn at Movies": ["buttery", "communal"],
+  "Drive-In": ["retro", "nostalgic"],
+  "3D Movie": ["immersive", "gimmicky"],
+  "Subtitles": ["translated", "literate"],
+  "Binge Watching": ["compulsive", "marathon"],
+  "Season Finale": ["climactic", "anticipated"],
+  "Plot Twist": ["subversive", "startling"],
+  "Happy Ending": ["uplifting", "cathartic"],
+  "Sad Ending": ["tragic", "devastating"],
+  "Jump Scare": ["startling", "abrupt"],
+  "Fight Scene": ["choreographed", "brutal"],
+  "Chase Scene": ["breathless", "kinetic"],
+  "Love Triangle": ["messy", "jealous"],
+  "Best Friend": ["steadfast", "platonic"],
+  "Villain": ["menacing", "charismatic"],
+  "Hero": ["triumphant", "archetypal"],
+  "Sidekick": ["comedic", "secondary"],
+  "Oscars": ["prestigious", "politicized"],
+  "Red Carpet": ["glamorous", "ceremonial"],
+  "Movie Star": ["luminous", "bankable"],
+  "Actor": ["charismatic", "transformative"],
+  "Actress": ["charismatic", "transformative"],
+  "Director": ["visionary", "auteurist"],
+  "Camera": ["voyeuristic", "immersive"],
+  "Microphone": ["resonant", "intimate"],
+  "Theme Song": ["earworm", "iconic"],
+  "Catchphrase": ["quotable", "memeable"],
+  "Spoiler": ["ruinous", "indiscreet"],
+  "Fan": ["obsessive", "devoted"],
+  "Marvel": ["expansive", "interconnected"],
+  "Star Wars": ["operatic", "mythic"],
+  "Harry Potter": ["enchanting", "collegiate"],
 };

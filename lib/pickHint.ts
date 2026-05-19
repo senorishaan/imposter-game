@@ -1,12 +1,12 @@
-import { getCategoryHintPool } from "./categoryHints";
 import { filterVagueHints } from "./hintQuality";
+import { HINTS_BY_ANSWER } from "./wordHints";
 
-export function pickHintForAnswer(answer: string, categoryId: string): string | null {
-  const pool = getCategoryHintPool(categoryId);
-  if (!pool.length) return null;
+export function pickHintForAnswer(answer: string): string | null {
+  const hints = HINTS_BY_ANSWER[answer];
+  if (!hints?.length) return null;
 
-  const vague = filterVagueHints(answer, pool);
-  const choices = vague.length > 0 ? vague : pool;
+  const vague = filterVagueHints(answer, hints);
+  const choices = vague.length > 0 ? vague : hints;
 
   return choices[Math.floor(Math.random() * choices.length)] ?? null;
 }
